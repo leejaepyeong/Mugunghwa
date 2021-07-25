@@ -12,13 +12,14 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody playerRig;
 
-
+    Animator anim;
  
         
 
     private void Start()
     {
         originPos = transform;
+        anim = GetComponent<Animator>();
     }
 
   
@@ -54,6 +55,8 @@ public class PlayerController : MonoBehaviour
 
         GameManager.instance.isMove = true;
 
+        anim.SetBool("doWalk",true);
+
         if(PlayerMove())
         {
             GameManager.instance.PlayerDeath();
@@ -64,6 +67,8 @@ public class PlayerController : MonoBehaviour
         Floor.transform.Rotate(0,0,-10f);
 
         GameManager.instance.ScoreUp(10);
+
+        anim.SetBool("doWalk", false);
 
         GameManager.instance.isMove = false;
 
