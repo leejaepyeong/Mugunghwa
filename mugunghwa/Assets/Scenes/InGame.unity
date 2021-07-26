@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 67950864b84c5db4f9eee7ca51c85571, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.6362943, g: 0.8729284, b: 0.98514885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -525,6 +525,11 @@ MonoBehaviour:
   gameOverPanel: {fileID: 338612033}
   EndScore: {fileID: 1119481738}
   BestScore: {fileID: 1254085336}
+  skyMaterials:
+  - {fileID: 2100000, guid: 67950864b84c5db4f9eee7ca51c85571, type: 2}
+  - {fileID: 2100000, guid: 44d0573bf6d91e447b62f3aff840f2ae, type: 2}
+  - {fileID: 2100000, guid: d1fdb8e44b28da34d9e922cca0bc740e, type: 2}
+  - {fileID: 2100000, guid: 7c86d4abbd33b564b9e773aceadb8572, type: 2}
 --- !u!4 &596229089
 Transform:
   m_ObjectHideFlags: 0
@@ -828,7 +833,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10e9678ad9ed3469e8e058d65b98fb31, type: 2}
+  - {fileID: 2100000, guid: c44ee7308fa9483489d2b5ed1a88ba0c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

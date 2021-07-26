@@ -39,6 +39,12 @@ public class GameManager : MonoBehaviour
     public Text BestScore;
 
 
+    [Header("TimeChange")]
+    public Material[] skyMaterials; // 하늘 매터리얼
+
+    int skynum = 0; // 하늘배경
+    float degree = 0;   //회전각
+
     private void Start()
     {
         if (instance == null)
@@ -53,6 +59,25 @@ public class GameManager : MonoBehaviour
         TryTextRead();
 
         Timer();
+        RotateSky();
+    }
+
+    void RotateSky()
+    {
+        degree += 10 * Time.deltaTime;
+
+        if (degree >= 360)
+        {
+            degree = 0;
+            skynum++;
+            if (skynum >= 4)
+                skynum = 0;
+
+            RenderSettings.skybox = skyMaterials[skynum];
+        }
+
+
+        RenderSettings.skybox.SetFloat("_Rotation", degree);
     }
 
     void Timer()
@@ -149,4 +174,6 @@ public class GameManager : MonoBehaviour
 
 
     }
+
+
 }
