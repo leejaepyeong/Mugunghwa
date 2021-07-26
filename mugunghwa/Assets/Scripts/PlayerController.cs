@@ -12,14 +12,15 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody playerRig;
 
-    Animator anim;
- 
-        
+    public Animator anim;
+
+
+
+   
 
     private void Start()
     {
         originPos = transform;
-        anim = GetComponent<Animator>();
     }
 
   
@@ -55,7 +56,11 @@ public class PlayerController : MonoBehaviour
 
         GameManager.instance.isMove = true;
 
-        anim.SetBool("doWalk",true);
+
+        StopCoroutine(Walking());
+        StartCoroutine(Walking());
+
+        
 
         if(PlayerMove())
         {
@@ -68,11 +73,19 @@ public class PlayerController : MonoBehaviour
 
         GameManager.instance.ScoreUp(10);
 
-        anim.SetBool("doWalk", false);
-
         GameManager.instance.isMove = false;
 
     }
+
+    IEnumerator Walking()
+    {
+        anim.SetBool("doWalk", true);
+
+        yield return new WaitForSeconds(0.2f);
+
+        anim.SetBool("doWalk", false);
+    }
+
 
     bool PlayerMove()
     {

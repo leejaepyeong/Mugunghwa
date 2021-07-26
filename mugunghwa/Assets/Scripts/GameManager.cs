@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour
     public GameObject StopImg;
 
 
+    public PlayerController player;
+
     [Header("GameOverPanel")]
     public GameObject gameOverPanel;
     public Text EndScore;
@@ -127,6 +129,8 @@ public class GameManager : MonoBehaviour
         GameTime = 0f;
         level = 0;
 
+        player.anim.SetTrigger("Reset");
+
         GoImg.SetActive(true);
         StopImg.SetActive(false);
 
@@ -136,6 +140,8 @@ public class GameManager : MonoBehaviour
     public void PlayerDeath()
     {
         isDead = true;
+
+        player.anim.SetTrigger("Death");
 
         gameOverPanel.SetActive(true);
         EndScore.text = "Score " + score.ToString() + " 점";
