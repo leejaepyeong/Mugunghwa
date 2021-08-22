@@ -6,48 +6,37 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject Floor;
 
-    Transform originPos;
 
-    bool isLeft = false;
+    bool isAttack = false;
+    [SerializeField]
+    private BoxCollider AttackArea;
 
     public Rigidbody playerRig;
-
     public Animator anim;
 
 
 
-   
-
-    private void Start()
-    {
-        originPos = transform;
-    }
-
-  
-
-    public void MoveBtn()
+    public void AttackBtn()
     {
         if (GameManager.instance.isDead) return;
 
-        isLeft = !isLeft;
 
         GameManager.instance.isMove = true;
+        isAttack = true;
 
-        if (PlayerMove())
-        {
-            GameManager.instance.PlayerDeath();
+        StartCoroutine(TryAttack());
 
-            return;
-        }
-
-        if (isLeft)
-        {
-            transform.position = originPos.position - new Vector3(0.5f, 0f, 0f);
-        }
-        else
-            transform.position = originPos.position + new Vector3(0.5f, 0f, 0f);
 
         GameManager.instance.isMove = false;
+    }
+
+    IEnumerator TryAttack()
+    {
+        anim.SetTrigger("doAttack");
+        AttackArea.enabled = true;
+        yield return new WaitForSeconds(0.2f);
+        AttackArea.enabled = false;
+        isAttack = false;
     }
 
     public void WalkBtn()
@@ -79,11 +68,11 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Walking()
     {
-        anim.SetBool("doWalk", true);
+        anim.SetBool("isWalk", true);
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.35f);
 
-        anim.SetBool("doWalk", false);
+        anim.SetBool("isWalk", false);
     }
 
 

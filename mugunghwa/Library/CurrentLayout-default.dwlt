@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 66
-    y: 106
+    x: 52
+    y: 71
     width: 1708
     height: 924
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 646}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 30
     width: 1708
     height: 874
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 708, y: 471}
+  m_MaxSize: {x: 18003, y: 14021}
   vertical: 0
-  controlID: 1192
+  controlID: 152
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 1193
+  controlID: 16
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,10 +222,10 @@ MonoBehaviour:
     y: 0
     width: 450
     height: 874
-  m_MinSize: {x: 232, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 232, y: 471}
+  m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 1245
+  controlID: 102
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 450
     height: 516
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 558
     height: 874
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -324,8 +324,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 66
-    y: 582
+    x: 52
+    y: 547
     width: 699
     height: 407
   m_ViewDataDictionary: {fileID: 0}
@@ -413,8 +413,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 66
-    y: 136
+    x: 52
+    y: 101
     width: 699
     height: 425
   m_ViewDataDictionary: {fileID: 0}
@@ -429,9 +429,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.25000003, y: 1, z: -8.44}
+    m_Target: {x: -0.49473614, y: 0.6796758, z: -7.4087763}
     speed: 2
-    m_Value: {x: 0.25000003, y: 1, z: -8.44}
+    m_Value: {x: -0.49473614, y: 0.6796758, z: -7.4087763}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -478,13 +478,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.5039202, y: -0.021749824, z: 0.012703013, w: 0.86339635}
+    m_Target: {x: -0.04957131, y: 0.09185522, z: -0.004672689, w: -0.9945593}
     speed: 2
-    m_Value: {x: 0.50391436, y: -0.021749573, z: 0.0127028655, w: 0.8633864}
+    m_Value: {x: -0.049569707, y: 0.091852255, z: -0.004672538, w: -0.99452716}
   m_Size:
-    m_Target: 10
+    m_Target: 3.120748
     speed: 2
-    m_Value: 10
+    m_Value: 3.120748
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -529,17 +529,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 766
-    y: 136
+    x: 752
+    y: 101
     width: 448
     height: 495
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 26420000
-      m_LastClickedID: 16934
-      m_ExpandedIDs: 42f8ffff5ef8fffff8f8ffff20fbffff
+      m_SelectedIDs: ae4e0000
+      m_LastClickedID: 20142
+      m_ExpandedIDs: a4e1ffffb4efffff52fbffffbe4e0000a24f000026500000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -583,8 +583,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 766
-    y: 652
+    x: 752
+    y: 617
     width: 448
     height: 337
   m_ViewDataDictionary: {fileID: 0}
@@ -601,22 +601,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/myAsset/Fantasy Skybox FREE/Materials/FS002
+    - Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0 2
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/myAsset/Fantasy Skybox FREE/Materials/FS002
+  - Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0 2
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/idonghui/Desktop/unity/Mugunghwa/mugunghwa
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: e44e0000
-    m_LastClickedID: 20196
-    m_ExpandedIDs: 00000000b43e000014490000de4e0000e24e00009451000000ca9a3b
+    scrollPos: {x: 0, y: 691}
+    m_SelectedIDs: 0c740000
+    m_LastClickedID: 29708
+    m_ExpandedIDs: 00000000aa3e0000be3e0000ca3e0000cc3e0000a44a0000e26e00001e6f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b43e000000ca9a3b
+    m_ExpandedIDs: 00000000aa3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,18 +672,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 
+    m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GameManager
-      m_OriginalName: GameManager
+      m_Name: MK - Easy Text Light Instruction
+      m_OriginalName: MK - Easy Text Light Instruction
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 2298
+      m_UserData: 29664
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -720,8 +720,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1216
-    y: 136
+    x: 1202
+    y: 101
     width: 557
     height: 853
   m_ViewDataDictionary: {fileID: 0}

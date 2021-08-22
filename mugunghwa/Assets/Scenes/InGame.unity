@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.6362943, g: 0.8729284, b: 0.98514885, a: 1}
+  m_IndirectSpecularColor: {r: 0.636322, g: 0.872918, b: 0.9851553, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,244 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &39519723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1067925524328404, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_Name
+      value: PBR_Golem
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.17274232
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.17274232
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.17274232
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+--- !u!1 &39519724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1067925524328404, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+  m_PrefabInstance: {fileID: 39519723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &39519725 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95380085654935804, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+  m_PrefabInstance: {fileID: 39519723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &39519726
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39519724}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &39519727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39519724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073bd5cc013504f43bf3e53119df3a26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Floor: {fileID: 880177739}
+  AttackArea: {fileID: 0}
+  playerRig: {fileID: 39519726}
+  anim: {fileID: 39519725}
+--- !u!4 &39519728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4408297863206454, guid: 6bbfea6690ef7724ba495c866081f855, type: 3}
+  m_PrefabInstance: {fileID: 39519723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &39519729
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39519724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.65
+  m_Height: 4.49
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.84, z: 0}
+--- !u!84 &155344771
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 4096
+  m_Height: 2048
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 5
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!84 &176520927
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 4096
+  m_Height: 2048
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 5
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!84 &251331321
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 4096
+  m_Height: 2048
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 5
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &317943459
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,6 +516,7 @@ GameObject:
   - component: {fileID: 443136319}
   - component: {fileID: 443136321}
   - component: {fileID: 443136320}
+  - component: {fileID: 443136322}
   m_Layer: 5
   m_Name: ScoreTxt
   m_TagString: Untagged
@@ -316,8 +555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Material: {fileID: 2100000, guid: adb8b378c29d84f18ab3a2a15d676a89, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -325,12 +564,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 55
+    m_Font: {fileID: 12800000, guid: 329df30cc9cda4bfbab3cf690eb2fd89, type: 2}
+    m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 55
+    m_MaxSize: 200
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -346,6 +585,9416 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443136318}
   m_CullTransparentMesh: 1
+--- !u!114 &443136322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443136318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c5cd13c2b16414f89177d1bed9e960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoftFontTextureCase: -1
+  customCharacters: 
+  eShader: {fileID: 7200000, guid: 07390d8d94046e34a80885a3db0019bd, type: 3}
+  SoftMaterial: {fileID: 2100000, guid: adb8b378c29d84f18ab3a2a15d676a89, type: 2}
+  faceOptions:
+    use: 0
+    useOld: 0
+    r_mainTexture: {fileID: 954469683}
+    mainTexture: {fileID: 2800000, guid: 989ebd6f0fc5e45d4a86cfaf2563191d, type: 3}
+    r_combinedTexture: {fileID: 1068992300}
+    outputUV:
+    - X: 0
+      Y: 0
+    - X: 13
+      Y: 0
+    - X: 13
+      Y: 13
+    - X: 4056
+      Y: 0
+    - X: 4084
+      Y: 0
+    - X: 4084
+      Y: 65
+    - X: 2982
+      Y: 0
+    - X: 3025
+      Y: 0
+    - X: 3025
+      Y: 38
+    - X: 848
+      Y: 200
+    - X: 904
+      Y: 200
+    - X: 904
+      Y: 256
+    - X: 2958
+      Y: 584
+    - X: 3010
+      Y: 584
+    - X: 3010
+      Y: 662
+    - X: 1288
+      Y: 932
+    - X: 1371
+      Y: 932
+    - X: 1371
+      Y: 1000
+    - X: 3402
+      Y: 588
+    - X: 3464
+      Y: 588
+    - X: 3464
+      Y: 654
+    - X: 668
+      Y: 0
+    - X: 695
+      Y: 0
+    - X: 695
+      Y: 38
+    - X: 2990
+      Y: 88
+    - X: 3025
+      Y: 88
+    - X: 3025
+      Y: 162
+    - X: 2954
+      Y: 88
+    - X: 2989
+      Y: 88
+    - X: 2989
+      Y: 162
+    - X: 3490
+      Y: 0
+    - X: 3532
+      Y: 0
+    - X: 3532
+      Y: 41
+    - X: 2122
+      Y: 100
+    - X: 2173
+      Y: 100
+    - X: 2173
+      Y: 151
+    - X: 640
+      Y: 0
+    - X: 668
+      Y: 0
+    - X: 668
+      Y: 36
+    - X: 384
+      Y: 0
+    - X: 421
+      Y: 0
+    - X: 421
+      Y: 24
+    - X: 254
+      Y: 0
+    - X: 282
+      Y: 0
+    - X: 282
+      Y: 28
+    - X: 220
+      Y: 444
+    - X: 268
+      Y: 444
+    - X: 268
+      Y: 521
+    - X: 720
+      Y: 400
+    - X: 777
+      Y: 400
+    - X: 777
+      Y: 464
+    - X: 2518
+      Y: 164
+    - X: 2564
+      Y: 164
+    - X: 2564
+      Y: 227
+    - X: 2354
+      Y: 256
+    - X: 2407
+      Y: 256
+    - X: 2407
+      Y: 319
+    - X: 1208
+      Y: 248
+    - X: 1260
+      Y: 248
+    - X: 1260
+      Y: 312
+    - X: 1980
+      Y: 376
+    - X: 2037
+      Y: 376
+    - X: 2037
+      Y: 439
+    - X: 816
+      Y: 320
+    - X: 871
+      Y: 320
+    - X: 871
+      Y: 383
+    - X: 2560
+      Y: 368
+    - X: 2616
+      Y: 368
+    - X: 2616
+      Y: 432
+    - X: 516
+      Y: 240
+    - X: 569
+      Y: 240
+    - X: 569
+      Y: 302
+    - X: 510
+      Y: 304
+    - X: 564
+      Y: 304
+    - X: 564
+      Y: 368
+    - X: 1364
+      Y: 404
+    - X: 1421
+      Y: 404
+    - X: 1421
+      Y: 468
+    - X: 1890
+      Y: 0
+    - X: 1918
+      Y: 0
+    - X: 1918
+      Y: 52
+    - X: 3302
+      Y: 0
+    - X: 3330
+      Y: 0
+    - X: 3330
+      Y: 61
+    - X: 3510
+      Y: 148
+    - X: 3561
+      Y: 148
+    - X: 3561
+      Y: 204
+    - X: 2524
+      Y: 44
+    - X: 2575
+      Y: 44
+    - X: 2575
+      Y: 85
+    - X: 958
+      Y: 140
+    - X: 1009
+      Y: 140
+    - X: 1009
+      Y: 195
+    - X: 2304
+      Y: 240
+    - X: 2354
+      Y: 240
+    - X: 2354
+      Y: 306
+    - X: 304
+      Y: 912
+    - X: 378
+      Y: 912
+    - X: 378
+      Y: 985
+    - X: 1588
+      Y: 540
+    - X: 1649
+      Y: 540
+    - X: 1649
+      Y: 604
+    - X: 56
+      Y: 344
+    - X: 111
+      Y: 344
+    - X: 111
+      Y: 408
+    - X: 2670
+      Y: 436
+    - X: 2726
+      Y: 436
+    - X: 2726
+      Y: 502
+    - X: 1654
+      Y: 344
+    - X: 1709
+      Y: 344
+    - X: 1709
+      Y: 408
+    - X: 1942
+      Y: 232
+    - X: 1993
+      Y: 232
+    - X: 1993
+      Y: 296
+    - X: 1780
+      Y: 228
+    - X: 1831
+      Y: 228
+    - X: 1831
+      Y: 292
+    - X: 2496
+      Y: 520
+    - X: 2554
+      Y: 520
+    - X: 2554
+      Y: 586
+    - X: 0
+      Y: 408
+    - X: 57
+      Y: 408
+    - X: 57
+      Y: 472
+    - X: 3946
+      Y: 0
+    - X: 3974
+      Y: 0
+    - X: 3974
+      Y: 64
+    - X: 192
+      Y: 280
+    - X: 244
+      Y: 280
+    - X: 244
+      Y: 345
+    - X: 2194
+      Y: 492
+    - X: 2253
+      Y: 492
+    - X: 2253
+      Y: 556
+    - X: 3660
+      Y: 212
+    - X: 3710
+      Y: 212
+    - X: 3710
+      Y: 276
+    - X: 2528
+      Y: 644
+    - X: 2596
+      Y: 644
+    - X: 2596
+      Y: 708
+    - X: 942
+      Y: 500
+    - X: 1001
+      Y: 500
+    - X: 1001
+      Y: 564
+    - X: 650
+      Y: 564
+    - X: 710
+      Y: 564
+    - X: 710
+      Y: 630
+    - X: 1506
+      Y: 304
+    - X: 1560
+      Y: 304
+    - X: 1560
+      Y: 368
+    - X: 2148
+      Y: 864
+    - X: 2211
+      Y: 864
+    - X: 2211
+      Y: 947
+    - X: 3192
+      Y: 368
+    - X: 3248
+      Y: 368
+    - X: 3248
+      Y: 432
+    - X: 4018
+      Y: 360
+    - X: 4072
+      Y: 360
+    - X: 4072
+      Y: 426
+    - X: 2742
+      Y: 344
+    - X: 2797
+      Y: 344
+    - X: 2797
+      Y: 408
+    - X: 884
+      Y: 460
+    - X: 941
+      Y: 460
+    - X: 941
+      Y: 525
+    - X: 1062
+      Y: 564
+    - X: 1124
+      Y: 564
+    - X: 1124
+      Y: 628
+    - X: 78
+      Y: 912
+    - X: 160
+      Y: 912
+    - X: 160
+      Y: 977
+    - X: 3410
+      Y: 524
+    - X: 3470
+      Y: 524
+    - X: 3470
+      Y: 588
+    - X: 3340
+      Y: 540
+    - X: 3401
+      Y: 540
+    - X: 3401
+      Y: 604
+    - X: 2832
+      Y: 332
+    - X: 2887
+      Y: 332
+    - X: 2887
+      Y: 396
+    - X: 3974
+      Y: 48
+    - X: 4007
+      Y: 48
+    - X: 4007
+      Y: 120
+    - X: 506
+      Y: 444
+    - X: 554
+      Y: 444
+    - X: 554
+      Y: 521
+    - X: 3936
+      Y: 64
+    - X: 3970
+      Y: 64
+    - X: 3970
+      Y: 136
+    - X: 3070
+      Y: 40
+    - X: 3122
+      Y: 40
+    - X: 3122
+      Y: 79
+    - X: 696
+      Y: 0
+    - X: 749
+      Y: 0
+    - X: 749
+      Y: 20
+    - X: 548
+      Y: 0
+    - X: 579
+      Y: 0
+    - X: 579
+      Y: 32
+    - X: 2564
+      Y: 92
+    - X: 2613
+      Y: 92
+    - X: 2613
+      Y: 145
+    - X: 2352
+      Y: 320
+    - X: 2404
+      Y: 320
+    - X: 2404
+      Y: 387
+    - X: 1128
+      Y: 76
+    - X: 1175
+      Y: 76
+    - X: 1175
+      Y: 129
+    - X: 1832
+      Y: 288
+    - X: 1883
+      Y: 288
+    - X: 1883
+      Y: 355
+    - X: 2842
+      Y: 116
+    - X: 2892
+      Y: 116
+    - X: 2892
+      Y: 169
+    - X: 906
+      Y: 172
+    - X: 950
+      Y: 172
+    - X: 950
+      Y: 239
+    - X: 300
+      Y: 328
+    - X: 351
+      Y: 328
+    - X: 351
+      Y: 397
+    - X: 3766
+      Y: 276
+    - X: 3817
+      Y: 276
+    - X: 3817
+      Y: 342
+    - X: 1176
+      Y: 32
+    - X: 1204
+      Y: 32
+    - X: 1204
+      Y: 100
+    - X: 1118
+      Y: 188
+    - X: 1154
+      Y: 188
+    - X: 1154
+      Y: 273
+    - X: 1602
+      Y: 296
+    - X: 1654
+      Y: 296
+    - X: 1654
+      Y: 362
+    - X: 2722
+      Y: 40
+    - X: 2756
+      Y: 40
+    - X: 2756
+      Y: 107
+    - X: 834
+      Y: 528
+    - X: 908
+      Y: 528
+    - X: 908
+      Y: 580
+    - X: 604
+      Y: 120
+    - X: 655
+      Y: 120
+    - X: 655
+      Y: 172
+    - X: 1908
+      Y: 132
+    - X: 1960
+      Y: 132
+    - X: 1960
+      Y: 185
+    - X: 3038
+      Y: 320
+    - X: 3090
+      Y: 320
+    - X: 3090
+      Y: 387
+    - X: 1884
+      Y: 288
+    - X: 1935
+      Y: 288
+    - X: 1935
+      Y: 355
+    - X: 3224
+      Y: 48
+    - X: 3269
+      Y: 48
+    - X: 3269
+      Y: 100
+    - X: 1886
+      Y: 56
+    - X: 1932
+      Y: 56
+    - X: 1932
+      Y: 109
+    - X: 1462
+      Y: 148
+    - X: 1506
+      Y: 148
+    - X: 1506
+      Y: 212
+    - X: 3726
+      Y: 96
+    - X: 3776
+      Y: 96
+    - X: 3776
+      Y: 148
+    - X: 3004
+      Y: 164
+    - X: 3060
+      Y: 164
+    - X: 3060
+      Y: 216
+    - X: 3410
+      Y: 472
+    - X: 3482
+      Y: 472
+    - X: 3482
+      Y: 524
+    - X: 1564
+      Y: 128
+    - X: 1617
+      Y: 128
+    - X: 1617
+      Y: 179
+    - X: 3772
+      Y: 516
+    - X: 3829
+      Y: 516
+    - X: 3829
+      Y: 583
+    - X: 1582
+      Y: 76
+    - X: 1631
+      Y: 76
+    - X: 1631
+      Y: 127
+    - X: 2174
+      Y: 112
+    - X: 2212
+      Y: 112
+    - X: 2212
+      Y: 184
+    - X: 2018
+      Y: 32
+    - X: 2042
+      Y: 32
+    - X: 2042
+      Y: 117
+    - X: 2486
+      Y: 92
+    - X: 2524
+      Y: 92
+    - X: 2524
+      Y: 164
+    - X: 1764
+      Y: 0
+    - X: 1817
+      Y: 0
+    - X: 1817
+      Y: 27
+    - X: 392
+      Y: 24
+    - X: 420
+      Y: 24
+    - X: 420
+      Y: 90
+    - X: 622
+      Y: 288
+    - X: 670
+      Y: 288
+    - X: 670
+      Y: 359
+    - X: 830
+      Y: 256
+    - X: 883
+      Y: 256
+    - X: 883
+      Y: 319
+    - X: 356
+      Y: 136
+    - X: 408
+      Y: 136
+    - X: 408
+      Y: 189
+    - X: 2364
+      Y: 464
+    - X: 2424
+      Y: 464
+    - X: 2424
+      Y: 526
+    - X: 282
+      Y: 32
+    - X: 306
+      Y: 32
+    - X: 306
+      Y: 117
+    - X: 2848
+      Y: 472
+    - X: 2898
+      Y: 472
+    - X: 2898
+      Y: 547
+    - X: 918
+      Y: 0
+    - X: 960
+      Y: 0
+    - X: 960
+      Y: 26
+    - X: 2310
+      Y: 668
+    - X: 2377
+      Y: 668
+    - X: 2377
+      Y: 734
+    - X: 2408
+      Y: 0
+    - X: 2447
+      Y: 0
+    - X: 2447
+      Y: 40
+    - X: 700
+      Y: 68
+    - X: 752
+      Y: 68
+    - X: 752
+      Y: 115
+    - X: 556
+      Y: 32
+    - X: 607
+      Y: 32
+    - X: 607
+      Y: 69
+    - X: 346
+      Y: 0
+    - X: 383
+      Y: 0
+    - X: 383
+      Y: 24
+    - X: 2214
+      Y: 52
+    - X: 2264
+      Y: 52
+    - X: 2264
+      Y: 100
+    - X: 308
+      Y: 0
+    - X: 346
+      Y: 0
+    - X: 346
+      Y: 22
+    - X: 3110
+      Y: 0
+    - X: 3151
+      Y: 0
+    - X: 3151
+      Y: 40
+    - X: 2762
+      Y: 228
+    - X: 2813
+      Y: 228
+    - X: 2813
+      Y: 292
+    - X: 3772
+      Y: 0
+    - X: 3812
+      Y: 0
+    - X: 3812
+      Y: 44
+    - X: 3612
+      Y: 0
+    - X: 3652
+      Y: 0
+    - X: 3652
+      Y: 44
+    - X: 516
+      Y: 0
+    - X: 547
+      Y: 0
+    - X: 547
+      Y: 32
+    - X: 270
+      Y: 248
+    - X: 320
+      Y: 248
+    - X: 320
+      Y: 314
+    - X: 2362
+      Y: 528
+    - X: 2413
+      Y: 528
+    - X: 2413
+      Y: 604
+    - X: 170
+      Y: 0
+    - X: 198
+      Y: 0
+    - X: 198
+      Y: 28
+    - X: 1550
+      Y: 0
+    - X: 1587
+      Y: 0
+    - X: 1587
+      Y: 38
+    - X: 2946
+      Y: 0
+    - X: 2982
+      Y: 0
+    - X: 2982
+      Y: 45
+    - X: 3068
+      Y: 0
+    - X: 3109
+      Y: 0
+    - X: 3109
+      Y: 40
+    - X: 906
+      Y: 72
+    - X: 959
+      Y: 72
+    - X: 959
+      Y: 119
+    - X: 3072
+      Y: 800
+    - X: 3145
+      Y: 800
+    - X: 3145
+      Y: 868
+    - X: 1046
+      Y: 868
+    - X: 1123
+      Y: 868
+    - X: 1123
+      Y: 936
+    - X: 3568
+      Y: 916
+    - X: 3648
+      Y: 916
+    - X: 3648
+      Y: 984
+    - X: 3652
+      Y: 276
+    - X: 3703
+      Y: 276
+    - X: 3703
+      Y: 342
+    - X: 1898
+      Y: 824
+    - X: 1959
+      Y: 824
+    - X: 1959
+      Y: 907
+    - X: 3308
+      Y: 832
+    - X: 3369
+      Y: 832
+    - X: 3369
+      Y: 915
+    - X: 548
+      Y: 824
+    - X: 609
+      Y: 824
+    - X: 609
+      Y: 907
+    - X: 3188
+      Y: 776
+    - X: 3249
+      Y: 776
+    - X: 3249
+      Y: 855
+    - X: 800
+      Y: 780
+    - X: 861
+      Y: 780
+    - X: 861
+      Y: 859
+    - X: 2218
+      Y: 804
+    - X: 2279
+      Y: 804
+    - X: 2279
+      Y: 886
+    - X: 1124
+      Y: 876
+    - X: 1206
+      Y: 876
+    - X: 1206
+      Y: 940
+    - X: 2492
+      Y: 776
+    - X: 2548
+      Y: 776
+    - X: 2548
+      Y: 862
+    - X: 1070
+      Y: 628
+    - X: 1121
+      Y: 628
+    - X: 1121
+      Y: 711
+    - X: 1018
+      Y: 628
+    - X: 1069
+      Y: 628
+    - X: 1069
+      Y: 711
+    - X: 966
+      Y: 628
+    - X: 1017
+      Y: 628
+    - X: 1017
+      Y: 711
+    - X: 54
+      Y: 560
+    - X: 105
+      Y: 560
+    - X: 105
+      Y: 639
+    - X: 3114
+      Y: 164
+    - X: 3150
+      Y: 164
+    - X: 3150
+      Y: 247
+    - X: 2082
+      Y: 176
+    - X: 2118
+      Y: 176
+    - X: 2118
+      Y: 259
+    - X: 3916
+      Y: 504
+    - X: 3962
+      Y: 504
+    - X: 3962
+      Y: 587
+    - X: 2210
+      Y: 228
+    - X: 2252
+      Y: 228
+    - X: 2252
+      Y: 307
+    - X: 158
+      Y: 496
+    - X: 217
+      Y: 496
+    - X: 217
+      Y: 560
+    - X: 3128
+      Y: 716
+    - X: 3187
+      Y: 716
+    - X: 3187
+      Y: 795
+    - X: 2088
+      Y: 836
+    - X: 2148
+      Y: 836
+    - X: 2148
+      Y: 921
+    - X: 3904
+      Y: 832
+    - X: 3964
+      Y: 832
+    - X: 3964
+      Y: 917
+    - X: 2712
+      Y: 820
+    - X: 2772
+      Y: 820
+    - X: 2772
+      Y: 904
+    - X: 3904
+      Y: 752
+    - X: 3964
+      Y: 752
+    - X: 3964
+      Y: 831
+    - X: 3510
+      Y: 768
+    - X: 3570
+      Y: 768
+    - X: 3570
+      Y: 848
+    - X: 3714
+      Y: 44
+    - X: 3761
+      Y: 44
+    - X: 3761
+      Y: 92
+    - X: 3706
+      Y: 556
+    - X: 3766
+      Y: 556
+    - X: 3766
+      Y: 622
+    - X: 52
+      Y: 768
+    - X: 109
+      Y: 768
+    - X: 109
+      Y: 852
+    - X: 2878
+      Y: 764
+    - X: 2935
+      Y: 764
+    - X: 2935
+      Y: 848
+    - X: 3452
+      Y: 768
+    - X: 3509
+      Y: 768
+    - X: 3509
+      Y: 852
+    - X: 3464
+      Y: 688
+    - X: 3521
+      Y: 688
+    - X: 3521
+      Y: 768
+    - X: 172
+      Y: 828
+    - X: 233
+      Y: 828
+    - X: 233
+      Y: 911
+    - X: 3704
+      Y: 324
+    - X: 3758
+      Y: 324
+    - X: 3758
+      Y: 389
+    - X: 2798
+      Y: 396
+    - X: 2850
+      Y: 396
+    - X: 2850
+      Y: 466
+    - X: 510
+      Y: 368
+    - X: 559
+      Y: 368
+    - X: 559
+      Y: 441
+    - X: 2510
+      Y: 368
+    - X: 2559
+      Y: 368
+    - X: 2559
+      Y: 441
+    - X: 1766
+      Y: 368
+    - X: 1815
+      Y: 368
+    - X: 1815
+      Y: 441
+    - X: 1104
+      Y: 276
+    - X: 1153
+      Y: 276
+    - X: 1153
+      Y: 345
+    - X: 3506
+      Y: 276
+    - X: 3555
+      Y: 276
+    - X: 3555
+      Y: 345
+    - X: 2038
+      Y: 392
+    - X: 2087
+      Y: 392
+    - X: 2087
+      Y: 466
+    - X: 1874
+      Y: 512
+    - X: 1946
+      Y: 512
+    - X: 1946
+      Y: 565
+    - X: 1780
+      Y: 292
+    - X: 1827
+      Y: 292
+    - X: 1827
+      Y: 365
+    - X: 1484
+      Y: 424
+    - X: 1534
+      Y: 424
+    - X: 1534
+      Y: 497
+    - X: 1816
+      Y: 424
+    - X: 1866
+      Y: 424
+    - X: 1866
+      Y: 497
+    - X: 560
+      Y: 416
+    - X: 610
+      Y: 416
+    - X: 610
+      Y: 489
+    - X: 2584
+      Y: 296
+    - X: 2634
+      Y: 296
+    - X: 2634
+      Y: 365
+    - X: 2326
+      Y: 44
+    - X: 2358
+      Y: 44
+    - X: 2358
+      Y: 116
+    - X: 4014
+      Y: 44
+    - X: 4046
+      Y: 44
+    - X: 4046
+      Y: 116
+    - X: 904
+      Y: 240
+    - X: 950
+      Y: 240
+    - X: 950
+      Y: 312
+    - X: 2262
+      Y: 140
+    - X: 2304
+      Y: 140
+    - X: 2304
+      Y: 207
+    - X: 2616
+      Y: 424
+    - X: 2669
+      Y: 424
+    - X: 2669
+      Y: 493
+    - X: 1006
+      Y: 288
+    - X: 1057
+      Y: 288
+    - X: 1057
+      Y: 355
+    - X: 2612
+      Y: 496
+    - X: 2664
+      Y: 496
+    - X: 2664
+      Y: 569
+    - X: 1474
+      Y: 500
+    - X: 1526
+      Y: 500
+    - X: 1526
+      Y: 573
+    - X: 2554
+      Y: 504
+    - X: 2606
+      Y: 504
+    - X: 2606
+      Y: 577
+    - X: 1206
+      Y: 372
+    - X: 1258
+      Y: 372
+    - X: 1258
+      Y: 441
+    - X: 872
+      Y: 376
+    - X: 924
+      Y: 376
+    - X: 924
+      Y: 445
+    - X: 1960
+      Y: 172
+    - X: 2011
+      Y: 172
+    - X: 2011
+      Y: 230
+    - X: 1010
+      Y: 140
+    - X: 1062
+      Y: 140
+    - X: 1062
+      Y: 194
+    - X: 2204
+      Y: 416
+    - X: 2254
+      Y: 416
+    - X: 2254
+      Y: 489
+    - X: 170
+      Y: 420
+    - X: 220
+      Y: 420
+    - X: 220
+      Y: 493
+    - X: 3746
+      Y: 416
+    - X: 3796
+      Y: 416
+    - X: 3796
+      Y: 489
+    - X: 2534
+      Y: 296
+    - X: 2584
+      Y: 296
+    - X: 2584
+      Y: 365
+    - X: 3570
+      Y: 808
+    - X: 3627
+      Y: 808
+    - X: 3627
+      Y: 896
+    - X: 3206
+      Y: 604
+    - X: 3258
+      Y: 604
+    - X: 3258
+      Y: 684
+    - X: 2654
+      Y: 764
+    - X: 2711
+      Y: 764
+    - X: 2711
+      Y: 848
+    - X: 1700
+      Y: 736
+    - X: 1761
+      Y: 736
+    - X: 1761
+      Y: 813
+    - X: 2712
+      Y: 232
+    - X: 2761
+      Y: 232
+    - X: 2761
+      Y: 299
+    - X: 486
+      Y: 800
+    - X: 547
+      Y: 800
+    - X: 547
+      Y: 881
+    - X: 1276
+      Y: 320
+    - X: 1325
+      Y: 320
+    - X: 1325
+      Y: 391
+    - X: 2280
+      Y: 804
+    - X: 2341
+      Y: 804
+    - X: 2341
+      Y: 886
+    - X: 1608
+      Y: 472
+    - X: 1663
+      Y: 472
+    - X: 1663
+      Y: 540
+    - X: 2436
+      Y: 736
+    - X: 2492
+      Y: 736
+    - X: 2492
+      Y: 820
+    - X: 3920
+      Y: 292
+    - X: 3967
+      Y: 292
+    - X: 3967
+      Y: 365
+    - X: 2730
+      Y: 736
+    - X: 2786
+      Y: 736
+    - X: 2786
+      Y: 820
+    - X: 3380
+      Y: 324
+    - X: 3428
+      Y: 324
+    - X: 3428
+      Y: 397
+    - X: 702
+      Y: 688
+    - X: 758
+      Y: 688
+    - X: 758
+      Y: 769
+    - X: 1994
+      Y: 240
+    - X: 2041
+      Y: 240
+    - X: 2041
+      Y: 310
+    - X: 278
+      Y: 740
+    - X: 334
+      Y: 740
+    - X: 334
+      Y: 824
+    - X: 3332
+      Y: 292
+    - X: 3379
+      Y: 292
+    - X: 3379
+      Y: 365
+    - X: 1380
+      Y: 700
+    - X: 1435
+      Y: 700
+    - X: 1435
+      Y: 783
+    - X: 2168
+      Y: 712
+    - X: 2237
+      Y: 712
+    - X: 2237
+      Y: 779
+    - X: 2958
+      Y: 520
+    - X: 3018
+      Y: 520
+    - X: 3018
+      Y: 584
+    - X: 3544
+      Y: 432
+    - X: 3599
+      Y: 432
+    - X: 3599
+      Y: 499
+    - X: 2714
+      Y: 548
+    - X: 2765
+      Y: 548
+    - X: 2765
+      Y: 625
+    - X: 3160
+      Y: 256
+    - X: 3210
+      Y: 256
+    - X: 3210
+      Y: 323
+    - X: 106
+      Y: 600
+    - X: 157
+      Y: 600
+    - X: 157
+      Y: 681
+    - X: 670
+      Y: 356
+    - X: 720
+      Y: 356
+    - X: 720
+      Y: 427
+    - X: 2476
+      Y: 588
+    - X: 2527
+      Y: 588
+    - X: 2527
+      Y: 668
+    - X: 2404
+      Y: 324
+    - X: 2454
+      Y: 324
+    - X: 2454
+      Y: 394
+    - X: 3582
+      Y: 724
+    - X: 3639
+      Y: 724
+    - X: 3639
+      Y: 806
+    - X: 2150
+      Y: 348
+    - X: 2202
+      Y: 348
+    - X: 2202
+      Y: 416
+    - X: 0
+      Y: 620
+    - X: 51
+      Y: 620
+    - X: 51
+      Y: 703
+    - X: 2454
+      Y: 408
+    - X: 2504
+      Y: 408
+    - X: 2504
+      Y: 481
+    - X: 918
+      Y: 780
+    - X: 976
+      Y: 780
+    - X: 976
+      Y: 864
+    - X: 3020
+      Y: 656
+    - X: 3071
+      Y: 656
+    - X: 3071
+      Y: 745
+    - X: 630
+      Y: 756
+    - X: 688
+      Y: 756
+    - X: 688
+      Y: 838
+    - X: 1974
+      Y: 656
+    - X: 2025
+      Y: 656
+    - X: 2025
+      Y: 743
+    - X: 2378
+      Y: 736
+    - X: 2436
+      Y: 736
+    - X: 2436
+      Y: 817
+    - X: 158
+      Y: 632
+    - X: 209
+      Y: 632
+    - X: 209
+      Y: 718
+    - X: 3014
+      Y: 836
+    - X: 3072
+      Y: 836
+    - X: 3072
+      Y: 925
+    - X: 3206
+      Y: 684
+    - X: 3257
+      Y: 684
+    - X: 3257
+      Y: 773
+    - X: 3786
+      Y: 748
+    - X: 3843
+      Y: 748
+    - X: 3843
+      Y: 831
+    - X: 1048
+      Y: 780
+    - X: 1107
+      Y: 780
+    - X: 1107
+      Y: 863
+    - X: 3528
+      Y: 620
+    - X: 3594
+      Y: 620
+    - X: 3594
+      Y: 684
+    - X: 3808
+      Y: 392
+    - X: 3863
+      Y: 392
+    - X: 3863
+      Y: 458
+    - X: 3602
+      Y: 324
+    - X: 3646
+      Y: 324
+    - X: 3646
+      Y: 404
+    - X: 3828
+      Y: 180
+    - X: 3873
+      Y: 180
+    - X: 3873
+      Y: 247
+    - X: 3930
+      Y: 136
+    - X: 3968
+      Y: 136
+    - X: 3968
+      Y: 214
+    - X: 352
+      Y: 68
+    - X: 390
+      Y: 68
+    - X: 390
+      Y: 133
+    - X: 2254
+      Y: 348
+    - X: 2298
+      Y: 348
+    - X: 2298
+      Y: 429
+    - X: 3510
+      Y: 204
+    - X: 3555
+      Y: 204
+    - X: 3555
+      Y: 274
+    - X: 212
+      Y: 136
+    - X: 247
+      Y: 136
+    - X: 247
+      Y: 218
+    - X: 2872
+      Y: 180
+    - X: 2907
+      Y: 180
+    - X: 2907
+      Y: 266
+    - X: 2924
+      Y: 48
+    - X: 2953
+      Y: 48
+    - X: 2953
+      Y: 128
+    - X: 1370
+      Y: 0
+    - X: 1397
+      Y: 0
+    - X: 1397
+      Y: 51
+    - X: 3072
+      Y: 648
+    - X: 3139
+      Y: 648
+    - X: 3139
+      Y: 713
+    - X: 1516
+      Y: 628
+    - X: 1566
+      Y: 628
+    - X: 1566
+      Y: 713
+    - X: 3506
+      Y: 852
+    - X: 3568
+      Y: 852
+    - X: 3568
+      Y: 936
+    - X: 3892
+      Y: 588
+    - X: 3938
+      Y: 588
+    - X: 3938
+      Y: 677
+    - X: 3844
+      Y: 828
+    - X: 3903
+      Y: 828
+    - X: 3903
+      Y: 914
+    - X: 0
+      Y: 704
+    - X: 52
+      Y: 704
+    - X: 52
+      Y: 794
+    - X: 1980
+      Y: 120
+    - X: 2032
+      Y: 120
+    - X: 2032
+      Y: 171
+    - X: 710
+      Y: 604
+    - X: 760
+      Y: 604
+    - X: 760
+      Y: 687
+    - X: 1906
+      Y: 188
+    - X: 1942
+      Y: 188
+    - X: 1942
+      Y: 274
+    - X: 52
+      Y: 640
+    - X: 102
+      Y: 640
+    - X: 102
+      Y: 728
+    - X: 2908
+      Y: 180
+    - X: 2942
+      Y: 180
+    - X: 2942
+      Y: 270
+    - X: 2254
+      Y: 208
+    - X: 2304
+      Y: 208
+    - X: 2304
+      Y: 272
+    - X: 1174
+      Y: 172
+    - X: 1218
+      Y: 172
+    - X: 1218
+      Y: 239
+    - X: 3308
+      Y: 212
+    - X: 3358
+      Y: 212
+    - X: 3358
+      Y: 276
+    - X: 3874
+      Y: 180
+    - X: 3919
+      Y: 180
+    - X: 3919
+      Y: 247
+    - X: 3102
+      Y: 396
+    - X: 3159
+      Y: 396
+    - X: 3159
+      Y: 460
+    - X: 3678
+      Y: 144
+    - X: 3720
+      Y: 144
+    - X: 3720
+      Y: 211
+    - X: 2158
+      Y: 780
+    - X: 2217
+      Y: 780
+    - X: 2217
+      Y: 863
+    - X: 1098
+      Y: 428
+    - X: 1149
+      Y: 428
+    - X: 1149
+      Y: 500
+    - X: 1234
+      Y: 832
+    - X: 1293
+      Y: 832
+    - X: 1293
+      Y: 918
+    - X: 1256
+      Y: 532
+    - X: 1307
+      Y: 532
+    - X: 1307
+      Y: 608
+    - X: 3702
+      Y: 780
+    - X: 3761
+      Y: 780
+    - X: 3761
+      Y: 863
+    - X: 1032
+      Y: 432
+    - X: 1083
+      Y: 432
+    - X: 1083
+      Y: 504
+    - X: 3010
+      Y: 588
+    - X: 3071
+      Y: 588
+    - X: 3071
+      Y: 655
+    - X: 334
+      Y: 764
+    - X: 393
+      Y: 764
+    - X: 393
+      Y: 845
+    - X: 670
+      Y: 288
+    - X: 721
+      Y: 288
+    - X: 721
+      Y: 355
+    - X: 3844
+      Y: 748
+    - X: 3904
+      Y: 748
+    - X: 3904
+      Y: 827
+    - X: 764
+      Y: 280
+    - X: 816
+      Y: 280
+    - X: 816
+      Y: 345
+    - X: 3964
+      Y: 788
+    - X: 4024
+      Y: 788
+    - X: 4024
+      Y: 870
+    - X: 3916
+      Y: 432
+    - X: 3968
+      Y: 432
+    - X: 3968
+      Y: 503
+    - X: 110
+      Y: 828
+    - X: 171
+      Y: 828
+    - X: 171
+      Y: 911
+    - X: 4042
+      Y: 500
+    - X: 4094
+      Y: 500
+    - X: 4094
+      Y: 573
+    - X: 816
+      Y: 868
+    - X: 895
+      Y: 868
+    - X: 895
+      Y: 934
+    - X: 3524
+      Y: 564
+    - X: 3599
+      Y: 564
+    - X: 3599
+      Y: 617
+    - X: 3072
+      Y: 716
+    - X: 3128
+      Y: 716
+    - X: 3128
+      Y: 799
+    - X: 3556
+      Y: 216
+    - X: 3601
+      Y: 216
+    - X: 3601
+      Y: 288
+    - X: 2548
+      Y: 776
+    - X: 2604
+      Y: 776
+    - X: 2604
+      Y: 862
+    - X: 1058
+      Y: 288
+    - X: 1103
+      Y: 288
+    - X: 1103
+      Y: 364
+    - X: 1894
+      Y: 716
+    - X: 1950
+      Y: 716
+    - X: 1950
+      Y: 799
+    - X: 3866
+      Y: 388
+    - X: 3916
+      Y: 388
+    - X: 3916
+      Y: 460
+    - X: 3994
+      Y: 700
+    - X: 4048
+      Y: 700
+    - X: 4048
+      Y: 785
+    - X: 2252
+      Y: 272
+    - X: 2298
+      Y: 272
+    - X: 2298
+      Y: 345
+    - X: 3528
+      Y: 684
+    - X: 3582
+      Y: 684
+    - X: 3582
+      Y: 768
+    - X: 2942
+      Y: 268
+    - X: 2988
+      Y: 268
+    - X: 2988
+      Y: 341
+    - X: 1840
+      Y: 708
+    - X: 1894
+      Y: 708
+    - X: 1894
+      Y: 794
+    - X: 0
+      Y: 256
+    - X: 46
+      Y: 256
+    - X: 46
+      Y: 329
+    - X: 102
+      Y: 684
+    - X: 156
+      Y: 684
+    - X: 156
+      Y: 768
+    - X: 46
+      Y: 268
+    - X: 92
+      Y: 268
+    - X: 92
+      Y: 341
+    - X: 862
+      Y: 780
+    - X: 917
+      Y: 780
+    - X: 917
+      Y: 868
+    - X: 606
+      Y: 516
+    - X: 650
+      Y: 516
+    - X: 650
+      Y: 603
+    - X: 3258
+      Y: 700
+    - X: 3313
+      Y: 700
+    - X: 3313
+      Y: 783
+    - X: 218
+      Y: 548
+    - X: 271
+      Y: 548
+    - X: 271
+      Y: 622
+    - X: 2094
+      Y: 344
+    - X: 2149
+      Y: 344
+    - X: 2149
+      Y: 408
+    - X: 2564
+      Y: 148
+    - X: 2608
+      Y: 148
+    - X: 2608
+      Y: 212
+    - X: 2820
+      Y: 704
+    - X: 2877
+      Y: 704
+    - X: 2877
+      Y: 785
+    - X: 3602
+      Y: 256
+    - X: 3652
+      Y: 256
+    - X: 3652
+      Y: 323
+    - X: 2888
+      Y: 684
+    - X: 2945
+      Y: 684
+    - X: 2945
+      Y: 763
+    - X: 1616
+      Y: 228
+    - X: 1666
+      Y: 228
+    - X: 1666
+      Y: 293
+    - X: 1236
+      Y: 748
+    - X: 1293
+      Y: 748
+    - X: 1293
+      Y: 831
+    - X: 1434
+      Y: 356
+    - X: 1484
+      Y: 356
+    - X: 1484
+      Y: 427
+    - X: 1108
+      Y: 780
+    - X: 1165
+      Y: 780
+    - X: 1165
+      Y: 866
+    - X: 834
+      Y: 448
+    - X: 884
+      Y: 448
+    - X: 884
+      Y: 522
+    - X: 1762
+      Y: 772
+    - X: 1820
+      Y: 772
+    - X: 1820
+      Y: 855
+    - X: 406
+      Y: 412
+    - X: 456
+      Y: 412
+    - X: 456
+      Y: 485
+    - X: 3394
+      Y: 724
+    - X: 3451
+      Y: 724
+    - X: 3451
+      Y: 806
+    - X: 398
+      Y: 488
+    - X: 453
+      Y: 488
+    - X: 453
+      Y: 557
+    - X: 2120
+      Y: 948
+    - X: 2202
+      Y: 948
+    - X: 2202
+      Y: 1032
+    - X: 380
+      Y: 888
+    - X: 452
+      Y: 888
+    - X: 452
+      Y: 961
+    - X: 3762
+      Y: 832
+    - X: 3823
+      Y: 832
+    - X: 3823
+      Y: 915
+    - X: 3372
+      Y: 808
+    - X: 3429
+      Y: 808
+    - X: 3429
+      Y: 896
+    - X: 3640
+      Y: 760
+    - X: 3701
+      Y: 760
+    - X: 3701
+      Y: 838
+    - X: 1436
+      Y: 700
+    - X: 1491
+      Y: 700
+    - X: 1491
+      Y: 783
+    - X: 3758
+      Y: 344
+    - X: 3807
+      Y: 344
+    - X: 3807
+      Y: 416
+    - X: 3938
+      Y: 668
+    - X: 3993
+      Y: 668
+    - X: 3993
+      Y: 749
+    - X: 4022
+      Y: 288
+    - X: 4071
+      Y: 288
+    - X: 4071
+      Y: 358
+    - X: 900
+      Y: 696
+    - X: 955
+      Y: 696
+    - X: 955
+      Y: 779
+    - X: 190
+      Y: 348
+    - X: 239
+      Y: 348
+    - X: 239
+      Y: 420
+    - X: 3830
+      Y: 600
+    - X: 3885
+      Y: 600
+    - X: 3885
+      Y: 675
+    - X: 1166
+      Y: 800
+    - X: 1234
+      Y: 800
+    - X: 1234
+      Y: 873
+    - X: 1422
+      Y: 428
+    - X: 1482
+      Y: 428
+    - X: 1482
+      Y: 489
+    - X: 1794
+      Y: 864
+    - X: 1865
+      Y: 864
+    - X: 1865
+      Y: 937
+    - X: 908
+      Y: 564
+    - X: 973
+      Y: 564
+    - X: 973
+      Y: 625
+    - X: 3010
+      Y: 944
+    - X: 3092
+      Y: 944
+    - X: 3092
+      Y: 1027
+    - X: 2212
+      Y: 888
+    - X: 2284
+      Y: 888
+    - X: 2284
+      Y: 961
+    - X: 2416
+      Y: 820
+    - X: 2476
+      Y: 820
+    - X: 2476
+      Y: 904
+    - X: 106
+      Y: 524
+    - X: 158
+      Y: 524
+    - X: 158
+      Y: 598
+    - X: 688
+      Y: 772
+    - X: 742
+      Y: 772
+    - X: 742
+      Y: 861
+    - X: 3556
+      Y: 288
+    - X: 3602
+      Y: 288
+    - X: 3602
+      Y: 364
+    - X: 1176
+      Y: 116
+    - X: 1226
+      Y: 116
+    - X: 1226
+      Y: 169
+    - X: 1818
+      Y: 0
+    - X: 1853
+      Y: 0
+    - X: 1853
+      Y: 41
+    - X: 2284
+      Y: 0
+    - X: 2330
+      Y: 0
+    - X: 2330
+      Y: 33
+    - X: 1946
+      Y: 0
+    - X: 1992
+      Y: 0
+    - X: 1992
+      Y: 32
+    - X: 1324
+      Y: 0
+    - X: 1369
+      Y: 0
+    - X: 1369
+      Y: 29
+    - X: 198
+      Y: 0
+    - X: 226
+      Y: 0
+    - X: 226
+      Y: 28
+    - X: 1004
+      Y: 0
+    - X: 1038
+      Y: 0
+    - X: 1038
+      Y: 33
+    - X: 1096
+      Y: 0
+    - X: 1131
+      Y: 0
+    - X: 1131
+      Y: 34
+    - X: 960
+      Y: 0
+    - X: 1004
+      Y: 0
+    - X: 1004
+      Y: 25
+    - X: 1588
+      Y: 0
+    - X: 1632
+      Y: 0
+    - X: 1632
+      Y: 32
+    - X: 580
+      Y: 0
+    - X: 611
+      Y: 0
+    - X: 611
+      Y: 32
+    - X: 2848
+      Y: 0
+    - X: 2900
+      Y: 0
+    - X: 2900
+      Y: 31
+    - X: 350
+      Y: 696
+    - X: 418
+      Y: 696
+    - X: 418
+      Y: 763
+    - X: 226
+      Y: 0
+    - X: 254
+      Y: 0
+    - X: 254
+      Y: 28
+    - X: 1096
+      Y: 712
+    - X: 1165
+      Y: 712
+    - X: 1165
+      Y: 779
+    - X: 2772
+      Y: 852
+    - X: 2849
+      Y: 852
+    - X: 2849
+      Y: 919
+    - X: 2664
+      Y: 216
+    - X: 2712
+      Y: 216
+    - X: 2712
+      Y: 283
+    - X: 2342
+      Y: 820
+    - X: 2416
+      Y: 820
+    - X: 2416
+      Y: 888
+    - X: 2676
+      Y: 904
+    - X: 2755
+      Y: 904
+    - X: 2755
+      Y: 971
+    - X: 896
+      Y: 868
+    - X: 974
+      Y: 868
+    - X: 974
+      Y: 935
+    - X: 2036
+      Y: 468
+    - X: 2088
+      Y: 468
+    - X: 2088
+      Y: 540
+    - X: 2776
+      Y: 540
+    - X: 2837
+      Y: 540
+    - X: 2837
+      Y: 604
+    - X: 3428
+      Y: 344
+    - X: 3483
+      Y: 344
+    - X: 3483
+      Y: 408
+    - X: 2524
+      Y: 228
+    - X: 2575
+      Y: 228
+    - X: 2575
+      Y: 292
+    - X: 2414
+      Y: 540
+    - X: 2475
+      Y: 540
+    - X: 2475
+      Y: 604
+    - X: 2472
+      Y: 228
+    - X: 2523
+      Y: 228
+    - X: 2523
+      Y: 292
+    - X: 2888
+      Y: 344
+    - X: 2943
+      Y: 344
+    - X: 2943
+      Y: 408
+    - X: 3248
+      Y: 400
+    - X: 3305
+      Y: 400
+    - X: 3305
+      Y: 464
+    - X: 1860
+      Y: 568
+    - X: 1921
+      Y: 568
+    - X: 1921
+      Y: 634
+    - X: 3890
+      Y: 0
+    - X: 3918
+      Y: 0
+    - X: 3918
+      Y: 64
+    - X: 658
+      Y: 500
+    - X: 717
+      Y: 500
+    - X: 717
+      Y: 564
+    - X: 3962
+      Y: 536
+    - X: 4023
+      Y: 536
+    - X: 4023
+      Y: 600
+    - X: 1838
+      Y: 644
+    - X: 1906
+      Y: 644
+    - X: 1906
+      Y: 708
+    - X: 3712
+      Y: 492
+    - X: 3771
+      Y: 492
+    - X: 3771
+      Y: 556
+    - X: 884
+      Y: 312
+    - X: 938
+      Y: 312
+    - X: 938
+      Y: 376
+    - X: 1002
+      Y: 560
+    - X: 1062
+      Y: 560
+    - X: 1062
+      Y: 626
+    - X: 1630
+      Y: 408
+    - X: 1687
+      Y: 408
+    - X: 1687
+      Y: 472
+    - X: 2688
+      Y: 300
+    - X: 2742
+      Y: 300
+    - X: 2742
+      Y: 364
+    - X: 1154
+      Y: 304
+    - X: 1208
+      Y: 304
+    - X: 1208
+      Y: 368
+    - X: 2454
+      Y: 344
+    - X: 2509
+      Y: 344
+    - X: 2509
+      Y: 408
+    - X: 3830
+      Y: 536
+    - X: 3891
+      Y: 536
+    - X: 3891
+      Y: 600
+    - X: 1308
+      Y: 692
+    - X: 1379
+      Y: 692
+    - X: 1379
+      Y: 756
+    - X: 3092
+      Y: 520
+    - X: 3152
+      Y: 520
+    - X: 3152
+      Y: 584
+    - X: 444
+      Y: 668
+    - X: 513
+      Y: 668
+    - X: 513
+      Y: 732
+    - X: 378
+      Y: 628
+    - X: 443
+      Y: 628
+    - X: 443
+      Y: 693
+    - X: 320
+      Y: 248
+    - X: 362
+      Y: 248
+    - X: 362
+      Y: 327
+    - X: 2096
+      Y: 756
+    - X: 2157
+      Y: 756
+    - X: 2157
+      Y: 834
+    - X: 1362
+      Y: 468
+    - X: 1413
+      Y: 468
+    - X: 1413
+      Y: 541
+    - X: 92
+      Y: 268
+    - X: 138
+      Y: 268
+    - X: 138
+      Y: 341
+    - X: 2560
+      Y: 432
+    - X: 2611
+      Y: 432
+    - X: 2611
+      Y: 504
+    - X: 2402
+      Y: 68
+    - X: 2436
+      Y: 68
+    - X: 2436
+      Y: 141
+    - X: 1866
+      Y: 432
+    - X: 1917
+      Y: 432
+    - X: 1917
+      Y: 504
+    - X: 1304
+      Y: 132
+    - X: 1355
+      Y: 132
+    - X: 1355
+      Y: 185
+    - X: 564
+      Y: 348
+    - X: 616
+      Y: 348
+    - X: 616
+      Y: 416
+    - X: 3482
+      Y: 472
+    - X: 3538
+      Y: 472
+    - X: 3538
+      Y: 539
+    - X: 2202
+      Y: 348
+    - X: 2254
+      Y: 348
+    - X: 2254
+      Y: 416
+    - X: 306
+      Y: 68
+    - X: 352
+      Y: 68
+    - X: 352
+      Y: 121
+    - X: 272
+      Y: 548
+    - X: 322
+      Y: 548
+    - X: 322
+      Y: 627
+    - X: 906
+      Y: 120
+    - X: 957
+      Y: 120
+    - X: 957
+      Y: 172
+    - X: 3866
+      Y: 320
+    - X: 3918
+      Y: 320
+    - X: 3918
+      Y: 387
+    - X: 3856
+      Y: 0
+    - X: 3890
+      Y: 0
+    - X: 3890
+      Y: 52
+    - X: 800
+      Y: 120
+    - X: 852
+      Y: 120
+    - X: 852
+      Y: 171
+    - X: 138
+      Y: 316
+    - X: 189
+      Y: 316
+    - X: 189
+      Y: 384
+    - X: 460
+      Y: 248
+    - X: 510
+      Y: 248
+    - X: 510
+      Y: 314
+    - X: 694
+      Y: 172
+    - X: 750
+      Y: 172
+    - X: 750
+      Y: 224
+    - X: 1468
+      Y: 576
+    - X: 1516
+      Y: 576
+    - X: 1516
+      Y: 660
+    - X: 3416
+      Y: 136
+    - X: 3468
+      Y: 136
+    - X: 3468
+      Y: 189
+    - X: 2740
+      Y: 108
+    - X: 2791
+      Y: 108
+    - X: 2791
+      Y: 159
+    - X: 1326
+      Y: 324
+    - X: 1378
+      Y: 324
+    - X: 1378
+      Y: 391
+    - X: 414
+      Y: 196
+    - X: 460
+      Y: 196
+    - X: 460
+      Y: 264
+    - X: 248
+      Y: 172
+    - X: 304
+      Y: 172
+    - X: 304
+      Y: 224
+    - X: 2076
+      Y: 52
+    - X: 2122
+      Y: 52
+    - X: 2122
+      Y: 104
+    - X: 3676
+      Y: 92
+    - X: 3726
+      Y: 92
+    - X: 3726
+      Y: 144
+    - X: 1026
+      Y: 712
+    - X: 1095
+      Y: 712
+    - X: 1095
+      Y: 779
+    - X: 1750
+      Y: 128
+    - X: 1803
+      Y: 128
+    - X: 1803
+      Y: 179
+    - X: 2954
+      Y: 664
+    - X: 3020
+      Y: 664
+    - X: 3020
+      Y: 730
+    - X: 2424
+      Y: 484
+    - X: 2495
+      Y: 484
+    - X: 2495
+      Y: 537
+    - X: 3562
+      Y: 148
+    - X: 3604
+      Y: 148
+    - X: 3604
+      Y: 216
+    - X: 2638
+      Y: 284
+    - X: 2688
+      Y: 284
+    - X: 2688
+      Y: 352
+    - X: 554
+      Y: 492
+    - X: 606
+      Y: 492
+    - X: 606
+      Y: 565
+    - X: 58
+      Y: 408
+    - X: 108
+      Y: 408
+    - X: 108
+      Y: 481
+    - X: 2604
+      Y: 848
+    - X: 2675
+      Y: 848
+    - X: 2675
+      Y: 920
+    - X: 1922
+      Y: 568
+    - X: 1973
+      Y: 568
+    - X: 1973
+      Y: 647
+    - X: 3628
+      Y: 840
+    - X: 3698
+      Y: 840
+    - X: 3698
+      Y: 913
+    - X: 1122
+      Y: 628
+    - X: 1173
+      Y: 628
+    - X: 1173
+      Y: 711
+    - X: 778
+      Y: 444
+    - X: 834
+      Y: 444
+    - X: 834
+      Y: 510
+    - X: 1044
+      Y: 364
+    - X: 1098
+      Y: 364
+    - X: 1098
+      Y: 430
+    - X: 3918
+      Y: 0
+    - X: 3946
+      Y: 0
+    - X: 3946
+      Y: 64
+    - X: 3358
+      Y: 212
+    - X: 3400
+      Y: 212
+    - X: 3400
+      Y: 291
+    - X: 570
+      Y: 280
+    - X: 622
+      Y: 280
+    - X: 622
+      Y: 345
+    - X: 954
+      Y: 936
+    - X: 1041
+      Y: 936
+    - X: 1041
+      Y: 1003
+    - X: 604
+      Y: 908
+    - X: 687
+      Y: 908
+    - X: 687
+      Y: 972
+    - X: 514
+      Y: 668
+    - X: 583
+      Y: 668
+    - X: 583
+      Y: 732
+    - X: 3314
+      Y: 748
+    - X: 3371
+      Y: 748
+    - X: 3371
+      Y: 831
+    - X: 742
+      Y: 776
+    - X: 800
+      Y: 776
+    - X: 800
+      Y: 859
+    - X: 2184
+      Y: 632
+    - X: 2241
+      Y: 632
+    - X: 2241
+      Y: 709
+    - X: 322
+      Y: 536
+    - X: 383
+      Y: 536
+    - X: 383
+      Y: 600
+    - X: 0
+      Y: 344
+    - X: 55
+      Y: 344
+    - X: 55
+      Y: 408
+    - X: 1378
+      Y: 340
+    - X: 1433
+      Y: 340
+    - X: 1433
+      Y: 404
+    - X: 3224
+      Y: 228
+    - X: 3275
+      Y: 228
+    - X: 3275
+      Y: 292
+    - X: 3072
+      Y: 868
+    - X: 3141
+      Y: 868
+    - X: 3141
+      Y: 944
+    - X: 2814
+      Y: 228
+    - X: 2865
+      Y: 228
+    - X: 2865
+      Y: 292
+    - X: 3806
+      Y: 916
+    - X: 3892
+      Y: 916
+    - X: 3892
+      Y: 980
+    - X: 1918
+      Y: 444
+    - X: 1974
+      Y: 444
+    - X: 1974
+      Y: 510
+    - X: 1414
+      Y: 492
+    - X: 1473
+      Y: 492
+    - X: 1473
+      Y: 556
+    - X: 1950
+      Y: 744
+    - X: 2009
+      Y: 744
+    - X: 2009
+      Y: 824
+    - X: 3428
+      Y: 408
+    - X: 3485
+      Y: 408
+    - X: 3485
+      Y: 472
+    - X: 2890
+      Y: 616
+    - X: 2953
+      Y: 616
+    - X: 2953
+      Y: 683
+    - X: 2596
+      Y: 644
+    - X: 2664
+      Y: 644
+    - X: 2664
+      Y: 708
+    - X: 2850
+      Y: 408
+    - X: 2907
+      Y: 408
+    - X: 2907
+      Y: 472
+    - X: 384
+      Y: 560
+    - X: 444
+      Y: 560
+    - X: 444
+      Y: 626
+    - X: 3486
+      Y: 408
+    - X: 3543
+      Y: 408
+    - X: 3543
+      Y: 472
+    - X: 1986
+      Y: 312
+    - X: 2040
+      Y: 312
+    - X: 2040
+      Y: 376
+    - X: 1150
+      Y: 436
+    - X: 1206
+      Y: 436
+    - X: 1206
+      Y: 502
+    - X: 3258
+      Y: 336
+    - X: 3313
+      Y: 336
+    - X: 3313
+      Y: 400
+    - X: 1746
+      Y: 520
+    - X: 1804
+      Y: 520
+    - X: 1804
+      Y: 586
+    - X: 2096
+      Y: 692
+    - X: 2167
+      Y: 692
+    - X: 2167
+      Y: 756
+    - X: 3018
+      Y: 524
+    - X: 3078
+      Y: 524
+    - X: 3078
+      Y: 588
+    - X: 4024
+      Y: 788
+    - X: 4089
+      Y: 788
+    - X: 4089
+      Y: 864
+    - X: 352
+      Y: 328
+    - X: 407
+      Y: 328
+    - X: 407
+      Y: 392
+    - X: 1510
+      Y: 804
+    - X: 1588
+      Y: 804
+    - X: 1588
+      Y: 868
+    - X: 1942
+      Y: 936
+    - X: 2028
+      Y: 936
+    - X: 2028
+      Y: 1012
+    - X: 1768
+      Y: 708
+    - X: 1840
+      Y: 708
+    - X: 1840
+      Y: 772
+    - X: 3712
+      Y: 716
+    - X: 3785
+      Y: 716
+    - X: 3785
+      Y: 780
+    - X: 938
+      Y: 328
+    - X: 993
+      Y: 328
+    - X: 993
+      Y: 392
+    - X: 1980
+      Y: 440
+    - X: 2036
+      Y: 440
+    - X: 2036
+      Y: 506
+    - X: 0
+      Y: 852
+    - X: 78
+      Y: 852
+    - X: 78
+      Y: 918
+    - X: 3918
+      Y: 368
+    - X: 3974
+      Y: 368
+    - X: 3974
+      Y: 432
+    - X: 3316
+      Y: 92
+    - X: 3365
+      Y: 92
+    - X: 3365
+      Y: 145
+    - X: 924
+      Y: 392
+    - X: 977
+      Y: 392
+    - X: 977
+      Y: 460
+    - X: 2688
+      Y: 108
+    - X: 2739
+      Y: 108
+    - X: 2739
+      Y: 159
+    - X: 3762
+      Y: 44
+    - X: 3807
+      Y: 44
+    - X: 3807
+      Y: 95
+    - X: 1084
+      Y: 500
+    - X: 1144
+      Y: 500
+    - X: 1144
+      Y: 563
+    - X: 1858
+      Y: 116
+    - X: 1908
+      Y: 116
+    - X: 1908
+      Y: 169
+    - X: 3968
+      Y: 484
+    - X: 4042
+      Y: 484
+    - X: 4042
+      Y: 535
+    - X: 502
+      Y: 80
+    - X: 550
+      Y: 80
+    - X: 550
+      Y: 133
+    - X: 3970
+      Y: 120
+    - X: 4022
+      Y: 120
+    - X: 4022
+      Y: 171
+    - X: 2298
+      Y: 372
+    - X: 2350
+      Y: 372
+    - X: 2350
+      Y: 441
+    - X: 3256
+      Y: 120
+    - X: 3308
+      Y: 120
+    - X: 3308
+      Y: 171
+    - X: 1804
+      Y: 172
+    - X: 1858
+      Y: 172
+    - X: 1858
+      Y: 226
+    - X: 1436
+      Y: 212
+    - X: 1498
+      Y: 212
+    - X: 1498
+      Y: 263
+    - X: 3776
+      Y: 96
+    - X: 3827
+      Y: 96
+    - X: 3827
+      Y: 147
+    - X: 304
+      Y: 136
+    - X: 356
+      Y: 136
+    - X: 356
+      Y: 189
+    - X: 3204
+      Y: 100
+    - X: 3255
+      Y: 100
+    - X: 3255
+      Y: 151
+    - X: 3090
+      Y: 320
+    - X: 3142
+      Y: 320
+    - X: 3142
+      Y: 387
+    - X: 752
+      Y: 72
+    - X: 799
+      Y: 72
+    - X: 799
+      Y: 125
+    - X: 2264
+      Y: 88
+    - X: 2314
+      Y: 88
+    - X: 2314
+      Y: 139
+    - X: 776
+      Y: 512
+    - X: 833
+      Y: 512
+    - X: 833
+      Y: 579
+    - X: 160
+      Y: 912
+    - X: 226
+      Y: 912
+    - X: 226
+      Y: 993
+    - X: 2892
+      Y: 128
+    - X: 2945
+      Y: 128
+    - X: 2945
+      Y: 179
+    - X: 112
+      Y: 384
+    - X: 170
+      Y: 384
+    - X: 170
+      Y: 446
+    - X: 1030
+      Y: 88
+    - X: 1080
+      Y: 88
+    - X: 1080
+      Y: 139
+    - X: 1560
+      Y: 364
+    - X: 1630
+      Y: 364
+    - X: 1630
+      Y: 415
+    - X: 156
+      Y: 764
+    - X: 233
+      Y: 764
+    - X: 233
+      Y: 826
+    - X: 2942
+      Y: 216
+    - X: 3005
+      Y: 216
+    - X: 3005
+      Y: 267
+    - X: 1208
+      Y: 320
+    - X: 1276
+      Y: 320
+    - X: 1276
+      Y: 371
+    - X: 1698
+      Y: 104
+    - X: 1749
+      Y: 104
+    - X: 1749
+      Y: 155
+    - X: 1760
+      Y: 72
+    - X: 1807
+      Y: 72
+    - X: 1807
+      Y: 125
+    - X: 3974
+      Y: 428
+    - X: 4043
+      Y: 428
+    - X: 4043
+      Y: 481
+    - X: 252
+      Y: 120
+    - X: 304
+      Y: 120
+    - X: 304
+      Y: 171
+    - X: 1936
+      Y: 296
+    - X: 1986
+      Y: 296
+    - X: 1986
+      Y: 365
+    - X: 158
+      Y: 560
+    - X: 213
+      Y: 560
+    - X: 213
+      Y: 632
+    - X: 146
+      Y: 240
+    - X: 191
+      Y: 240
+    - X: 191
+      Y: 313
+    - X: 1320
+      Y: 76
+    - X: 1367
+      Y: 76
+    - X: 1367
+      Y: 129
+    - X: 3270
+      Y: 64
+    - X: 3316
+      Y: 64
+    - X: 3316
+      Y: 117
+    - X: 1990
+      Y: 32
+    - X: 2018
+      Y: 32
+    - X: 2018
+      Y: 100
+    - X: 3468
+      Y: 148
+    - X: 3510
+      Y: 148
+    - X: 3510
+      Y: 216
+    - X: 2174
+      Y: 184
+    - X: 2210
+      Y: 184
+    - X: 2210
+      Y: 269
+    - X: 1194
+      Y: 608
+    - X: 1270
+      Y: 608
+    - X: 1270
+      Y: 662
+    - X: 3160
+      Y: 432
+    - X: 3232
+      Y: 432
+    - X: 3232
+      Y: 483
+    - X: 2398
+      Y: 396
+    - X: 2453
+      Y: 396
+    - X: 2453
+      Y: 462
+    - X: 2088
+      Y: 472
+    - X: 2140
+      Y: 472
+    - X: 2140
+      Y: 544
+    - X: 3250
+      Y: 784
+    - X: 3307
+      Y: 784
+    - X: 3307
+      Y: 870
+    - X: 2098
+      Y: 280
+    - X: 2151
+      Y: 280
+    - X: 2151
+      Y: 344
+    - X: 3158
+      Y: 484
+    - X: 3209
+      Y: 484
+    - X: 3209
+      Y: 558
+    - X: 0
+      Y: 124
+    - X: 45
+      Y: 124
+    - X: 45
+      Y: 185
+    - X: 1514
+      Y: 116
+    - X: 1564
+      Y: 116
+    - X: 1564
+      Y: 169
+    - X: 378
+      Y: 964
+    - X: 460
+      Y: 964
+    - X: 460
+      Y: 1048
+    - X: 2284
+      Y: 888
+    - X: 2356
+      Y: 888
+    - X: 2356
+      Y: 961
+    - X: 2202
+      Y: 964
+    - X: 2284
+      Y: 964
+    - X: 2284
+      Y: 1049
+    - X: 454
+      Y: 884
+    - X: 526
+      Y: 884
+    - X: 526
+      Y: 957
+    - X: 3994
+      Y: 940
+    - X: 4076
+      Y: 940
+    - X: 4076
+      Y: 1020
+    - X: 976
+      Y: 780
+    - X: 1048
+      Y: 780
+    - X: 1048
+      Y: 848
+    - X: 1294
+      Y: 824
+    - X: 1355
+      Y: 824
+    - X: 1355
+      Y: 907
+    - X: 1666
+      Y: 816
+    - X: 1723
+      Y: 816
+    - X: 1723
+      Y: 904
+    - X: 750
+      Y: 0
+    - X: 797
+      Y: 0
+    - X: 797
+      Y: 23
+    - X: 608
+      Y: 40
+    - X: 691
+      Y: 40
+    - X: 691
+      Y: 63
+    - X: 2756
+      Y: 36
+    - X: 2839
+      Y: 36
+    - X: 2839
+      Y: 59
+    - X: 488
+      Y: 0
+    - X: 516
+      Y: 0
+    - X: 516
+      Y: 35
+    - X: 460
+      Y: 0
+    - X: 488
+      Y: 0
+    - X: 488
+      Y: 35
+    - X: 612
+      Y: 0
+    - X: 640
+      Y: 0
+    - X: 640
+      Y: 36
+    - X: 2756
+      Y: 0
+    - X: 2802
+      Y: 0
+    - X: 2802
+      Y: 35
+    - X: 2802
+      Y: 0
+    - X: 2848
+      Y: 0
+    - X: 2848
+      Y: 35
+    - X: 2900
+      Y: 0
+    - X: 2945
+      Y: 0
+    - X: 2945
+      Y: 36
+    - X: 408
+      Y: 340
+    - X: 457
+      Y: 340
+    - X: 457
+      Y: 412
+    - X: 3646
+      Y: 344
+    - X: 3695
+      Y: 344
+    - X: 3695
+      Y: 416
+    - X: 1288
+      Y: 0
+    - X: 1324
+      Y: 0
+    - X: 1324
+      Y: 35
+    - X: 2576
+      Y: 44
+    - X: 2621
+      Y: 44
+    - X: 2621
+      Y: 91
+    - X: 2368
+      Y: 40
+    - X: 2439
+      Y: 40
+    - X: 2439
+      Y: 68
+    - X: 460
+      Y: 976
+    - X: 574
+      Y: 976
+    - X: 574
+      Y: 1044
+    - X: 3194
+      Y: 0
+    - X: 3229
+      Y: 0
+    - X: 3229
+      Y: 47
+    - X: 3230
+      Y: 0
+    - X: 3266
+      Y: 0
+    - X: 3266
+      Y: 47
+    - X: 1258
+      Y: 392
+    - X: 1311
+      Y: 392
+    - X: 1311
+      Y: 460
+    - X: 1588
+      Y: 32
+    - X: 1631
+      Y: 32
+    - X: 1631
+      Y: 76
+    - X: 1398
+      Y: 32
+    - X: 1441
+      Y: 32
+    - X: 1441
+      Y: 76
+    - X: 738
+      Y: 24
+    - X: 779
+      Y: 24
+    - X: 779
+      Y: 68
+    - X: 84
+      Y: 28
+    - X: 126
+      Y: 28
+    - X: 126
+      Y: 72
+    - X: 3532
+      Y: 0
+    - X: 3572
+      Y: 0
+    - X: 3572
+      Y: 44
+    - X: 4014
+      Y: 0
+    - X: 4055
+      Y: 0
+    - X: 4055
+      Y: 44
+    - X: 918
+      Y: 28
+    - X: 960
+      Y: 28
+    - X: 960
+      Y: 72
+    - X: 1484
+      Y: 0
+    - X: 1523
+      Y: 0
+    - X: 1523
+      Y: 36
+    - X: 92
+      Y: 0
+    - X: 122
+      Y: 0
+    - X: 122
+      Y: 21
+    - X: 1172
+      Y: 0
+    - X: 1211
+      Y: 0
+    - X: 1211
+      Y: 31
+    - X: 2164
+      Y: 0
+    - X: 2193
+      Y: 0
+    - X: 2193
+      Y: 51
+    - X: 2044
+      Y: 0
+    - X: 2073
+      Y: 0
+    - X: 2073
+      Y: 51
+    - X: 2448
+      Y: 0
+    - X: 2487
+      Y: 0
+    - X: 2487
+      Y: 40
+    - X: 1662
+      Y: 32
+    - X: 1705
+      Y: 32
+    - X: 1705
+      Y: 76
+    - X: 2528
+      Y: 0
+    - X: 2564
+      Y: 0
+    - X: 2564
+      Y: 44
+    - X: 3572
+      Y: 0
+    - X: 3612
+      Y: 0
+    - X: 3612
+      Y: 44
+    - X: 3732
+      Y: 0
+    - X: 3772
+      Y: 0
+    - X: 3772
+      Y: 44
+    - X: 1132
+      Y: 32
+    - X: 1175
+      Y: 32
+    - X: 1175
+      Y: 76
+    - X: 696
+      Y: 20
+    - X: 737
+      Y: 20
+    - X: 737
+      Y: 64
+    - X: 1236
+      Y: 24
+    - X: 1278
+      Y: 24
+    - X: 1278
+      Y: 68
+    - X: 3450
+      Y: 0
+    - X: 3490
+      Y: 0
+    - X: 3490
+      Y: 43
+    - X: 308
+      Y: 24
+    - X: 349
+      Y: 24
+    - X: 349
+      Y: 68
+    - X: 170
+      Y: 28
+    - X: 212
+      Y: 28
+    - X: 212
+      Y: 72
+    - X: 1444
+      Y: 0
+    - X: 1483
+      Y: 0
+    - X: 1483
+      Y: 36
+    - X: 62
+      Y: 0
+    - X: 92
+      Y: 0
+    - X: 92
+      Y: 21
+    - X: 1132
+      Y: 0
+    - X: 1171
+      Y: 0
+    - X: 1171
+      Y: 31
+    - X: 2134
+      Y: 0
+    - X: 2163
+      Y: 0
+    - X: 2163
+      Y: 51
+    - X: 2194
+      Y: 0
+    - X: 2223
+      Y: 0
+    - X: 2223
+      Y: 51
+    - X: 718
+      Y: 464
+    - X: 776
+      Y: 464
+    - X: 776
+      Y: 528
+    - X: 2428
+      Y: 928
+    - X: 2513
+      Y: 928
+    - X: 2513
+      Y: 994
+    - X: 3220
+      Y: 872
+    - X: 3297
+      Y: 872
+    - X: 3297
+      Y: 940
+    - X: 2926
+      Y: 864
+    - X: 3007
+      Y: 864
+    - X: 3007
+      Y: 928
+    - X: 362
+      Y: 260
+    - X: 412
+      Y: 260
+    - X: 412
+      Y: 327
+    - X: 2838
+      Y: 932
+    - X: 2925
+      Y: 932
+    - X: 2925
+      Y: 997
+    - X: 2446
+      Y: 668
+    - X: 2513
+      Y: 668
+    - X: 2513
+      Y: 734
+    - X: 3150
+      Y: 212
+    - X: 3223
+      Y: 212
+    - X: 3223
+      Y: 255
+    - X: 214
+      Y: 628
+    - X: 279
+      Y: 628
+    - X: 279
+      Y: 693
+    - X: 2864
+      Y: 848
+    - X: 2925
+      Y: 848
+    - X: 2925
+      Y: 932
+    - X: 3272
+      Y: 572
+    - X: 3337
+      Y: 572
+    - X: 3337
+      Y: 634
+    - X: 610
+      Y: 840
+    - X: 685
+      Y: 840
+    - X: 685
+      Y: 908
+    - X: 1206
+      Y: 920
+    - X: 1287
+      Y: 920
+    - X: 1287
+      Y: 988
+    - X: 1960
+      Y: 868
+    - X: 2037
+      Y: 868
+    - X: 2037
+      Y: 936
+    - X: 2926
+      Y: 928
+    - X: 3009
+      Y: 928
+    - X: 3009
+      Y: 996
+    - X: 2038
+      Y: 924
+    - X: 2120
+      Y: 924
+    - X: 2120
+      Y: 992
+    - X: 1372
+      Y: 932
+    - X: 1455
+      Y: 932
+    - X: 1455
+      Y: 1000
+    - X: 3964
+      Y: 872
+    - X: 4041
+      Y: 872
+    - X: 4041
+      Y: 940
+    - X: 688
+      Y: 932
+    - X: 771
+      Y: 932
+    - X: 771
+      Y: 1000
+    - X: 3430
+      Y: 852
+    - X: 3506
+      Y: 852
+    - X: 3506
+      Y: 920
+    - X: 2558
+      Y: 920
+    - X: 2639
+      Y: 920
+    - X: 2639
+      Y: 988
+    - X: 2756
+      Y: 920
+    - X: 2837
+      Y: 920
+    - X: 2837
+      Y: 988
+    - X: 1574
+      Y: 868
+    - X: 1651
+      Y: 868
+    - X: 1651
+      Y: 936
+    - X: 1566
+      Y: 668
+    - X: 1631
+      Y: 668
+    - X: 1631
+      Y: 736
+    - X: 4022
+      Y: 236
+    - X: 4089
+      Y: 236
+    - X: 4089
+      Y: 285
+    - X: 46
+      Y: 204
+    - X: 95
+      Y: 204
+    - X: 95
+      Y: 268
+    - X: 1832
+      Y: 236
+    - X: 1899
+      Y: 236
+    - X: 1899
+      Y: 285
+    - X: 96
+      Y: 204
+    - X: 145
+      Y: 204
+    - X: 145
+      Y: 268
+    - X: 1144
+      Y: 504
+    - X: 1206
+      Y: 504
+    - X: 1206
+      Y: 565
+    - X: 1812
+      Y: 504
+    - X: 1874
+      Y: 504
+    - X: 1874
+      Y: 565
+    - X: 4002
+      Y: 640
+    - X: 4075
+      Y: 640
+    - X: 4075
+      Y: 699
+    - X: 760
+      Y: 644
+    - X: 833
+      Y: 644
+    - X: 833
+      Y: 703
+    - X: 2890
+      Y: 556
+    - X: 2958
+      Y: 556
+    - X: 2958
+      Y: 614
+    - X: 1124
+      Y: 568
+    - X: 1193
+      Y: 568
+    - X: 1193
+      Y: 626
+    - X: 1280
+      Y: 188
+    - X: 1328
+      Y: 188
+    - X: 1328
+      Y: 252
+    - X: 1328
+      Y: 188
+    - X: 1376
+      Y: 188
+    - X: 1376
+      Y: 252
+    - X: 764
+      Y: 228
+    - X: 830
+      Y: 228
+    - X: 830
+      Y: 277
+    - X: 3972
+      Y: 228
+    - X: 4021
+      Y: 228
+    - X: 4021
+      Y: 295
+    - X: 576
+      Y: 228
+    - X: 642
+      Y: 228
+    - X: 642
+      Y: 277
+    - X: 1552
+      Y: 236
+    - X: 1601
+      Y: 236
+    - X: 1601
+      Y: 303
+    - X: 2762
+      Y: 292
+    - X: 2832
+      Y: 292
+    - X: 2832
+      Y: 341
+    - X: 2464
+      Y: 292
+    - X: 2534
+      Y: 292
+    - X: 2534
+      Y: 341
+    - X: 280
+      Y: 676
+    - X: 350
+      Y: 676
+    - X: 350
+      Y: 740
+    - X: 3734
+      Y: 916
+    - X: 3805
+      Y: 916
+    - X: 3805
+      Y: 993
+    - X: 1310
+      Y: 252
+    - X: 1359
+      Y: 252
+    - X: 1359
+      Y: 320
+    - X: 3210
+      Y: 540
+    - X: 3271
+      Y: 540
+    - X: 3271
+      Y: 604
+    - X: 454
+      Y: 540
+    - X: 515
+      Y: 540
+    - X: 515
+      Y: 604
+    - X: 2830
+      Y: 628
+    - X: 2887
+      Y: 628
+    - X: 2887
+      Y: 703
+    - X: 1974
+      Y: 580
+    - X: 2028
+      Y: 580
+    - X: 2028
+      Y: 655
+    - X: 1236
+      Y: 0
+    - X: 1287
+      Y: 0
+    - X: 1287
+      Y: 24
+    - X: 394
+      Y: 804
+    - X: 454
+      Y: 804
+    - X: 454
+      Y: 887
+    - X: 2622
+      Y: 88
+    - X: 2688
+      Y: 88
+    - X: 2688
+      Y: 127
+    - X: 1618
+      Y: 172
+    - X: 1673
+      Y: 172
+    - X: 1673
+      Y: 225
+    - X: 1062
+      Y: 172
+    - X: 1117
+      Y: 172
+    - X: 1117
+      Y: 225
+    - X: 2792
+      Y: 116
+    - X: 2842
+      Y: 116
+    - X: 2842
+      Y: 169
+    - X: 1808
+      Y: 116
+    - X: 1858
+      Y: 116
+    - X: 1858
+      Y: 169
+    - X: 3594
+      Y: 636
+    - X: 3644
+      Y: 636
+    - X: 3644
+      Y: 724
+    - X: 1706
+      Y: 56
+    - X: 1760
+      Y: 56
+    - X: 1760
+      Y: 101
+    - X: 852
+      Y: 144
+    - X: 905
+      Y: 144
+    - X: 905
+      Y: 197
+    - X: 3060
+      Y: 192
+    - X: 3111
+      Y: 192
+    - X: 3111
+      Y: 253
+    - X: 3400
+      Y: 192
+    - X: 3451
+      Y: 192
+    - X: 3451
+      Y: 253
+    - X: 3166
+      Y: 48
+    - X: 3223
+      Y: 48
+    - X: 3223
+      Y: 89
+    - X: 1336
+      Y: 624
+    - X: 1401
+      Y: 624
+    - X: 1401
+      Y: 689
+    - X: 2946
+      Y: 164
+    - X: 3003
+      Y: 164
+    - X: 3003
+      Y: 215
+    - X: 862
+      Y: 936
+    - X: 953
+      Y: 936
+    - X: 953
+      Y: 999
+    - X: 3298
+      Y: 916
+    - X: 3383
+      Y: 916
+    - X: 3383
+      Y: 980
+    - X: 3648
+      Y: 916
+    - X: 3733
+      Y: 916
+    - X: 3733
+      Y: 980
+    - X: 3652
+      Y: 624
+    - X: 3717
+      Y: 624
+    - X: 3717
+      Y: 689
+    - X: 1484
+      Y: 368
+    - X: 1549
+      Y: 368
+    - X: 1549
+      Y: 423
+    - X: 3042
+      Y: 388
+    - X: 3102
+      Y: 388
+    - X: 3102
+      Y: 448
+    - X: 836
+      Y: 580
+    - X: 900
+      Y: 580
+    - X: 900
+      Y: 643
+    - X: 800
+      Y: 80
+    - X: 865
+      Y: 80
+    - X: 865
+      Y: 119
+    - X: 866
+      Y: 80
+    - X: 906
+      Y: 80
+    - X: 906
+      Y: 144
+    - X: 1632
+      Y: 76
+    - X: 1697
+      Y: 76
+    - X: 1697
+      Y: 115
+    - X: 212
+      Y: 72
+    - X: 251
+      Y: 72
+    - X: 251
+      Y: 136
+    - X: 3308
+      Y: 148
+    - X: 3353
+      Y: 148
+    - X: 3353
+      Y: 211
+    - X: 794
+      Y: 384
+    - X: 854
+      Y: 384
+    - X: 854
+      Y: 444
+    - X: 3464
+      Y: 620
+    - X: 3527
+      Y: 620
+    - X: 3527
+      Y: 687
+    - X: 3718
+      Y: 648
+    - X: 3785
+      Y: 648
+    - X: 3785
+      Y: 713
+    - X: 1632
+      Y: 668
+    - X: 1700
+      Y: 668
+    - X: 1700
+      Y: 733
+    - X: 3766
+      Y: 584
+    - X: 3830
+      Y: 584
+    - X: 3830
+      Y: 647
+    - X: 2554
+      Y: 580
+    - X: 2618
+      Y: 580
+    - X: 2618
+      Y: 643
+    - X: 4024
+      Y: 576
+    - X: 4088
+      Y: 576
+    - X: 4088
+      Y: 639
+    - X: 3326
+      Y: 680
+    - X: 3393
+      Y: 680
+    - X: 3393
+      Y: 747
+    - X: 1770
+      Y: 644
+    - X: 1838
+      Y: 644
+    - X: 1838
+      Y: 708
+    - X: 2378
+      Y: 668
+    - X: 2445
+      Y: 668
+    - X: 2445
+      Y: 734
+    - X: 2242
+      Y: 668
+    - X: 2309
+      Y: 668
+    - X: 2309
+      Y: 734
+    - X: 3146
+      Y: 856
+    - X: 3219
+      Y: 856
+    - X: 3219
+      Y: 927
+    - X: 1560
+      Y: 736
+    - X: 1629
+      Y: 736
+    - X: 1629
+      Y: 804
+    - X: 486
+      Y: 732
+    - X: 555
+      Y: 732
+    - X: 555
+      Y: 800
+    - X: 2946
+      Y: 732
+    - X: 3015
+      Y: 732
+    - X: 3015
+      Y: 800
+    - X: 1166
+      Y: 732
+    - X: 1235
+      Y: 732
+    - X: 1235
+      Y: 800
+    - X: 2308
+      Y: 736
+    - X: 2377
+      Y: 736
+    - X: 2377
+      Y: 804
+    - X: 2238
+      Y: 736
+    - X: 2307
+      Y: 736
+    - X: 2307
+      Y: 804
+    - X: 1630
+      Y: 736
+    - X: 1699
+      Y: 736
+    - X: 1699
+      Y: 804
+    - X: 2026
+      Y: 736
+    - X: 2095
+      Y: 736
+    - X: 2095
+      Y: 804
+    - X: 1368
+      Y: 784
+    - X: 1439
+      Y: 784
+    - X: 1439
+      Y: 853
+    - X: 3852
+      Y: 680
+    - X: 3919
+      Y: 680
+    - X: 3919
+      Y: 747
+    - X: 1240
+      Y: 680
+    - X: 1307
+      Y: 680
+    - X: 1307
+      Y: 747
+    - X: 3544
+      Y: 364
+    - X: 3599
+      Y: 364
+    - X: 3599
+      Y: 429
+    - X: 2026
+      Y: 672
+    - X: 2096
+      Y: 672
+    - X: 2096
+      Y: 736
+    - X: 1096
+      Y: 36
+    - X: 1128
+      Y: 36
+    - X: 1128
+      Y: 102
+    - X: 742
+      Y: 860
+    - X: 815
+      Y: 860
+    - X: 815
+      Y: 931
+    - X: 298
+      Y: 848
+    - X: 380
+      Y: 848
+    - X: 380
+      Y: 910
+    - X: 570
+      Y: 604
+    - X: 634
+      Y: 604
+    - X: 634
+      Y: 668
+    - X: 1580
+      Y: 604
+    - X: 1644
+      Y: 604
+    - X: 1644
+      Y: 668
+    - X: 3538
+      Y: 500
+    - X: 3600
+      Y: 500
+    - X: 3600
+      Y: 561
+    - X: 900
+      Y: 628
+    - X: 965
+      Y: 628
+    - X: 965
+      Y: 693
+    - X: 3092
+      Y: 460
+    - X: 3157
+      Y: 460
+    - X: 3157
+      Y: 517
+    - X: 3600
+      Y: 416
+    - X: 3657
+      Y: 416
+    - X: 3657
+      Y: 480
+    - X: 2472
+      Y: 164
+    - X: 2518
+      Y: 164
+    - X: 2518
+      Y: 227
+    - X: 3052
+      Y: 256
+    - X: 3105
+      Y: 256
+    - X: 3105
+      Y: 319
+    - X: 3450
+      Y: 280
+    - X: 3503
+      Y: 280
+    - X: 3503
+      Y: 344
+    - X: 240
+      Y: 380
+    - X: 297
+      Y: 380
+    - X: 297
+      Y: 443
+    - X: 244
+      Y: 316
+    - X: 299
+      Y: 316
+    - X: 299
+      Y: 379
+    - X: 3314
+      Y: 368
+    - X: 3370
+      Y: 368
+    - X: 3370
+      Y: 432
+    - X: 1154
+      Y: 240
+    - X: 1207
+      Y: 240
+    - X: 1207
+      Y: 302
+    - X: 2298
+      Y: 308
+    - X: 2352
+      Y: 308
+    - X: 2352
+      Y: 372
+    - X: 1550
+      Y: 416
+    - X: 1607
+      Y: 416
+    - X: 1607
+      Y: 480
+    - X: 3720
+      Y: 204
+    - X: 3776
+      Y: 204
+    - X: 3776
+      Y: 260
+    - X: 1718
+      Y: 588
+    - X: 1770
+      Y: 588
+    - X: 1770
+      Y: 666
+    - X: 1688
+      Y: 464
+    - X: 1746
+      Y: 464
+    - X: 1746
+      Y: 528
+    - X: 322
+      Y: 600
+    - X: 377
+      Y: 600
+    - X: 377
+      Y: 675
+    - X: 3106
+      Y: 256
+    - X: 3159
+      Y: 256
+    - X: 3159
+      Y: 319
+    - X: 1360
+      Y: 252
+    - X: 1407
+      Y: 252
+    - X: 1407
+      Y: 323
+    - X: 2304
+      Y: 464
+    - X: 2364
+      Y: 464
+    - X: 2364
+      Y: 526
+    - X: 3252
+      Y: 172
+    - X: 3307
+      Y: 172
+    - X: 3307
+      Y: 226
+    - X: 1368
+      Y: 76
+    - X: 1415
+      Y: 76
+    - X: 1415
+      Y: 129
+    - X: 2418
+      Y: 148
+    - X: 2471
+      Y: 148
+    - X: 2471
+      Y: 201
+    - X: 362
+      Y: 196
+    - X: 413
+      Y: 196
+    - X: 413
+      Y: 257
+    - X: 3276
+      Y: 276
+    - X: 3332
+      Y: 276
+    - X: 3332
+      Y: 336
+    - X: 1498
+      Y: 228
+    - X: 1552
+      Y: 228
+    - X: 1552
+      Y: 288
+    - X: 2408
+      Y: 260
+    - X: 2463
+      Y: 260
+    - X: 2463
+      Y: 321
+    - X: 2304
+      Y: 180
+    - X: 2355
+      Y: 180
+    - X: 2355
+      Y: 239
+    - X: 3452
+      Y: 216
+    - X: 3505
+      Y: 216
+    - X: 3505
+      Y: 277
+    - X: 950
+      Y: 264
+    - X: 1005
+      Y: 264
+    - X: 1005
+      Y: 325
+    - X: 3422
+      Y: 84
+    - X: 3473
+      Y: 84
+    - X: 3473
+      Y: 134
+    - X: 1260
+      Y: 252
+    - X: 1309
+      Y: 252
+    - X: 1309
+      Y: 320
+    - X: 2818
+      Y: 172
+    - X: 2871
+      Y: 172
+    - X: 2871
+      Y: 228
+    - X: 2140
+      Y: 480
+    - X: 2193
+      Y: 480
+    - X: 2193
+      Y: 551
+    - X: 2032
+      Y: 124
+    - X: 2081
+      Y: 124
+    - X: 2081
+      Y: 179
+    - X: 3354
+      Y: 148
+    - X: 3399
+      Y: 148
+    - X: 3399
+      Y: 211
+    - X: 520
+      Y: 184
+    - X: 575
+      Y: 184
+    - X: 575
+      Y: 239
+    - X: 1560
+      Y: 180
+    - X: 1615
+      Y: 180
+    - X: 1615
+      Y: 234
+    - X: 0
+      Y: 68
+    - X: 46
+      Y: 68
+    - X: 46
+      Y: 121
+    - X: 2364
+      Y: 144
+    - X: 2417
+      Y: 144
+    - X: 2417
+      Y: 197
+    - X: 950
+      Y: 196
+    - X: 1001
+      Y: 196
+    - X: 1001
+      Y: 257
+    - X: 2866
+      Y: 272
+    - X: 2922
+      Y: 272
+    - X: 2922
+      Y: 332
+    - X: 1050
+      Y: 228
+    - X: 1104
+      Y: 228
+    - X: 1104
+      Y: 288
+    - X: 3710
+      Y: 260
+    - X: 3765
+      Y: 260
+    - X: 3765
+      Y: 321
+    - X: 2012
+      Y: 180
+    - X: 2063
+      Y: 180
+    - X: 2063
+      Y: 239
+    - X: 710
+      Y: 224
+    - X: 763
+      Y: 224
+    - X: 763
+      Y: 285
+    - X: 2042
+      Y: 260
+    - X: 2097
+      Y: 260
+    - X: 2097
+      Y: 321
+    - X: 3624
+      Y: 92
+    - X: 3676
+      Y: 92
+    - X: 3676
+      Y: 142
+    - X: 3822
+      Y: 248
+    - X: 3871
+      Y: 248
+    - X: 3871
+      Y: 316
+    - X: 154
+      Y: 184
+    - X: 208
+      Y: 184
+    - X: 208
+      Y: 240
+    - X: 268
+      Y: 476
+    - X: 321
+      Y: 476
+    - X: 321
+      Y: 547
+    - X: 2314
+      Y: 124
+    - X: 2363
+      Y: 124
+    - X: 2363
+      Y: 179
+    - X: 750
+      Y: 128
+    - X: 794
+      Y: 128
+    - X: 794
+      Y: 191
+    - X: 460
+      Y: 192
+    - X: 516
+      Y: 192
+    - X: 516
+      Y: 247
+    - X: 584
+      Y: 696
+    - X: 660
+      Y: 696
+    - X: 660
+      Y: 756
+    - X: 3462
+      Y: 936
+    - X: 3566
+      Y: 936
+    - X: 3566
+      Y: 996
+    - X: 2368
+      Y: 0
+    - X: 2407
+      Y: 0
+    - X: 2407
+      Y: 40
+    - X: 2482
+      Y: 40
+    - X: 2523
+      Y: 40
+    - X: 2523
+      Y: 89
+    - X: 2440
+      Y: 40
+    - X: 2481
+      Y: 40
+    - X: 2481
+      Y: 89
+    - X: 2636
+      Y: 0
+    - X: 2676
+      Y: 0
+    - X: 2676
+      Y: 40
+    - X: 1484
+      Y: 36
+    - X: 1524
+      Y: 36
+    - X: 1524
+      Y: 90
+    - X: 1030
+      Y: 36
+    - X: 1070
+      Y: 36
+    - X: 1070
+      Y: 85
+    - X: 1212
+      Y: 0
+    - X: 1236
+      Y: 0
+    - X: 1236
+      Y: 51
+    - X: 1632
+      Y: 0
+    - X: 1661
+      Y: 0
+    - X: 1661
+      Y: 49
+    - X: 3422
+      Y: 44
+    - X: 3477
+      Y: 44
+    - X: 3477
+      Y: 84
+    - X: 3152
+      Y: 0
+    - X: 3193
+      Y: 0
+    - X: 3193
+      Y: 40
+    - X: 1854
+      Y: 0
+    - X: 1890
+      Y: 0
+    - X: 1890
+      Y: 40
+    - X: 2330
+      Y: 0
+    - X: 2368
+      Y: 0
+    - X: 2368
+      Y: 41
+    - X: 3266
+      Y: 0
+    - X: 3302
+      Y: 0
+    - X: 3302
+      Y: 47
+    - X: 3026
+      Y: 88
+    - X: 3061
+      Y: 88
+    - X: 3061
+      Y: 162
+    - X: 3118
+      Y: 88
+    - X: 3153
+      Y: 88
+    - X: 3153
+      Y: 162
+    - X: 422
+      Y: 0
+    - X: 459
+      Y: 0
+    - X: 459
+      Y: 25
+    - X: 2042
+      Y: 52
+    - X: 2075
+      Y: 52
+    - X: 2075
+      Y: 124
+    - X: 46
+      Y: 68
+    - X: 80
+      Y: 68
+    - X: 80
+      Y: 140
+    - X: 656
+      Y: 120
+    - X: 694
+      Y: 120
+    - X: 694
+      Y: 192
+    - X: 2082
+      Y: 104
+    - X: 2120
+      Y: 104
+    - X: 2120
+      Y: 176
+    - X: 798
+      Y: 0
+    - X: 845
+      Y: 0
+    - X: 845
+      Y: 23
+    - X: 2840
+      Y: 36
+    - X: 2923
+      Y: 36
+    - X: 2923
+      Y: 59
+    - X: 254
+      Y: 28
+    - X: 282
+      Y: 28
+    - X: 282
+      Y: 94
+    - X: 1454
+      Y: 288
+    - X: 1505
+      Y: 288
+    - X: 1505
+      Y: 355
+    - X: 2122
+      Y: 52
+    - X: 2174
+      Y: 52
+    - X: 2174
+      Y: 98
+    - X: 2756
+      Y: 60
+    - X: 2809
+      Y: 60
+    - X: 2809
+      Y: 106
+    - X: 2608
+      Y: 184
+    - X: 2663
+      Y: 184
+    - X: 2663
+      Y: 239
+    - X: 1524
+      Y: 0
+    - X: 1550
+      Y: 0
+    - X: 1550
+      Y: 54
+    - X: 4046
+      Y: 68
+    - X: 4090
+      Y: 68
+    - X: 4090
+      Y: 124
+    - X: 46
+      Y: 148
+    - X: 99
+      Y: 148
+    - X: 99
+      Y: 201
+    - X: 2436
+      Y: 92
+    - X: 2485
+      Y: 92
+    - X: 2485
+      Y: 145
+    - X: 162
+      Y: 128
+    - X: 212
+      Y: 128
+    - X: 212
+      Y: 183
+    - X: 700
+      Y: 116
+    - X: 750
+      Y: 116
+    - X: 750
+      Y: 169
+    - X: 608
+      Y: 64
+    - X: 654
+      Y: 64
+    - X: 654
+      Y: 117
+    - X: 654
+      Y: 64
+    - X: 700
+      Y: 64
+    - X: 700
+      Y: 117
+    - X: 408
+      Y: 140
+    - X: 459
+      Y: 140
+    - X: 459
+      Y: 195
+    - X: 1122
+      Y: 132
+    - X: 1173
+      Y: 132
+    - X: 1173
+      Y: 185
+    - X: 1708
+      Y: 0
+    - X: 1735
+      Y: 0
+    - X: 1735
+      Y: 53
+    - X: 166
+      Y: 72
+    - X: 212
+      Y: 72
+    - X: 212
+      Y: 126
+    - X: 468
+      Y: 136
+    - X: 520
+      Y: 136
+    - X: 520
+      Y: 189
+    - X: 3890
+      Y: 64
+    - X: 3936
+      Y: 64
+    - X: 3936
+      Y: 117
+    - X: 1376
+      Y: 196
+    - X: 1435
+      Y: 196
+    - X: 1435
+      Y: 249
+    - X: 2614
+      Y: 128
+    - X: 2665
+      Y: 128
+    - X: 2665
+      Y: 181
+    - X: 1506
+      Y: 172
+    - X: 1559
+      Y: 172
+    - X: 1559
+      Y: 227
+    - X: 3474
+      Y: 92
+    - X: 3523
+      Y: 92
+    - X: 3523
+      Y: 145
+    - X: 3658
+      Y: 468
+    - X: 3712
+      Y: 468
+    - X: 3712
+      Y: 537
+    - X: 1632
+      Y: 116
+    - X: 1682
+      Y: 116
+    - X: 1682
+      Y: 169
+    - X: 2214
+      Y: 100
+    - X: 2262
+      Y: 100
+    - X: 2262
+      Y: 155
+    - X: 3070
+      Y: 80
+    - X: 3118
+      Y: 80
+    - X: 3118
+      Y: 133
+    - X: 3828
+      Y: 124
+    - X: 3878
+      Y: 124
+    - X: 3878
+      Y: 178
+    - X: 3720
+      Y: 148
+    - X: 3774
+      Y: 148
+    - X: 3774
+      Y: 201
+    - X: 1002
+      Y: 504
+    - X: 1072
+      Y: 504
+    - X: 1072
+      Y: 558
+    - X: 3774
+      Y: 148
+    - X: 3828
+      Y: 148
+    - X: 3828
+      Y: 201
+    - X: 2120
+      Y: 152
+    - X: 2174
+      Y: 152
+    - X: 2174
+      Y: 205
+    - X: 3524
+      Y: 92
+    - X: 3573
+      Y: 92
+    - X: 3573
+      Y: 145
+    - X: 2350
+      Y: 388
+    - X: 2398
+      Y: 388
+    - X: 2398
+      Y: 463
+    - X: 2908
+      Y: 436
+    - X: 2975
+      Y: 436
+    - X: 2975
+      Y: 491
+    - X: 3696
+      Y: 392
+    - X: 3745
+      Y: 392
+    - X: 3745
+      Y: 466
+    - X: 2794
+      Y: 468
+    - X: 2848
+      Y: 468
+    - X: 2848
+      Y: 537
+    - X: 1664
+      Y: 528
+    - X: 1717
+      Y: 528
+    - X: 1717
+      Y: 601
+    - X: 2308
+      Y: 528
+    - X: 2361
+      Y: 528
+    - X: 2361
+      Y: 601
+    - X: 718
+      Y: 528
+    - X: 771
+      Y: 528
+    - X: 771
+      Y: 601
+    - X: 352
+      Y: 392
+    - X: 405
+      Y: 392
+    - X: 405
+      Y: 460
+    - X: 664
+      Y: 428
+    - X: 717
+      Y: 428
+    - X: 717
+      Y: 497
+    - X: 516
+      Y: 568
+    - X: 569
+      Y: 568
+    - X: 569
+      Y: 643
+    - X: 3796
+      Y: 460
+    - X: 3866
+      Y: 460
+    - X: 3866
+      Y: 513
+    - X: 2726
+      Y: 472
+    - X: 2776
+      Y: 472
+    - X: 2776
+      Y: 547
+    - X: 1734
+      Y: 248
+    - X: 1780
+      Y: 248
+    - X: 1780
+      Y: 321
+    - X: 412
+      Y: 264
+    - X: 458
+      Y: 264
+    - X: 458
+      Y: 337
+    - X: 3210
+      Y: 292
+    - X: 3257
+      Y: 292
+    - X: 3257
+      Y: 365
+    - X: 3776
+      Y: 204
+    - X: 3822
+      Y: 204
+    - X: 3822
+      Y: 273
+    - X: 80
+      Y: 72
+    - X: 114
+      Y: 72
+    - X: 114
+      Y: 145
+    - X: 1854
+      Y: 40
+    - X: 1885
+      Y: 40
+    - X: 1885
+      Y: 113
+    - X: 1666
+      Y: 268
+    - X: 1712
+      Y: 268
+    - X: 1712
+      Y: 341
+    - X: 2212
+      Y: 156
+    - X: 2254
+      Y: 156
+    - X: 2254
+      Y: 225
+    - X: 1408
+      Y: 140
+    - X: 1461
+      Y: 140
+    - X: 1461
+      Y: 193
+    - X: 458
+      Y: 316
+    - X: 509
+      Y: 316
+    - X: 509
+      Y: 384
+    - X: 2084
+      Y: 544
+    - X: 2137
+      Y: 544
+    - X: 2137
+      Y: 618
+    - X: 1308
+      Y: 540
+    - X: 1361
+      Y: 540
+    - X: 1361
+      Y: 614
+    - X: 3470
+      Y: 540
+    - X: 3523
+      Y: 540
+    - X: 3523
+      Y: 614
+    - X: 978
+      Y: 428
+    - X: 1031
+      Y: 428
+    - X: 1031
+      Y: 497
+    - X: 1256
+      Y: 460
+    - X: 1309
+      Y: 460
+    - X: 1309
+      Y: 530
+    - X: 794
+      Y: 172
+    - X: 847
+      Y: 172
+    - X: 847
+      Y: 227
+    - X: 2254
+      Y: 444
+    - X: 2304
+      Y: 444
+    - X: 2304
+      Y: 518
+    - X: 108
+      Y: 448
+    - X: 158
+      Y: 448
+    - X: 158
+      Y: 522
+    - X: 3042
+      Y: 448
+    - X: 3092
+      Y: 448
+    - X: 3092
+      Y: 522
+    - X: 3142
+      Y: 324
+    - X: 3192
+      Y: 324
+    - X: 3192
+      Y: 394
+    - X: 1414
+      Y: 556
+    - X: 1468
+      Y: 556
+    - X: 1468
+      Y: 629
+    - X: 3154
+      Y: 92
+    - X: 3203
+      Y: 92
+    - X: 3203
+      Y: 145
+    - X: 2040
+      Y: 324
+    - X: 2093
+      Y: 324
+    - X: 2093
+      Y: 390
+    - X: 1534
+      Y: 480
+    - X: 1587
+      Y: 480
+    - X: 1587
+      Y: 551
+    - X: 2028
+      Y: 540
+    - X: 2083
+      Y: 540
+    - X: 2083
+      Y: 611
+    - X: 1206
+      Y: 444
+    - X: 1256
+      Y: 444
+    - X: 1256
+      Y: 518
+    - X: 1762
+      Y: 444
+    - X: 1812
+      Y: 444
+    - X: 1812
+      Y: 518
+    - X: 994
+      Y: 356
+    - X: 1044
+      Y: 356
+    - X: 1044
+      Y: 427
+    - X: 3866
+      Y: 460
+    - X: 3916
+      Y: 460
+    - X: 3916
+      Y: 535
+    - X: 348
+      Y: 460
+    - X: 398
+      Y: 460
+    - X: 398
+      Y: 534
+    - X: 100
+      Y: 148
+    - X: 153
+      Y: 148
+    - X: 153
+      Y: 201
+    - X: 0
+      Y: 188
+    - X: 46
+      Y: 188
+    - X: 46
+      Y: 254
+    - X: 3872
+      Y: 248
+    - X: 3919
+      Y: 248
+    - X: 3919
+      Y: 319
+    - X: 3006
+      Y: 216
+    - X: 3052
+      Y: 216
+    - X: 3052
+      Y: 286
+    - X: 1710
+      Y: 392
+    - X: 1761
+      Y: 392
+    - X: 1761
+      Y: 463
+    - X: 3818
+      Y: 316
+    - X: 3865
+      Y: 316
+    - X: 3865
+      Y: 390
+    - X: 54
+      Y: 484
+    - X: 105
+      Y: 484
+    - X: 105
+      Y: 558
+    - X: 4044
+      Y: 428
+    - X: 4095
+      Y: 428
+    - X: 4095
+      Y: 500
+    - X: 1312
+      Y: 392
+    - X: 1363
+      Y: 392
+    - X: 1363
+      Y: 463
+    - X: 2838
+      Y: 548
+    - X: 2889
+      Y: 548
+    - X: 2889
+      Y: 625
+    - X: 1310
+      Y: 464
+    - X: 1361
+      Y: 464
+    - X: 1361
+      Y: 537
+    - X: 4022
+      Y: 180
+    - X: 4079
+      Y: 180
+    - X: 4079
+      Y: 233
+    - X: 1736
+      Y: 180
+    - X: 1780
+      Y: 180
+    - X: 1780
+      Y: 248
+    - X: 960
+      Y: 72
+    - X: 998
+      Y: 72
+    - X: 998
+      Y: 138
+    - X: 2118
+      Y: 208
+    - X: 2163
+      Y: 208
+    - X: 2163
+      Y: 279
+    - X: 3856
+      Y: 52
+    - X: 3890
+      Y: 52
+    - X: 3890
+      Y: 123
+    - X: 1002
+      Y: 36
+    - X: 1030
+      Y: 36
+    - X: 1030
+      Y: 106
+    - X: 2576
+      Y: 240
+    - X: 2637
+      Y: 240
+    - X: 2637
+      Y: 294
+    - X: 1804
+      Y: 568
+    - X: 1859
+      Y: 568
+    - X: 1859
+      Y: 641
+    - X: 3600
+      Y: 556
+    - X: 3652
+      Y: 556
+    - X: 3652
+      Y: 633
+    - X: 1408
+      Y: 264
+    - X: 1454
+      Y: 264
+    - X: 1454
+      Y: 337
+    - X: 1104
+      Y: 348
+    - X: 1150
+      Y: 348
+    - X: 1150
+      Y: 425
+    - X: 556
+      Y: 72
+    - X: 603
+      Y: 72
+    - X: 603
+      Y: 125
+    - X: 114
+      Y: 80
+    - X: 162
+      Y: 80
+    - X: 162
+      Y: 133
+    - X: 550
+      Y: 128
+    - X: 601
+      Y: 128
+    - X: 601
+      Y: 181
+    - X: 3358
+      Y: 464
+    - X: 3409
+      Y: 464
+    - X: 3409
+      Y: 537
+    - X: 1362
+      Y: 544
+    - X: 1413
+      Y: 544
+    - X: 1413
+      Y: 621
+    - X: 3306
+      Y: 432
+    - X: 3357
+      Y: 432
+    - X: 3357
+      Y: 504
+    - X: 2684
+      Y: 364
+    - X: 2735
+      Y: 364
+    - X: 2735
+      Y: 434
+    - X: 1828
+      Y: 356
+    - X: 1881
+      Y: 356
+    - X: 1881
+      Y: 423
+    - X: 1974
+      Y: 508
+    - X: 2027
+      Y: 508
+    - X: 2027
+      Y: 580
+    - X: 3652
+      Y: 540
+    - X: 3705
+      Y: 540
+    - X: 3705
+      Y: 614
+    - X: 298
+      Y: 400
+    - X: 348
+      Y: 400
+    - X: 348
+      Y: 473
+    - X: 1206
+      Y: 520
+    - X: 1256
+      Y: 520
+    - X: 1256
+      Y: 597
+    - X: 2504
+      Y: 444
+    - X: 2554
+      Y: 444
+    - X: 2554
+      Y: 518
+    - X: 1882
+      Y: 356
+    - X: 1930
+      Y: 356
+    - X: 1930
+      Y: 430
+    - X: 616
+      Y: 360
+    - X: 664
+      Y: 360
+    - X: 664
+      Y: 434
+    - X: 458
+      Y: 384
+    - X: 506
+      Y: 384
+    - X: 506
+      Y: 459
+    - X: 610
+      Y: 436
+    - X: 658
+      Y: 436
+    - X: 658
+      Y: 513
+    - X: 2944
+      Y: 360
+    - X: 2992
+      Y: 360
+    - X: 2992
+      Y: 434
+    - X: 1932
+      Y: 76
+    - X: 1980
+      Y: 76
+    - X: 1980
+      Y: 129
+    - X: 3968
+      Y: 296
+    - X: 4018
+      Y: 296
+    - X: 4018
+      Y: 365
+    - X: 3400
+      Y: 256
+    - X: 3450
+      Y: 256
+    - X: 3450
+      Y: 323
+    - X: 2992
+      Y: 388
+    - X: 3042
+      Y: 388
+    - X: 3042
+      Y: 460
+    - X: 2664
+      Y: 504
+    - X: 2714
+      Y: 504
+    - X: 2714
+      Y: 580
+    - X: 3600
+      Y: 480
+    - X: 3651
+      Y: 480
+    - X: 3651
+      Y: 554
+    - X: 2634
+      Y: 352
+    - X: 2684
+      Y: 352
+    - X: 2684
+      Y: 423
+    - X: 1724
+      Y: 856
+    - X: 1794
+      Y: 856
+    - X: 1794
+      Y: 930
+    - X: 2192
+      Y: 556
+    - X: 2246
+      Y: 556
+    - X: 2246
+      Y: 629
+    - X: 1930
+      Y: 368
+    - X: 1979
+      Y: 368
+    - X: 1979
+      Y: 441
+    - X: 2988
+      Y: 288
+    - X: 3037
+      Y: 288
+    - X: 3037
+      Y: 358
+    - X: 976
+      Y: 848
+    - X: 1046
+      Y: 848
+    - X: 1046
+      Y: 921
+    - X: 3152
+      Y: 560
+    - X: 3205
+      Y: 560
+    - X: 3205
+      Y: 635
+    - X: 1918
+      Y: 0
+    - X: 1945
+      Y: 0
+    - X: 1945
+      Y: 54
+    - X: 2358
+      Y: 68
+    - X: 2402
+      Y: 68
+    - X: 2402
+      Y: 124
+    - X: 456
+      Y: 460
+    - X: 504
+      Y: 460
+    - X: 504
+      Y: 538
+    - X: 1356
+      Y: 856
+    - X: 1426
+      Y: 856
+    - X: 1426
+      Y: 930
+    - X: 1426
+      Y: 856
+    - X: 1496
+      Y: 856
+    - X: 1496
+      Y: 930
+    - X: 1440
+      Y: 784
+    - X: 1510
+      Y: 784
+    - X: 1510
+      Y: 854
+    - X: 1526
+      Y: 552
+    - X: 1580
+      Y: 552
+    - X: 1580
+      Y: 625
+    - X: 3624
+      Y: 144
+    - X: 3677
+      Y: 144
+    - X: 3677
+      Y: 197
+    - X: 3574
+      Y: 92
+    - X: 3623
+      Y: 92
+    - X: 3623
+      Y: 145
+    - X: 2856
+      Y: 60
+    - X: 2902
+      Y: 60
+    - X: 2902
+      Y: 113
+    - X: 2666
+      Y: 160
+    - X: 2720
+      Y: 160
+    - X: 2720
+      Y: 213
+    - X: 2810
+      Y: 60
+    - X: 2856
+      Y: 60
+    - X: 2856
+      Y: 113
+    - X: 3366
+      Y: 92
+    - X: 3415
+      Y: 92
+    - X: 3415
+      Y: 145
+    - X: 4022
+      Y: 124
+    - X: 4073
+      Y: 124
+    - X: 4073
+      Y: 177
+    - X: 3968
+      Y: 172
+    - X: 4022
+      Y: 172
+    - X: 4022
+      Y: 227
+    - X: 1736
+      Y: 0
+    - X: 1763
+      Y: 0
+    - X: 1763
+      Y: 53
+    - X: 3062
+      Y: 136
+    - X: 3114
+      Y: 136
+    - X: 3114
+      Y: 189
+    - X: 1226
+      Y: 140
+    - X: 1279
+      Y: 140
+    - X: 1279
+      Y: 193
+    - X: 2356
+      Y: 200
+    - X: 2415
+      Y: 200
+    - X: 2415
+      Y: 253
+    - X: 3878
+      Y: 124
+    - X: 3929
+      Y: 124
+    - X: 3929
+      Y: 177
+    - X: 1256
+      Y: 84
+    - X: 1304
+      Y: 84
+    - X: 1304
+      Y: 137
+    - X: 602
+      Y: 172
+    - X: 655
+      Y: 172
+    - X: 655
+      Y: 227
+    - X: 1356
+      Y: 132
+    - X: 1407
+      Y: 132
+    - X: 1407
+      Y: 185
+    - X: 1464
+      Y: 92
+    - X: 1513
+      Y: 92
+    - X: 1513
+      Y: 145
+    - X: 420
+      Y: 84
+    - X: 468
+      Y: 84
+    - X: 468
+      Y: 137
+    - X: 1416
+      Y: 84
+    - X: 1464
+      Y: 84
+    - X: 1464
+      Y: 137
+    - X: 3198
+      Y: 152
+    - X: 3252
+      Y: 152
+    - X: 3252
+      Y: 205
+    - X: 208
+      Y: 224
+    - X: 269
+      Y: 224
+    - X: 269
+      Y: 277
+    - X: 1682
+      Y: 156
+    - X: 1736
+      Y: 156
+    - X: 1736
+      Y: 209
+    - X: 1674
+      Y: 212
+    - X: 1734
+      Y: 212
+    - X: 1734
+      Y: 265
+    - X: 304
+      Y: 192
+    - X: 361
+      Y: 192
+    - X: 361
+      Y: 246
+    - X: 2254
+      Y: 528
+    - X: 2307
+      Y: 528
+    - X: 2307
+      Y: 601
+    - X: 2164
+      Y: 272
+    - X: 2210
+      Y: 272
+    - X: 2210
+      Y: 345
+    - X: 3232
+      Y: 464
+    - X: 3283
+      Y: 464
+    - X: 3283
+      Y: 537
+    - X: 1550
+      Y: 40
+    - X: 1581
+      Y: 40
+    - X: 1581
+      Y: 113
+    - X: 0
+      Y: 544
+    - X: 53
+      Y: 544
+    - X: 53
+      Y: 618
+    - X: 2138
+      Y: 552
+    - X: 2192
+      Y: 552
+    - X: 2192
+      Y: 625
+    - X: 3338
+      Y: 604
+    - X: 3395
+      Y: 604
+    - X: 3395
+      Y: 677
+    - X: 2720
+      Y: 160
+    - X: 2762
+      Y: 160
+    - X: 2762
+      Y: 229
+    - X: 0
+      Y: 472
+    - X: 54
+      Y: 472
+    - X: 54
+      Y: 541
+    - X: 3016
+      Y: 748
+    - X: 3072
+      Y: 748
+    - X: 3072
+      Y: 833
+    - X: 3220
+      Y: 940
+    - X: 3298
+      Y: 940
+    - X: 3298
+      Y: 1026
+    - X: 3370
+      Y: 400
+    - X: 3427
+      Y: 400
+    - X: 3427
+      Y: 464
+    - X: 1992
+      Y: 0
+    - X: 2043
+      Y: 0
+    - X: 2043
+      Y: 29
+    - X: 1662
+      Y: 0
+    - X: 1708
+      Y: 0
+    - X: 1708
+      Y: 31
+    - X: 1398
+      Y: 0
+    - X: 1443
+      Y: 0
+    - X: 1443
+      Y: 31
+    - X: 1038
+      Y: 0
+    - X: 1072
+      Y: 0
+    - X: 1072
+      Y: 33
+    - X: 282
+      Y: 0
+    - X: 308
+      Y: 0
+    - X: 308
+      Y: 32
+    - X: 882
+      Y: 0
+    - X: 917
+      Y: 0
+    - X: 917
+      Y: 31
+    - X: 846
+      Y: 0
+    - X: 881
+      Y: 0
+    - X: 881
+      Y: 31
+    - X: 458
+      Y: 36
+    - X: 501
+      Y: 36
+    - X: 501
+      Y: 81
+    - X: 2600
+      Y: 0
+    - X: 2636
+      Y: 0
+    - X: 2636
+      Y: 44
+    - X: 3692
+      Y: 0
+    - X: 3732
+      Y: 0
+    - X: 3732
+      Y: 44
+    - X: 3974
+      Y: 0
+    - X: 4014
+      Y: 0
+    - X: 4014
+      Y: 45
+    - X: 1324
+      Y: 32
+    - X: 1367
+      Y: 32
+    - X: 1367
+      Y: 76
+    - X: 42
+      Y: 24
+    - X: 83
+      Y: 24
+    - X: 83
+      Y: 68
+    - X: 864
+      Y: 32
+    - X: 906
+      Y: 32
+    - X: 906
+      Y: 77
+    - X: 3330
+      Y: 0
+    - X: 3370
+      Y: 0
+    - X: 3370
+      Y: 43
+    - X: 780
+      Y: 24
+    - X: 821
+      Y: 24
+    - X: 821
+      Y: 69
+    - X: 822
+      Y: 32
+    - X: 864
+      Y: 32
+    - X: 864
+      Y: 77
+    - X: 2224
+      Y: 0
+    - X: 2253
+      Y: 0
+    - X: 2253
+      Y: 51
+    - X: 2254
+      Y: 0
+    - X: 2283
+      Y: 0
+    - X: 2283
+      Y: 51
+    - X: 146
+      Y: 0
+    - X: 170
+      Y: 0
+    - X: 170
+      Y: 29
+    - X: 14
+      Y: 0
+    - X: 38
+      Y: 0
+    - X: 38
+      Y: 24
+    - X: 1946
+      Y: 32
+    - X: 1989
+      Y: 32
+    - X: 1989
+      Y: 76
+    - X: 2564
+      Y: 0
+    - X: 2600
+      Y: 0
+    - X: 2600
+      Y: 44
+    - X: 3370
+      Y: 0
+    - X: 3410
+      Y: 0
+    - X: 3410
+      Y: 43
+    - X: 3652
+      Y: 0
+    - X: 3692
+      Y: 0
+    - X: 3692
+      Y: 44
+    - X: 1764
+      Y: 28
+    - X: 1807
+      Y: 28
+    - X: 1807
+      Y: 71
+    - X: 350
+      Y: 24
+    - X: 391
+      Y: 24
+    - X: 391
+      Y: 68
+    - X: 960
+      Y: 28
+    - X: 1002
+      Y: 28
+    - X: 1002
+      Y: 72
+    - X: 3410
+      Y: 0
+    - X: 3450
+      Y: 0
+    - X: 3450
+      Y: 43
+    - X: 0
+      Y: 24
+    - X: 41
+      Y: 24
+    - X: 41
+      Y: 68
+    - X: 212
+      Y: 28
+    - X: 254
+      Y: 28
+    - X: 254
+      Y: 72
+    - X: 2074
+      Y: 0
+    - X: 2103
+      Y: 0
+    - X: 2103
+      Y: 51
+    - X: 2104
+      Y: 0
+    - X: 2133
+      Y: 0
+    - X: 2133
+      Y: 51
+    - X: 122
+      Y: 0
+    - X: 146
+      Y: 0
+    - X: 146
+      Y: 28
+    - X: 38
+      Y: 0
+    - X: 62
+      Y: 0
+    - X: 62
+      Y: 24
+    - X: 2716
+      Y: 0
+    - X: 2756
+      Y: 0
+    - X: 2756
+      Y: 40
+    - X: 2488
+      Y: 0
+    - X: 2527
+      Y: 0
+    - X: 2527
+      Y: 40
+    - X: 3812
+      Y: 0
+    - X: 3856
+      Y: 0
+    - X: 3856
+      Y: 40
+    - X: 3026
+      Y: 0
+    - X: 3067
+      Y: 0
+    - X: 3067
+      Y: 40
+    - X: 2284
+      Y: 36
+    - X: 2325
+      Y: 36
+    - X: 2325
+      Y: 85
+    - X: 420
+      Y: 28
+    - X: 458
+      Y: 28
+    - X: 458
+      Y: 77
+    - X: 2676
+      Y: 0
+    - X: 2716
+      Y: 0
+    - X: 2716
+      Y: 40
+    - X: 526
+      Y: 908
+    - X: 604
+      Y: 908
+    - X: 604
+      Y: 976
+    - X: 1496
+      Y: 868
+    - X: 1573
+      Y: 868
+    - X: 1573
+      Y: 936
+    - X: 3666
+      Y: 44
+    - X: 3713
+      Y: 44
+    - X: 3713
+      Y: 91
+    - X: 2982
+      Y: 40
+    - X: 3025
+      Y: 40
+    - X: 3025
+      Y: 87
+    - X: 3026
+      Y: 40
+    - X: 3069
+      Y: 40
+    - X: 3069
+      Y: 87
+    - X: 126
+      Y: 32
+    - X: 166
+      Y: 32
+    - X: 166
+      Y: 79
+    - X: 1808
+      Y: 44
+    - X: 1852
+      Y: 44
+    - X: 1852
+      Y: 91
+    - X: 1072
+      Y: 0
+    - X: 1096
+      Y: 0
+    - X: 1096
+      Y: 47
+    - X: 516
+      Y: 32
+    - X: 556
+      Y: 32
+    - X: 556
+      Y: 79
+    - X: 1204
+      Y: 68
+    - X: 1256
+      Y: 68
+    - X: 1256
+      Y: 115
+    - X: 3376
+      Y: 44
+    - X: 3422
+      Y: 44
+    - X: 3422
+      Y: 91
+    - X: 3524
+      Y: 44
+    - X: 3570
+      Y: 44
+    - X: 3570
+      Y: 92
+    - X: 3812
+      Y: 40
+    - X: 3856
+      Y: 40
+    - X: 3856
+      Y: 87
+    - X: 2636
+      Y: 40
+    - X: 2678
+      Y: 40
+    - X: 2678
+      Y: 88
+    - X: 2678
+      Y: 40
+    - X: 2721
+      Y: 40
+    - X: 2721
+      Y: 87
+    - X: 3570
+      Y: 44
+    - X: 3617
+      Y: 44
+    - X: 3617
+      Y: 91
+    - X: 3122
+      Y: 40
+    - X: 3166
+      Y: 40
+    - X: 3166
+      Y: 87
+    - X: 3330
+      Y: 44
+    - X: 3376
+      Y: 44
+    - X: 3376
+      Y: 91
+    - X: 3478
+      Y: 44
+    - X: 3524
+      Y: 44
+    - X: 3524
+      Y: 92
+    - X: 1442
+      Y: 36
+    - X: 1484
+      Y: 36
+    - X: 1484
+      Y: 83
+    - X: 1278
+      Y: 36
+    - X: 1320
+      Y: 36
+    - X: 1320
+      Y: 83
+    - X: 3618
+      Y: 44
+    - X: 3665
+      Y: 44
+    - X: 3665
+      Y: 91
+    - X: 2174
+      Y: 52
+    - X: 2214
+      Y: 52
+    - X: 2214
+      Y: 112
+    - X: 2088
+      Y: 408
+    - X: 2145
+      Y: 408
+    - X: 2145
+      Y: 472
+    - X: 2146
+      Y: 416
+    - X: 2203
+      Y: 416
+    - X: 2203
+      Y: 480
+    - X: 2976
+      Y: 460
+    - X: 3041
+      Y: 460
+    - X: 3041
+      Y: 517
+    - X: 3604
+      Y: 200
+    - X: 3660
+      Y: 200
+    - X: 3660
+      Y: 256
+    - X: 2416
+      Y: 204
+    - X: 2472
+      Y: 204
+    - X: 2472
+      Y: 260
+    - X: 1906
+      Y: 648
+    - X: 1973
+      Y: 648
+    - X: 1973
+      Y: 713
+    - X: 3396
+      Y: 656
+    - X: 3463
+      Y: 656
+    - X: 3463
+      Y: 721
+    - X: 556
+      Y: 756
+    - X: 629
+      Y: 756
+    - X: 629
+      Y: 821
+    - X: 1294
+      Y: 756
+    - X: 1367
+      Y: 756
+    - X: 1367
+      Y: 821
+    - X: 3154
+      Y: 148
+    - X: 3198
+      Y: 148
+    - X: 3198
+      Y: 212
+    - X: 2524
+      Y: 88
+    - X: 2564
+      Y: 88
+    - X: 2564
+      Y: 152
+    - X: 2898
+      Y: 492
+    - X: 2957
+      Y: 492
+    - X: 2957
+      Y: 556
+    - X: 1866
+      Y: 908
+    - X: 1941
+      Y: 908
+    - X: 1941
+      Y: 979
+    - X: 1826
+      Y: 980
+    - X: 1916
+      Y: 980
+    - X: 1916
+      Y: 1071
+    - X: 2664
+      Y: 692
+    - X: 2730
+      Y: 692
+    - X: 2730
+      Y: 761
+    - X: 834
+      Y: 644
+    - X: 900
+      Y: 644
+    - X: 900
+      Y: 710
+    - X: 2028
+      Y: 620
+    - X: 2113
+      Y: 620
+    - X: 2113
+      Y: 669
+    - X: 1174
+      Y: 664
+    - X: 1240
+      Y: 664
+    - X: 1240
+      Y: 730
+    - X: 2584
+      Y: 708
+    - X: 2654
+      Y: 708
+    - X: 2654
+      Y: 774
+    - X: 2514
+      Y: 708
+    - X: 2584
+      Y: 708
+    - X: 2584
+      Y: 774
+    - X: 822
+      Y: 712
+    - X: 892
+      Y: 712
+    - X: 892
+      Y: 778
+    - X: 956
+      Y: 712
+    - X: 1026
+      Y: 712
+    - X: 1026
+      Y: 778
+    - X: 1402
+      Y: 632
+    - X: 1468
+      Y: 632
+    - X: 1468
+      Y: 697
+    - X: 1002
+      Y: 196
+    - X: 1050
+      Y: 196
+    - X: 1050
+      Y: 261
+    - X: 656
+      Y: 224
+    - X: 709
+      Y: 224
+    - X: 709
+      Y: 285
+    - X: 2762
+      Y: 172
+    - X: 2818
+      Y: 172
+    - X: 2818
+      Y: 225
+    - X: 1218
+      Y: 196
+    - X: 1278
+      Y: 196
+    - X: 1278
+      Y: 248
+    - X: 1080
+      Y: 104
+    - X: 1121
+      Y: 104
+    - X: 1121
+      Y: 169
+    - X: 722
+      Y: 348
+    - X: 794
+      Y: 348
+    - X: 794
+      Y: 397
+    - X: 3484
+      Y: 348
+    - X: 3544
+      Y: 348
+    - X: 3544
+      Y: 407
+    - X: 1700
+      Y: 668
+    - X: 1768
+      Y: 668
+    - X: 1768
+      Y: 733
+    - X: 1858
+      Y: 172
+    - X: 1905
+      Y: 172
+    - X: 1905
+      Y: 235
+    - X: 2752
+      Y: 668
+    - X: 2819
+      Y: 668
+    - X: 2819
+      Y: 734
+    - X: 2010
+      Y: 804
+    - X: 2088
+      Y: 804
+    - X: 2088
+      Y: 868
+    - X: 1588
+      Y: 804
+    - X: 1666
+      Y: 804
+    - X: 1666
+      Y: 868
+    - X: 2682
+      Y: 628
+    - X: 2752
+      Y: 628
+    - X: 2752
+      Y: 689
+    - X: 2114
+      Y: 628
+    - X: 2184
+      Y: 628
+    - X: 2184
+      Y: 689
+    - X: 2736
+      Y: 408
+    - X: 2793
+      Y: 408
+    - X: 2793
+      Y: 472
+    - X: 2310
+      Y: 604
+    - X: 2374
+      Y: 604
+    - X: 2374
+      Y: 668
+    - X: 1150
+      Y: 368
+    - X: 1205
+      Y: 368
+    - X: 1205
+      Y: 433
+    - X: 3140
+      Y: 648
+    - X: 3206
+      Y: 648
+    - X: 3206
+      Y: 714
+    - X: 1270
+      Y: 616
+    - X: 1335
+      Y: 616
+    - X: 1335
+      Y: 680
+    - X: 3644
+      Y: 692
+    - X: 3711
+      Y: 692
+    - X: 3711
+      Y: 760
+    - X: 3920
+      Y: 228
+    - X: 3971
+      Y: 228
+    - X: 3971
+      Y: 292
+    - X: 1712
+      Y: 324
+    - X: 1765
+      Y: 324
+    - X: 1765
+      Y: 390
+    - X: 210
+      Y: 696
+    - X: 278
+      Y: 696
+    - X: 278
+      Y: 763
+    - X: 2936
+      Y: 800
+    - X: 3013
+      Y: 800
+    - X: 3013
+      Y: 864
+    - X: 0
+      Y: 920
+    - X: 77
+      Y: 920
+    - X: 77
+      Y: 992
+    - X: 3142
+      Y: 928
+    - X: 3219
+      Y: 928
+    - X: 3219
+      Y: 1007
+    - X: 772
+      Y: 936
+    - X: 861
+      Y: 936
+    - X: 861
+      Y: 1000
+    - X: 3384
+      Y: 920
+    - X: 3461
+      Y: 920
+    - X: 3461
+      Y: 992
+    - X: 3892
+      Y: 940
+    - X: 3994
+      Y: 940
+    - X: 3994
+      Y: 1003
+    - X: 1724
+      Y: 940
+    - X: 1826
+      Y: 940
+    - X: 1826
+      Y: 1003
+    - X: 1042
+      Y: 940
+    - X: 1144
+      Y: 940
+    - X: 1144
+      Y: 1003
+    - X: 574
+      Y: 976
+    - X: 688
+      Y: 976
+    - X: 688
+      Y: 1045
+    - X: 2640
+      Y: 972
+    - X: 2731
+      Y: 972
+    - X: 2731
+      Y: 1051
+    - X: 2246
+      Y: 604
+    - X: 2310
+      Y: 604
+    - X: 2310
+      Y: 668
+    - X: 758
+      Y: 704
+    - X: 822
+      Y: 704
+    - X: 822
+      Y: 776
+    - X: 234
+      Y: 824
+    - X: 298
+      Y: 824
+    - X: 298
+      Y: 903
+    - X: 2476
+      Y: 864
+    - X: 2557
+      Y: 864
+    - X: 2557
+      Y: 928
+    - X: 634
+      Y: 632
+    - X: 701
+      Y: 632
+    - X: 701
+      Y: 696
+    - X: 3258
+      Y: 636
+    - X: 3325
+      Y: 636
+    - X: 3325
+      Y: 700
+    - X: 1820
+      Y: 800
+    - X: 1897
+      Y: 800
+    - X: 1897
+      Y: 864
+    - X: 444
+      Y: 604
+    - X: 508
+      Y: 604
+    - X: 508
+      Y: 668
+    - X: 1644
+      Y: 604
+    - X: 1708
+      Y: 604
+    - X: 1708
+      Y: 668
+    - X: 2766
+      Y: 604
+    - X: 2830
+      Y: 604
+    - X: 2830
+      Y: 668
+    - X: 2374
+      Y: 604
+    - X: 2438
+      Y: 604
+    - X: 2438
+      Y: 668
+    - X: 1542
+      Y: 936
+    - X: 1635
+      Y: 936
+    - X: 1635
+      Y: 1002
+    - X: 2618
+      Y: 580
+    - X: 2682
+      Y: 580
+    - X: 2682
+      Y: 643
+    - X: 772
+      Y: 580
+    - X: 836
+      Y: 580
+    - X: 836
+      Y: 643
+    - X: 3078
+      Y: 584
+    - X: 3142
+      Y: 584
+    - X: 3142
+      Y: 647
+    - X: 2786
+      Y: 788
+    - X: 2864
+      Y: 788
+    - X: 2864
+      Y: 851
+    - X: 1652
+      Y: 904
+    - X: 1724
+      Y: 904
+    - X: 1724
+      Y: 977
+    - X: 2356
+      Y: 904
+    - X: 2428
+      Y: 904
+    - X: 2428
+      Y: 977
+    - X: 3938
+      Y: 600
+    - X: 4001
+      Y: 600
+    - X: 4001
+      Y: 665
+    - X: 3112
+      Y: 1120
+    - X: 3249
+      Y: 1120
+    - X: 3249
+      Y: 1212
+    - X: 2974
+      Y: 1120
+    - X: 3111
+      Y: 1120
+    - X: 3111
+      Y: 1212
+    - X: 1792
+      Y: 1104
+    - X: 1929
+      Y: 1104
+    - X: 1929
+      Y: 1196
+    - X: 3850
+      Y: 1096
+    - X: 3987
+      Y: 1096
+    - X: 3987
+      Y: 1188
+    - X: 1654
+      Y: 1096
+    - X: 1791
+      Y: 1096
+    - X: 1791
+      Y: 1188
+    - X: 1516
+      Y: 1096
+    - X: 1653
+      Y: 1096
+    - X: 1653
+      Y: 1188
+    - X: 916
+      Y: 1096
+    - X: 1053
+      Y: 1096
+    - X: 1053
+      Y: 1188
+    - X: 778
+      Y: 1096
+    - X: 915
+      Y: 1096
+    - X: 915
+      Y: 1188
+    - X: 2836
+      Y: 1092
+    - X: 2973
+      Y: 1092
+    - X: 2973
+      Y: 1184
+    - X: 2698
+      Y: 1092
+    - X: 2835
+      Y: 1092
+    - X: 2835
+      Y: 1184
+    - X: 1378
+      Y: 1092
+    - X: 1515
+      Y: 1092
+    - X: 1515
+      Y: 1184
+    - X: 1240
+      Y: 1092
+    - X: 1377
+      Y: 1092
+    - X: 1377
+      Y: 1184
+    - X: 640
+      Y: 1092
+    - X: 777
+      Y: 1092
+    - X: 777
+      Y: 1184
+    - X: 3574
+      Y: 1088
+    - X: 3711
+      Y: 1088
+    - X: 3711
+      Y: 1180
+    - X: 1930
+      Y: 1124
+    - X: 2067
+      Y: 1124
+    - X: 2067
+      Y: 1216
+    - X: 276
+      Y: 1140
+    - X: 413
+      Y: 1140
+    - X: 413
+      Y: 1232
+    - X: 2068
+      Y: 1164
+    - X: 2205
+      Y: 1164
+    - X: 2205
+      Y: 1256
+    - X: 2468
+      Y: 1144
+    - X: 2605
+      Y: 1144
+    - X: 2605
+      Y: 1236
+    - X: 828
+      Y: 1188
+    - X: 965
+      Y: 1188
+    - X: 965
+      Y: 1280
+    - X: 690
+      Y: 1188
+    - X: 827
+      Y: 1188
+    - X: 827
+      Y: 1280
+    - X: 2744
+      Y: 1184
+    - X: 2881
+      Y: 1184
+    - X: 2881
+      Y: 1276
+    - X: 2606
+      Y: 1184
+    - X: 2743
+      Y: 1184
+    - X: 2743
+      Y: 1276
+    - X: 1330
+      Y: 1184
+    - X: 1467
+      Y: 1184
+    - X: 1467
+      Y: 1276
+    - X: 1192
+      Y: 1184
+    - X: 1329
+      Y: 1184
+    - X: 1329
+      Y: 1276
+    - X: 552
+      Y: 1184
+    - X: 689
+      Y: 1184
+    - X: 689
+      Y: 1276
+    - X: 1468
+      Y: 1188
+    - X: 1605
+      Y: 1188
+    - X: 1605
+      Y: 1280
+    - X: 2206
+      Y: 1180
+    - X: 2343
+      Y: 1180
+    - X: 2343
+      Y: 1272
+    - X: 3250
+      Y: 1176
+    - X: 3387
+      Y: 1176
+    - X: 3387
+      Y: 1268
+    - X: 3422
+      Y: 1168
+    - X: 3559
+      Y: 1168
+    - X: 3559
+      Y: 1260
+    - X: 3560
+      Y: 1180
+    - X: 3697
+      Y: 1180
+    - X: 3697
+      Y: 1272
+    - X: 138
+      Y: 1172
+    - X: 275
+      Y: 1172
+    - X: 275
+      Y: 1264
+    - X: 414
+      Y: 1140
+    - X: 551
+      Y: 1140
+    - X: 551
+      Y: 1232
+    - X: 1054
+      Y: 1172
+    - X: 1191
+      Y: 1172
+    - X: 1191
+      Y: 1264
+    - X: 0
+      Y: 1176
+    - X: 137
+      Y: 1176
+    - X: 137
+      Y: 1268
+    - X: 2330
+      Y: 1088
+    - X: 2467
+      Y: 1088
+    - X: 2467
+      Y: 1180
+    - X: 3712
+      Y: 1096
+    - X: 3849
+      Y: 1096
+    - X: 3849
+      Y: 1188
+    - X: 0
+      Y: 1084
+    - X: 137
+      Y: 1084
+    - X: 137
+      Y: 1176
+    - X: 138
+      Y: 1080
+    - X: 275
+      Y: 1080
+    - X: 275
+      Y: 1172
+    - X: 0
+      Y: 992
+    - X: 137
+      Y: 992
+    - X: 137
+      Y: 1084
+    - X: 2284
+      Y: 980
+    - X: 2421
+      Y: 980
+    - X: 2421
+      Y: 1072
+    - X: 3566
+      Y: 984
+    - X: 3703
+      Y: 984
+    - X: 3703
+      Y: 1076
+    - X: 226
+      Y: 988
+    - X: 363
+      Y: 988
+    - X: 363
+      Y: 1080
+    - X: 1144
+      Y: 988
+    - X: 1281
+      Y: 988
+    - X: 1281
+      Y: 1080
+    - X: 3284
+      Y: 1084
+    - X: 3421
+      Y: 1084
+    - X: 3421
+      Y: 1176
+    - X: 3298
+      Y: 992
+    - X: 3435
+      Y: 992
+    - X: 3435
+      Y: 1084
+    - X: 2422
+      Y: 996
+    - X: 2559
+      Y: 996
+    - X: 2559
+      Y: 1088
+    - X: 3704
+      Y: 996
+    - X: 3841
+      Y: 996
+    - X: 3841
+      Y: 1088
+    - X: 688
+      Y: 1000
+    - X: 825
+      Y: 1000
+    - X: 825
+      Y: 1092
+    - X: 1282
+      Y: 1000
+    - X: 1419
+      Y: 1000
+    - X: 1419
+      Y: 1092
+    - X: 2732
+      Y: 1000
+    - X: 2869
+      Y: 1000
+    - X: 2869
+      Y: 1092
+    - X: 2870
+      Y: 1000
+    - X: 3007
+      Y: 1000
+    - X: 3007
+      Y: 1092
+    - X: 1102
+      Y: 1080
+    - X: 1239
+      Y: 1080
+    - X: 1239
+      Y: 1172
+    - X: 964
+      Y: 1004
+    - X: 1101
+      Y: 1004
+    - X: 1101
+      Y: 1096
+    - X: 1542
+      Y: 1004
+    - X: 1679
+      Y: 1004
+    - X: 1679
+      Y: 1096
+    - X: 1680
+      Y: 1004
+    - X: 1817
+      Y: 1004
+    - X: 1817
+      Y: 1096
+    - X: 3842
+      Y: 1004
+    - X: 3979
+      Y: 1004
+    - X: 3979
+      Y: 1096
+    - X: 1916
+      Y: 1012
+    - X: 2053
+      Y: 1012
+    - X: 2053
+      Y: 1104
+    - X: 3008
+      Y: 1028
+    - X: 3145
+      Y: 1028
+    - X: 3145
+      Y: 1120
+    - X: 3146
+      Y: 1028
+    - X: 3283
+      Y: 1028
+    - X: 3283
+      Y: 1120
+    - X: 826
+      Y: 1004
+    - X: 963
+      Y: 1004
+    - X: 963
+      Y: 1096
+    - X: 2054
+      Y: 1032
+    - X: 2191
+      Y: 1032
+    - X: 2191
+      Y: 1124
+    - X: 364
+      Y: 1048
+    - X: 501
+      Y: 1048
+    - X: 501
+      Y: 1140
+    - X: 502
+      Y: 1048
+    - X: 639
+      Y: 1048
+    - X: 639
+      Y: 1140
+    - X: 2560
+      Y: 1052
+    - X: 2697
+      Y: 1052
+    - X: 2697
+      Y: 1144
+    - X: 2192
+      Y: 1072
+    - X: 2329
+      Y: 1072
+    - X: 2329
+      Y: 1164
+    - X: 3436
+      Y: 1076
+    - X: 3573
+      Y: 1076
+    - X: 3573
+      Y: 1168
+    - X: 552
+      Y: 1372
+    - X: 689
+      Y: 1372
+    - X: 689
+      Y: 1465
+    - X: 3434
+      Y: 1368
+    - X: 3571
+      Y: 1368
+    - X: 3571
+      Y: 1461
+    - X: 2070
+      Y: 1368
+    - X: 2207
+      Y: 1368
+    - X: 2207
+      Y: 1461
+    - X: 3034
+      Y: 1364
+    - X: 3171
+      Y: 1364
+    - X: 3171
+      Y: 1457
+    - X: 0
+      Y: 1364
+    - X: 137
+      Y: 1364
+    - X: 137
+      Y: 1457
+    - X: 966
+      Y: 1360
+    - X: 1103
+      Y: 1360
+    - X: 1103
+      Y: 1453
+    - X: 1104
+      Y: 1372
+    - X: 1241
+      Y: 1372
+    - X: 1241
+      Y: 1465
+    - X: 138
+      Y: 1360
+    - X: 275
+      Y: 1360
+    - X: 275
+      Y: 1453
+    - X: 1932
+      Y: 1352
+    - X: 2069
+      Y: 1352
+    - X: 2069
+      Y: 1445
+    - X: 2296
+      Y: 1332
+    - X: 2433
+      Y: 1332
+    - X: 2433
+      Y: 1425
+    - X: 414
+      Y: 1328
+    - X: 551
+      Y: 1328
+    - X: 551
+      Y: 1421
+    - X: 276
+      Y: 1328
+    - X: 413
+      Y: 1328
+    - X: 413
+      Y: 1421
+    - X: 1794
+      Y: 1312
+    - X: 1931
+      Y: 1312
+    - X: 1931
+      Y: 1405
+    - X: 2896
+      Y: 1308
+    - X: 3033
+      Y: 1308
+    - X: 3033
+      Y: 1401
+    - X: 3296
+      Y: 1356
+    - X: 3433
+      Y: 1356
+    - X: 3433
+      Y: 1449
+    - X: 2434
+      Y: 1372
+    - X: 2571
+      Y: 1372
+    - X: 2571
+      Y: 1465
+    - X: 3848
+      Y: 1380
+    - X: 3985
+      Y: 1380
+    - X: 3985
+      Y: 1473
+    - X: 2572
+      Y: 1372
+    - X: 2709
+      Y: 1372
+    - X: 2709
+      Y: 1465
+    - X: 2208
+      Y: 1428
+    - X: 2345
+      Y: 1428
+    - X: 2345
+      Y: 1521
+    - X: 414
+      Y: 1424
+    - X: 551
+      Y: 1424
+    - X: 551
+      Y: 1517
+    - X: 3172
+      Y: 1452
+    - X: 3309
+      Y: 1452
+    - X: 3309
+      Y: 1545
+    - X: 276
+      Y: 1424
+    - X: 413
+      Y: 1424
+    - X: 413
+      Y: 1517
+    - X: 1794
+      Y: 1408
+    - X: 1931
+      Y: 1408
+    - X: 1931
+      Y: 1501
+    - X: 2848
+      Y: 1404
+    - X: 2985
+      Y: 1404
+    - X: 2985
+      Y: 1497
+    - X: 2710
+      Y: 1404
+    - X: 2847
+      Y: 1404
+    - X: 2847
+      Y: 1497
+    - X: 1932
+      Y: 1448
+    - X: 2069
+      Y: 1448
+    - X: 2069
+      Y: 1541
+    - X: 1656
+      Y: 1388
+    - X: 1793
+      Y: 1388
+    - X: 1793
+      Y: 1481
+    - X: 3710
+      Y: 1380
+    - X: 3847
+      Y: 1380
+    - X: 3847
+      Y: 1473
+    - X: 3572
+      Y: 1380
+    - X: 3709
+      Y: 1380
+    - X: 3709
+      Y: 1473
+    - X: 1518
+      Y: 1380
+    - X: 1655
+      Y: 1380
+    - X: 1655
+      Y: 1473
+    - X: 1656
+      Y: 1292
+    - X: 1793
+      Y: 1292
+    - X: 1793
+      Y: 1385
+    - X: 1380
+      Y: 1376
+    - X: 1517
+      Y: 1376
+    - X: 1517
+      Y: 1469
+    - X: 828
+      Y: 1376
+    - X: 965
+      Y: 1376
+    - X: 965
+      Y: 1469
+    - X: 690
+      Y: 1376
+    - X: 827
+      Y: 1376
+    - X: 827
+      Y: 1469
+    - X: 2758
+      Y: 1308
+    - X: 2895
+      Y: 1308
+    - X: 2895
+      Y: 1401
+    - X: 1242
+      Y: 1372
+    - X: 1379
+      Y: 1372
+    - X: 1379
+      Y: 1465
+    - X: 3940
+      Y: 1284
+    - X: 4077
+      Y: 1284
+    - X: 4077
+      Y: 1377
+    - X: 1104
+      Y: 1276
+    - X: 1241
+      Y: 1276
+    - X: 1241
+      Y: 1369
+    - X: 2020
+      Y: 1256
+    - X: 2157
+      Y: 1256
+    - X: 2157
+      Y: 1349
+    - X: 2344
+      Y: 1236
+    - X: 2481
+      Y: 1236
+    - X: 2481
+      Y: 1329
+    - X: 414
+      Y: 1232
+    - X: 551
+      Y: 1232
+    - X: 551
+      Y: 1325
+    - X: 3020
+      Y: 1212
+    - X: 3157
+      Y: 1212
+    - X: 3157
+      Y: 1305
+    - X: 276
+      Y: 1232
+    - X: 413
+      Y: 1232
+    - X: 413
+      Y: 1325
+    - X: 1882
+      Y: 1216
+    - X: 2019
+      Y: 1216
+    - X: 2019
+      Y: 1309
+    - X: 3388
+      Y: 1260
+    - X: 3525
+      Y: 1260
+    - X: 3525
+      Y: 1353
+    - X: 2882
+      Y: 1212
+    - X: 3019
+      Y: 1212
+    - X: 3019
+      Y: 1305
+    - X: 1744
+      Y: 1196
+    - X: 1881
+      Y: 1196
+    - X: 1881
+      Y: 1289
+    - X: 3836
+      Y: 1188
+    - X: 3973
+      Y: 1188
+    - X: 3973
+      Y: 1281
+    - X: 3698
+      Y: 1188
+    - X: 3835
+      Y: 1188
+    - X: 3835
+      Y: 1281
+    - X: 1606
+      Y: 1188
+    - X: 1743
+      Y: 1188
+    - X: 1743
+      Y: 1281
+    - X: 138
+      Y: 1264
+    - X: 275
+      Y: 1264
+    - X: 275
+      Y: 1357
+    - X: 3802
+      Y: 1284
+    - X: 3939
+      Y: 1284
+    - X: 3939
+      Y: 1377
+    - X: 0
+      Y: 1268
+    - X: 137
+      Y: 1268
+    - X: 137
+      Y: 1361
+    - X: 3158
+      Y: 1268
+    - X: 3295
+      Y: 1268
+    - X: 3295
+      Y: 1361
+    - X: 2158
+      Y: 1272
+    - X: 2295
+      Y: 1272
+    - X: 2295
+      Y: 1365
+    - X: 3526
+      Y: 1272
+    - X: 3663
+      Y: 1272
+    - X: 3663
+      Y: 1365
+    - X: 552
+      Y: 1276
+    - X: 689
+      Y: 1276
+    - X: 689
+      Y: 1369
+    - X: 966
+      Y: 1264
+    - X: 1103
+      Y: 1264
+    - X: 1103
+      Y: 1357
+    - X: 1242
+      Y: 1276
+    - X: 1379
+      Y: 1276
+    - X: 1379
+      Y: 1369
+    - X: 2482
+      Y: 1276
+    - X: 2619
+      Y: 1276
+    - X: 2619
+      Y: 1369
+    - X: 2620
+      Y: 1276
+    - X: 2757
+      Y: 1276
+    - X: 2757
+      Y: 1369
+    - X: 690
+      Y: 1280
+    - X: 827
+      Y: 1280
+    - X: 827
+      Y: 1373
+    - X: 828
+      Y: 1280
+    - X: 965
+      Y: 1280
+    - X: 965
+      Y: 1373
+    - X: 1380
+      Y: 1280
+    - X: 1517
+      Y: 1280
+    - X: 1517
+      Y: 1373
+    - X: 1518
+      Y: 1284
+    - X: 1655
+      Y: 1284
+    - X: 1655
+      Y: 1377
+    - X: 3664
+      Y: 1284
+    - X: 3801
+      Y: 1284
+    - X: 3801
+      Y: 1377
+    - X: 1492
+      Y: 716
+    - X: 1560
+      Y: 716
+    - X: 1560
+      Y: 784
+    - X: 3284
+      Y: 504
+    - X: 3340
+      Y: 504
+    - X: 3340
+      Y: 572
+    - X: 3786
+      Y: 676
+    - X: 3851
+      Y: 676
+    - X: 3851
+      Y: 745
+    - X: 226
+      Y: 912
+    - X: 304
+      Y: 912
+    - X: 304
+      Y: 981
+    - X: 1456
+      Y: 936
+    - X: 1542
+      Y: 936
+    - X: 1542
+      Y: 1006
+    - X: 418
+      Y: 732
+    - X: 486
+      Y: 732
+    - X: 486
+      Y: 801
+    extPixels: 7
+    pixelsPerUnit: 1
+    csOptions:
+      use: 1
+      useOld: 0
+      r_mainTexture: {fileID: 155344771}
+      blur: 2
+      color: {r: 1, g: 0, b: 0, a: 1}
+      blurOld: 0
+      OffsetX: 0
+      OffsetY: 0
+      angle: 90
+      offset: 1
+      angleOld: 0
+      offsetOld: 0
+      spread: 0
+      spreadOld: 0
+      contour:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourOld:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      noise: 0
+      noiseOld: 0
+      contourBuffer:
+      - 0
+      - 0.0019569471
+      - 0.0039138943
+      - 0.0058708414
+      - 0.007827789
+      - 0.009784736
+      - 0.011741683
+      - 0.01369863
+      - 0.015655577
+      - 0.017612524
+      - 0.019569471
+      - 0.021526419
+      - 0.023483366
+      - 0.025440313
+      - 0.02739726
+      - 0.029354207
+      - 0.031311154
+      - 0.0332681
+      - 0.03522505
+      - 0.037181996
+      - 0.039138943
+      - 0.04109589
+      - 0.043052837
+      - 0.045009784
+      - 0.04696673
+      - 0.04892368
+      - 0.050880626
+      - 0.052837573
+      - 0.05479452
+      - 0.056751467
+      - 0.058708414
+      - 0.06066536
+      - 0.06262231
+      - 0.064579256
+      - 0.0665362
+      - 0.06849315
+      - 0.0704501
+      - 0.072407044
+      - 0.07436399
+      - 0.07632094
+      - 0.078277886
+      - 0.08023483
+      - 0.08219178
+      - 0.08414873
+      - 0.086105675
+      - 0.08806262
+      - 0.09001957
+      - 0.091976516
+      - 0.09393346
+      - 0.09589041
+      - 0.09784736
+      - 0.099804305
+      - 0.10176125
+      - 0.1037182
+      - 0.105675146
+      - 0.10763209
+      - 0.10958904
+      - 0.11154599
+      - 0.113502935
+      - 0.11545988
+      - 0.11741683
+      - 0.119373776
+      - 0.12133072
+      - 0.12328767
+      - 0.12524462
+      - 0.12720156
+      - 0.12915851
+      - 0.13111547
+      - 0.1330724
+      - 0.13502935
+      - 0.1369863
+      - 0.13894325
+      - 0.1409002
+      - 0.14285713
+      - 0.14481409
+      - 0.14677104
+      - 0.14872798
+      - 0.15068492
+      - 0.15264188
+      - 0.15459883
+      - 0.15655577
+      - 0.15851271
+      - 0.16046967
+      - 0.16242662
+      - 0.16438356
+      - 0.1663405
+      - 0.16829745
+      - 0.17025441
+      - 0.17221135
+      - 0.17416829
+      - 0.17612524
+      - 0.1780822
+      - 0.18003914
+      - 0.18199608
+      - 0.18395303
+      - 0.18590999
+      - 0.18786693
+      - 0.18982387
+      - 0.19178082
+      - 0.19373778
+      - 0.19569471
+      - 0.19765165
+      - 0.19960861
+      - 0.20156556
+      - 0.2035225
+      - 0.20547944
+      - 0.2074364
+      - 0.20939335
+      - 0.21135029
+      - 0.21330723
+      - 0.21526419
+      - 0.21722114
+      - 0.21917808
+      - 0.22113502
+      - 0.22309197
+      - 0.22504893
+      - 0.22700587
+      - 0.22896281
+      - 0.23091976
+      - 0.23287672
+      - 0.23483366
+      - 0.2367906
+      - 0.23874755
+      - 0.2407045
+      - 0.24266145
+      - 0.24461839
+      - 0.24657534
+      - 0.2485323
+      - 0.25048923
+      - 0.25244617
+      - 0.2544031
+      - 0.25636008
+      - 0.25831702
+      - 0.26027396
+      - 0.26223093
+      - 0.26418787
+      - 0.2661448
+      - 0.26810175
+      - 0.2700587
+      - 0.27201566
+      - 0.2739726
+      - 0.27592954
+      - 0.2778865
+      - 0.27984345
+      - 0.2818004
+      - 0.28375733
+      - 0.28571427
+      - 0.28767124
+      - 0.28962818
+      - 0.29158512
+      - 0.2935421
+      - 0.29549903
+      - 0.29745597
+      - 0.2994129
+      - 0.30136985
+      - 0.30332682
+      - 0.30528376
+      - 0.3072407
+      - 0.30919766
+      - 0.3111546
+      - 0.31311154
+      - 0.31506848
+      - 0.31702542
+      - 0.3189824
+      - 0.32093933
+      - 0.32289627
+      - 0.32485324
+      - 0.32681018
+      - 0.32876712
+      - 0.33072406
+      - 0.332681
+      - 0.33463797
+      - 0.3365949
+      - 0.33855185
+      - 0.34050882
+      - 0.34246576
+      - 0.3444227
+      - 0.34637964
+      - 0.34833658
+      - 0.35029355
+      - 0.3522505
+      - 0.35420743
+      - 0.3561644
+      - 0.35812134
+      - 0.36007828
+      - 0.3620352
+      - 0.36399215
+      - 0.36594912
+      - 0.36790606
+      - 0.369863
+      - 0.37181997
+      - 0.3737769
+      - 0.37573385
+      - 0.3776908
+      - 0.37964773
+      - 0.3816047
+      - 0.38356164
+      - 0.38551858
+      - 0.38747555
+      - 0.3894325
+      - 0.39138943
+      - 0.39334637
+      - 0.3953033
+      - 0.39726028
+      - 0.39921722
+      - 0.40117416
+      - 0.40313113
+      - 0.40508807
+      - 0.407045
+      - 0.40900195
+      - 0.4109589
+      - 0.41291586
+      - 0.4148728
+      - 0.41682974
+      - 0.4187867
+      - 0.42074364
+      - 0.42270058
+      - 0.42465752
+      - 0.42661446
+      - 0.42857143
+      - 0.43052837
+      - 0.4324853
+      - 0.43444228
+      - 0.43639922
+      - 0.43835616
+      - 0.4403131
+      - 0.44227004
+      - 0.444227
+      - 0.44618395
+      - 0.4481409
+      - 0.45009786
+      - 0.4520548
+      - 0.45401174
+      - 0.45596868
+      - 0.45792562
+      - 0.4598826
+      - 0.46183953
+      - 0.46379647
+      - 0.46575344
+      - 0.46771038
+      - 0.46966732
+      - 0.47162426
+      - 0.4735812
+      - 0.47553816
+      - 0.4774951
+      - 0.47945204
+      - 0.481409
+      - 0.48336595
+      - 0.4853229
+      - 0.48727983
+      - 0.48923677
+      - 0.49119374
+      - 0.49315068
+      - 0.49510762
+      - 0.4970646
+      - 0.49902153
+      - 0.50097847
+      - 0.5029354
+      - 0.50489235
+      - 0.5068493
+      - 0.5088062
+      - 0.5107632
+      - 0.51272017
+      - 0.5146771
+      - 0.51663405
+      - 0.518591
+      - 0.5205479
+      - 0.52250487
+      - 0.52446187
+      - 0.5264188
+      - 0.52837574
+      - 0.5303327
+      - 0.5322896
+      - 0.53424656
+      - 0.5362035
+      - 0.53816044
+      - 0.5401174
+      - 0.5420744
+      - 0.5440313
+      - 0.54598826
+      - 0.5479452
+      - 0.54990214
+      - 0.5518591
+      - 0.553816
+      - 0.555773
+      - 0.55772996
+      - 0.5596869
+      - 0.56164384
+      - 0.5636008
+      - 0.5655577
+      - 0.56751466
+      - 0.5694716
+      - 0.57142854
+      - 0.57338554
+      - 0.5753425
+      - 0.5772994
+      - 0.57925636
+      - 0.5812133
+      - 0.58317024
+      - 0.5851272
+      - 0.5870842
+      - 0.5890411
+      - 0.59099805
+      - 0.592955
+      - 0.59491193
+      - 0.5968689
+      - 0.5988258
+      - 0.60078275
+      - 0.6027397
+      - 0.6046967
+      - 0.60665363
+      - 0.6086106
+      - 0.6105675
+      - 0.61252445
+      - 0.6144814
+      - 0.6164383
+      - 0.6183953
+      - 0.62035227
+      - 0.6223092
+      - 0.62426615
+      - 0.6262231
+      - 0.62818
+      - 0.63013697
+      - 0.6320939
+      - 0.63405085
+      - 0.63600785
+      - 0.6379648
+      - 0.6399217
+      - 0.64187866
+      - 0.6438356
+      - 0.64579254
+      - 0.6477495
+      - 0.6497065
+      - 0.6516634
+      - 0.65362036
+      - 0.6555773
+      - 0.65753424
+      - 0.6594912
+      - 0.6614481
+      - 0.66340506
+      - 0.665362
+      - 0.667319
+      - 0.66927594
+      - 0.6712329
+      - 0.6731898
+      - 0.67514676
+      - 0.6771037
+      - 0.67906064
+      - 0.68101764
+      - 0.6829746
+      - 0.6849315
+      - 0.68688846
+      - 0.6888454
+      - 0.69080234
+      - 0.6927593
+      - 0.6947162
+      - 0.69667315
+      - 0.69863015
+      - 0.7005871
+      - 0.70254403
+      - 0.704501
+      - 0.7064579
+      - 0.70841485
+      - 0.7103718
+      - 0.7123288
+      - 0.71428573
+      - 0.7162427
+      - 0.7181996
+      - 0.72015655
+      - 0.7221135
+      - 0.7240704
+      - 0.72602737
+      - 0.7279843
+      - 0.7299413
+      - 0.73189825
+      - 0.7338552
+      - 0.7358121
+      - 0.73776907
+      - 0.739726
+      - 0.74168295
+      - 0.74363995
+      - 0.7455969
+      - 0.7475538
+      - 0.74951077
+      - 0.7514677
+      - 0.75342464
+      - 0.7553816
+      - 0.7573385
+      - 0.75929546
+      - 0.76125246
+      - 0.7632094
+      - 0.76516634
+      - 0.7671233
+      - 0.7690802
+      - 0.77103716
+      - 0.7729941
+      - 0.7749511
+      - 0.77690804
+      - 0.778865
+      - 0.7808219
+      - 0.78277886
+      - 0.7847358
+      - 0.78669274
+      - 0.7886497
+      - 0.7906066
+      - 0.7925636
+      - 0.79452056
+      - 0.7964775
+      - 0.79843444
+      - 0.8003914
+      - 0.8023483
+      - 0.80430526
+      - 0.80626225
+      - 0.8082192
+      - 0.81017613
+      - 0.8121331
+      - 0.81409
+      - 0.81604695
+      - 0.8180039
+      - 0.81996083
+      - 0.8219178
+      - 0.8238748
+      - 0.8258317
+      - 0.82778865
+      - 0.8297456
+      - 0.83170253
+      - 0.83365947
+      - 0.8356164
+      - 0.8375734
+      - 0.83953035
+      - 0.8414873
+      - 0.8434442
+      - 0.84540117
+      - 0.8473581
+      - 0.84931505
+      - 0.851272
+      - 0.8532289
+      - 0.8551859
+      - 0.85714287
+      - 0.8590998
+      - 0.86105675
+      - 0.8630137
+      - 0.8649706
+      - 0.86692756
+      - 0.86888456
+      - 0.8708415
+      - 0.87279844
+      - 0.8747554
+      - 0.8767123
+      - 0.87866926
+      - 0.8806262
+      - 0.88258314
+      - 0.8845401
+      - 0.8864971
+      - 0.888454
+      - 0.89041096
+      - 0.8923679
+      - 0.89432484
+      - 0.8962818
+      - 0.8982387
+      - 0.9001957
+      - 0.90215266
+      - 0.9041096
+      - 0.90606654
+      - 0.9080235
+      - 0.9099804
+      - 0.91193736
+      - 0.9138943
+      - 0.91585124
+      - 0.91780823
+      - 0.9197652
+      - 0.9217221
+      - 0.92367905
+      - 0.925636
+      - 0.92759293
+      - 0.9295499
+      - 0.9315069
+      - 0.9334638
+      - 0.93542075
+      - 0.9373777
+      - 0.93933463
+      - 0.9412916
+      - 0.9432485
+      - 0.94520545
+      - 0.9471624
+      - 0.9491194
+      - 0.9510763
+      - 0.95303327
+      - 0.9549902
+      - 0.95694715
+      - 0.9589041
+      - 0.960861
+      - 0.962818
+      - 0.96477497
+      - 0.9667319
+      - 0.96868885
+      - 0.9706458
+      - 0.9726027
+      - 0.97455966
+      - 0.9765166
+      - 0.97847354
+      - 0.98043054
+      - 0.9823875
+      - 0.9843444
+      - 0.98630136
+      - 0.9882583
+      - 0.99021524
+      - 0.9921722
+      - 0.9941292
+      - 0.9960861
+      - 0.99804306
+      - 1
+    csOptions_1:
+      use: 0
+      useOld: 0
+      r_mainTexture: {fileID: 0}
+      blur: 2
+      color: {r: 1, g: 0, b: 0, a: 1}
+      blurOld: 0
+      OffsetX: 0
+      OffsetY: 0
+      angle: 90
+      offset: 1
+      angleOld: 0
+      offsetOld: 0
+      spread: 0
+      spreadOld: 0
+      contour:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourOld:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      noise: 0
+      noiseOld: 0
+      contourBuffer: []
+    ogOptions:
+      use: 0
+      useOld: 0
+      r_mainTexture: {fileID: 0}
+      size: 2
+      spread: 0
+      range: 50
+      sizeOld: 2
+      spreadOld: 0
+      rangeOld: 0
+      method: 0
+      methodOld: 0
+      blendMode: 0
+      fillType: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      contour:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourOld:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradPosition: 3
+      contourBuffer: []
+    strOptions:
+      use: 1
+      useOld: 0
+      r_mainTexture: {fileID: 451186564}
+      size: 2
+      sizeOld: 2
+      pos: 0
+      posOld: 0
+      blendMode: 0
+      fillType: 0
+      gradType: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      pattern: {fileID: 0}
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      angle: 0
+      gradPosition: 0
+    bevOptions:
+      use: 1
+      useOld: 0
+      r_mainTexture: {fileID: 251331321}
+      r_shadowTexture: {fileID: 176520927}
+      size: 2
+      sizeOld: 2
+      depth: 500
+      depthOld: 500
+      smoothing: 0
+      smoothingOld: 0
+      bTechnique: 0
+      bTechniqueOld: 0
+      bStyle: 0
+      bStyleOld: 0
+      angle: 120
+      lightAltitude: 30
+      lightBlendMode: 1
+      lightBlendModeOld: 1
+      lightColor: {r: 1, g: 1, b: 1, a: 1}
+      lightColorOld: {r: 1, g: 1, b: 1, a: 1}
+      shadowBlendMode: 1
+      shadowBlendModeOld: 1
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColorOld: {r: 0, g: 0, b: 0, a: 1}
+      contour:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourOld:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourBuffer: []
+    igOptions:
+      use: 0
+      useOld: 0
+      r_mainTexture: {fileID: 0}
+      size: 2
+      spread: 0
+      range: 50
+      sizeOld: 2
+      spreadOld: 0
+      rangeOld: 50
+      method: 0
+      methodOld: 0
+      blendMode: 1
+      fillType: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      contour:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourOld:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourTexture: {fileID: 0}
+      position: 0
+      positionOld: 0
+      gradPosition: 1
+      contourBuffer: []
+    isOptions:
+      use: 0
+      useOld: 0
+      r_mainTexture: {fileID: 0}
+      size: 2
+      sizeOld: 2
+      choke: 0
+      chokeOld: 0
+      distance: 0
+      distanceOld: 0
+      angle: 0
+      angleOld: 0
+      blendMode: 0
+      color: {r: 0, g: 0, b: 0, a: 1}
+      contour:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourOld:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      contourBuffer: []
+    fgOptions:
+      use: 0
+      useOld: 0
+      r_mainTexture: {fileID: 0}
+      gradType: 0
+      gBlendMode: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      angle: 0
+      scale: 100
+      gradPosition: 2
+    pBlendMode: 0
+    pBlendModeOld: 0
+    patternText: {fileID: 0}
+    patternTextOld: {fileID: 0}
+    pOpacity: 100
+    pOpacityOld: 100
+    pScale: 100
+    pScaleOld: 100
+    usePattern: 0
+    usePatternOld: 0
+    fColor: {r: 1, g: 1, b: 1, a: 1}
+    fColorOld: {r: 1, g: 1, b: 1, a: 1}
+    cBlendMode: 0
+    cBlendModeOld: 0
+    useColor: 1
+    useColorOld: 1
+    IsCombinedDirty: 0
+  strokeOptions:
+    use: 1
+    useOld: 1
+    r_mainTexture: {fileID: 451186564}
+    size: 2
+    sizeOld: 2
+    pos: 0
+    posOld: 0
+    blendMode: 0
+    fillType: 0
+    gradType: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    pattern: {fileID: 0}
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    angle: 0
+    gradPosition: 0
+  outerGlowOptions:
+    use: 0
+    useOld: 0
+    r_mainTexture: {fileID: 0}
+    size: 2
+    spread: 0
+    range: 50
+    sizeOld: 2
+    spreadOld: 0
+    rangeOld: 0
+    method: 0
+    methodOld: 0
+    blendMode: 0
+    fillType: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    contour:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourOld:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gradPosition: 3
+    contourBuffer: []
+  closeShadowOptions:
+    use: 1
+    useOld: 1
+    r_mainTexture: {fileID: 155344771}
+    blur: 2
+    color: {r: 1, g: 0, b: 0, a: 1}
+    blurOld: 2
+    OffsetX: 0
+    OffsetY: 0
+    angle: 90
+    offset: 1
+    angleOld: 0
+    offsetOld: 0
+    spread: 0
+    spreadOld: 0
+    contour:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourOld:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    noise: 0
+    noiseOld: 0
+    contourBuffer: []
+  closeShadowOptions_1:
+    use: 0
+    useOld: 0
+    r_mainTexture: {fileID: 0}
+    blur: 2
+    color: {r: 1, g: 0, b: 0, a: 1}
+    blurOld: 2
+    OffsetX: 0
+    OffsetY: 0
+    angle: 90
+    offset: 1
+    angleOld: 0
+    offsetOld: 0
+    spread: 0
+    spreadOld: 0
+    contour:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourOld:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    noise: 0
+    noiseOld: 0
+    contourBuffer: []
+  shadowOptions:
+    use: 0
+    useOld: 0
+    r_mainTexture: {fileID: 0}
+    blur: 0
+    color: {r: 0, g: 0, b: 0, a: 1}
+    blurOld: 0
+    OffsetX: 0
+    OffsetY: 0
+    angle: 0
+    offset: 0
+    angleOld: 0
+    offsetOld: 0
+    spread: 0
+    spreadOld: 0
+    contour:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourOld:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourTexture: {fileID: 0}
+    noise: 0
+    noiseOld: 0
+    noiseTexture: {fileID: 0}
+    noiseTextureOld: {fileID: 0}
+  bevelOptions:
+    use: 1
+    useOld: 1
+    r_mainTexture: {fileID: 251331321}
+    r_shadowTexture: {fileID: 176520927}
+    size: 2
+    sizeOld: 2
+    depth: 500
+    depthOld: 500
+    smoothing: 0
+    smoothingOld: 0
+    bTechnique: 0
+    bTechniqueOld: 0
+    bStyle: 0
+    bStyleOld: 0
+    angle: 120
+    lightAltitude: 30
+    lightBlendMode: 1
+    lightBlendModeOld: 1
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    lightColorOld: {r: 1, g: 1, b: 1, a: 1}
+    shadowBlendMode: 1
+    shadowBlendModeOld: 1
+    shadowColor: {r: 0, g: 0, b: 0, a: 1}
+    shadowColorOld: {r: 0, g: 0, b: 0, a: 1}
+    contour:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourOld:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourBuffer:
+    - 0
+    - 0.0019569471
+    - 0.0039138943
+    - 0.0058708414
+    - 0.007827789
+    - 0.009784736
+    - 0.011741683
+    - 0.01369863
+    - 0.015655577
+    - 0.017612524
+    - 0.019569471
+    - 0.021526419
+    - 0.023483366
+    - 0.025440313
+    - 0.02739726
+    - 0.029354207
+    - 0.031311154
+    - 0.0332681
+    - 0.03522505
+    - 0.037181996
+    - 0.039138943
+    - 0.04109589
+    - 0.043052837
+    - 0.045009784
+    - 0.04696673
+    - 0.04892368
+    - 0.050880626
+    - 0.052837573
+    - 0.05479452
+    - 0.056751467
+    - 0.058708414
+    - 0.06066536
+    - 0.06262231
+    - 0.064579256
+    - 0.0665362
+    - 0.06849315
+    - 0.0704501
+    - 0.072407044
+    - 0.07436399
+    - 0.07632094
+    - 0.078277886
+    - 0.08023483
+    - 0.08219178
+    - 0.08414873
+    - 0.086105675
+    - 0.08806262
+    - 0.09001957
+    - 0.091976516
+    - 0.09393346
+    - 0.09589041
+    - 0.09784736
+    - 0.099804305
+    - 0.10176125
+    - 0.1037182
+    - 0.105675146
+    - 0.10763209
+    - 0.10958904
+    - 0.11154599
+    - 0.113502935
+    - 0.11545988
+    - 0.11741683
+    - 0.119373776
+    - 0.12133072
+    - 0.12328767
+    - 0.12524462
+    - 0.12720156
+    - 0.12915851
+    - 0.13111547
+    - 0.1330724
+    - 0.13502935
+    - 0.1369863
+    - 0.13894325
+    - 0.1409002
+    - 0.14285713
+    - 0.14481409
+    - 0.14677104
+    - 0.14872798
+    - 0.15068492
+    - 0.15264188
+    - 0.15459883
+    - 0.15655577
+    - 0.15851271
+    - 0.16046967
+    - 0.16242662
+    - 0.16438356
+    - 0.1663405
+    - 0.16829745
+    - 0.17025441
+    - 0.17221135
+    - 0.17416829
+    - 0.17612524
+    - 0.1780822
+    - 0.18003914
+    - 0.18199608
+    - 0.18395303
+    - 0.18590999
+    - 0.18786693
+    - 0.18982387
+    - 0.19178082
+    - 0.19373778
+    - 0.19569471
+    - 0.19765165
+    - 0.19960861
+    - 0.20156556
+    - 0.2035225
+    - 0.20547944
+    - 0.2074364
+    - 0.20939335
+    - 0.21135029
+    - 0.21330723
+    - 0.21526419
+    - 0.21722114
+    - 0.21917808
+    - 0.22113502
+    - 0.22309197
+    - 0.22504893
+    - 0.22700587
+    - 0.22896281
+    - 0.23091976
+    - 0.23287672
+    - 0.23483366
+    - 0.2367906
+    - 0.23874755
+    - 0.2407045
+    - 0.24266145
+    - 0.24461839
+    - 0.24657534
+    - 0.2485323
+    - 0.25048923
+    - 0.25244617
+    - 0.2544031
+    - 0.25636008
+    - 0.25831702
+    - 0.26027396
+    - 0.26223093
+    - 0.26418787
+    - 0.2661448
+    - 0.26810175
+    - 0.2700587
+    - 0.27201566
+    - 0.2739726
+    - 0.27592954
+    - 0.2778865
+    - 0.27984345
+    - 0.2818004
+    - 0.28375733
+    - 0.28571427
+    - 0.28767124
+    - 0.28962818
+    - 0.29158512
+    - 0.2935421
+    - 0.29549903
+    - 0.29745597
+    - 0.2994129
+    - 0.30136985
+    - 0.30332682
+    - 0.30528376
+    - 0.3072407
+    - 0.30919766
+    - 0.3111546
+    - 0.31311154
+    - 0.31506848
+    - 0.31702542
+    - 0.3189824
+    - 0.32093933
+    - 0.32289627
+    - 0.32485324
+    - 0.32681018
+    - 0.32876712
+    - 0.33072406
+    - 0.332681
+    - 0.33463797
+    - 0.3365949
+    - 0.33855185
+    - 0.34050882
+    - 0.34246576
+    - 0.3444227
+    - 0.34637964
+    - 0.34833658
+    - 0.35029355
+    - 0.3522505
+    - 0.35420743
+    - 0.3561644
+    - 0.35812134
+    - 0.36007828
+    - 0.3620352
+    - 0.36399215
+    - 0.36594912
+    - 0.36790606
+    - 0.369863
+    - 0.37181997
+    - 0.3737769
+    - 0.37573385
+    - 0.3776908
+    - 0.37964773
+    - 0.3816047
+    - 0.38356164
+    - 0.38551858
+    - 0.38747555
+    - 0.3894325
+    - 0.39138943
+    - 0.39334637
+    - 0.3953033
+    - 0.39726028
+    - 0.39921722
+    - 0.40117416
+    - 0.40313113
+    - 0.40508807
+    - 0.407045
+    - 0.40900195
+    - 0.4109589
+    - 0.41291586
+    - 0.4148728
+    - 0.41682974
+    - 0.4187867
+    - 0.42074364
+    - 0.42270058
+    - 0.42465752
+    - 0.42661446
+    - 0.42857143
+    - 0.43052837
+    - 0.4324853
+    - 0.43444228
+    - 0.43639922
+    - 0.43835616
+    - 0.4403131
+    - 0.44227004
+    - 0.444227
+    - 0.44618395
+    - 0.4481409
+    - 0.45009786
+    - 0.4520548
+    - 0.45401174
+    - 0.45596868
+    - 0.45792562
+    - 0.4598826
+    - 0.46183953
+    - 0.46379647
+    - 0.46575344
+    - 0.46771038
+    - 0.46966732
+    - 0.47162426
+    - 0.4735812
+    - 0.47553816
+    - 0.4774951
+    - 0.47945204
+    - 0.481409
+    - 0.48336595
+    - 0.4853229
+    - 0.48727983
+    - 0.48923677
+    - 0.49119374
+    - 0.49315068
+    - 0.49510762
+    - 0.4970646
+    - 0.49902153
+    - 0.50097847
+    - 0.5029354
+    - 0.50489235
+    - 0.5068493
+    - 0.5088062
+    - 0.5107632
+    - 0.51272017
+    - 0.5146771
+    - 0.51663405
+    - 0.518591
+    - 0.5205479
+    - 0.52250487
+    - 0.52446187
+    - 0.5264188
+    - 0.52837574
+    - 0.5303327
+    - 0.5322896
+    - 0.53424656
+    - 0.5362035
+    - 0.53816044
+    - 0.5401174
+    - 0.5420744
+    - 0.5440313
+    - 0.54598826
+    - 0.5479452
+    - 0.54990214
+    - 0.5518591
+    - 0.553816
+    - 0.555773
+    - 0.55772996
+    - 0.5596869
+    - 0.56164384
+    - 0.5636008
+    - 0.5655577
+    - 0.56751466
+    - 0.5694716
+    - 0.57142854
+    - 0.57338554
+    - 0.5753425
+    - 0.5772994
+    - 0.57925636
+    - 0.5812133
+    - 0.58317024
+    - 0.5851272
+    - 0.5870842
+    - 0.5890411
+    - 0.59099805
+    - 0.592955
+    - 0.59491193
+    - 0.5968689
+    - 0.5988258
+    - 0.60078275
+    - 0.6027397
+    - 0.6046967
+    - 0.60665363
+    - 0.6086106
+    - 0.6105675
+    - 0.61252445
+    - 0.6144814
+    - 0.6164383
+    - 0.6183953
+    - 0.62035227
+    - 0.6223092
+    - 0.62426615
+    - 0.6262231
+    - 0.62818
+    - 0.63013697
+    - 0.6320939
+    - 0.63405085
+    - 0.63600785
+    - 0.6379648
+    - 0.6399217
+    - 0.64187866
+    - 0.6438356
+    - 0.64579254
+    - 0.6477495
+    - 0.6497065
+    - 0.6516634
+    - 0.65362036
+    - 0.6555773
+    - 0.65753424
+    - 0.6594912
+    - 0.6614481
+    - 0.66340506
+    - 0.665362
+    - 0.667319
+    - 0.66927594
+    - 0.6712329
+    - 0.6731898
+    - 0.67514676
+    - 0.6771037
+    - 0.67906064
+    - 0.68101764
+    - 0.6829746
+    - 0.6849315
+    - 0.68688846
+    - 0.6888454
+    - 0.69080234
+    - 0.6927593
+    - 0.6947162
+    - 0.69667315
+    - 0.69863015
+    - 0.7005871
+    - 0.70254403
+    - 0.704501
+    - 0.7064579
+    - 0.70841485
+    - 0.7103718
+    - 0.7123288
+    - 0.71428573
+    - 0.7162427
+    - 0.7181996
+    - 0.72015655
+    - 0.7221135
+    - 0.7240704
+    - 0.72602737
+    - 0.7279843
+    - 0.7299413
+    - 0.73189825
+    - 0.7338552
+    - 0.7358121
+    - 0.73776907
+    - 0.739726
+    - 0.74168295
+    - 0.74363995
+    - 0.7455969
+    - 0.7475538
+    - 0.74951077
+    - 0.7514677
+    - 0.75342464
+    - 0.7553816
+    - 0.7573385
+    - 0.75929546
+    - 0.76125246
+    - 0.7632094
+    - 0.76516634
+    - 0.7671233
+    - 0.7690802
+    - 0.77103716
+    - 0.7729941
+    - 0.7749511
+    - 0.77690804
+    - 0.778865
+    - 0.7808219
+    - 0.78277886
+    - 0.7847358
+    - 0.78669274
+    - 0.7886497
+    - 0.7906066
+    - 0.7925636
+    - 0.79452056
+    - 0.7964775
+    - 0.79843444
+    - 0.8003914
+    - 0.8023483
+    - 0.80430526
+    - 0.80626225
+    - 0.8082192
+    - 0.81017613
+    - 0.8121331
+    - 0.81409
+    - 0.81604695
+    - 0.8180039
+    - 0.81996083
+    - 0.8219178
+    - 0.8238748
+    - 0.8258317
+    - 0.82778865
+    - 0.8297456
+    - 0.83170253
+    - 0.83365947
+    - 0.8356164
+    - 0.8375734
+    - 0.83953035
+    - 0.8414873
+    - 0.8434442
+    - 0.84540117
+    - 0.8473581
+    - 0.84931505
+    - 0.851272
+    - 0.8532289
+    - 0.8551859
+    - 0.85714287
+    - 0.8590998
+    - 0.86105675
+    - 0.8630137
+    - 0.8649706
+    - 0.86692756
+    - 0.86888456
+    - 0.8708415
+    - 0.87279844
+    - 0.8747554
+    - 0.8767123
+    - 0.87866926
+    - 0.8806262
+    - 0.88258314
+    - 0.8845401
+    - 0.8864971
+    - 0.888454
+    - 0.89041096
+    - 0.8923679
+    - 0.89432484
+    - 0.8962818
+    - 0.8982387
+    - 0.9001957
+    - 0.90215266
+    - 0.9041096
+    - 0.90606654
+    - 0.9080235
+    - 0.9099804
+    - 0.91193736
+    - 0.9138943
+    - 0.91585124
+    - 0.91780823
+    - 0.9197652
+    - 0.9217221
+    - 0.92367905
+    - 0.925636
+    - 0.92759293
+    - 0.9295499
+    - 0.9315069
+    - 0.9334638
+    - 0.93542075
+    - 0.9373777
+    - 0.93933463
+    - 0.9412916
+    - 0.9432485
+    - 0.94520545
+    - 0.9471624
+    - 0.9491194
+    - 0.9510763
+    - 0.95303327
+    - 0.9549902
+    - 0.95694715
+    - 0.9589041
+    - 0.960861
+    - 0.962818
+    - 0.96477497
+    - 0.9667319
+    - 0.96868885
+    - 0.9706458
+    - 0.9726027
+    - 0.97455966
+    - 0.9765166
+    - 0.97847354
+    - 0.98043054
+    - 0.9823875
+    - 0.9843444
+    - 0.98630136
+    - 0.9882583
+    - 0.99021524
+    - 0.9921722
+    - 0.9941292
+    - 0.9960861
+    - 0.99804306
+    - 1
+  innerGlowOptions:
+    use: 0
+    useOld: 0
+    r_mainTexture: {fileID: 0}
+    size: 2
+    spread: 0
+    range: 50
+    sizeOld: 2
+    spreadOld: 0
+    rangeOld: 50
+    method: 0
+    methodOld: 0
+    blendMode: 1
+    fillType: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    contour:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourOld:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourTexture: {fileID: 0}
+    position: 0
+    positionOld: 0
+    gradPosition: 1
+    contourBuffer: []
+  innerShadowOptions:
+    use: 0
+    useOld: 0
+    r_mainTexture: {fileID: 0}
+    size: 2
+    sizeOld: 2
+    choke: 0
+    chokeOld: 0
+    distance: 0
+    distanceOld: 0
+    angle: 0
+    angleOld: 0
+    blendMode: 0
+    color: {r: 0, g: 0, b: 0, a: 1}
+    contour:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourOld:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    contourBuffer: []
+  faceGradientOptions:
+    use: 0
+    useOld: 0
+    r_mainTexture: {fileID: 0}
+    gradType: 0
+    gBlendMode: 0
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    angle: 0
+    scale: 100
+    gradPosition: 2
+  SourceMaterial: {fileID: 0}
+  FolderGUID: dc605c45ebccc43388a0fe966d751c24
+  SourceFont: {fileID: 12800000, guid: f90c3b2ec0fae5a48b5cd338193b430b, type: 3}
+  SoftFont: {fileID: 12800000, guid: 329df30cc9cda4bfbab3cf690eb2fd89, type: 2}
+--- !u!84 &451186564
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 4096
+  m_Height: 2048
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 5
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &551463184
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +10008,7 @@ GameObject:
   - component: {fileID: 551463187}
   - component: {fileID: 551463186}
   m_Layer: 5
-  m_Name: MoveBtn
+  m_Name: AttackBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -429,9 +10078,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1632112548}
+      - m_Target: {fileID: 39519727}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: MoveBtn
+        m_MethodName: AttackBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -454,15 +10103,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.94259137, b: 0, a: 0.64705884}
+  m_Color: {r: 1, g: 0, b: 0.20769596, a: 0.64705884}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300038, guid: 34ecf51bcd3f4424eafda7dafd885bd0, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -521,7 +10170,7 @@ MonoBehaviour:
   SpeakEnemyTxt: {fileID: 818313174}
   GoImg: {fileID: 1754467606}
   StopImg: {fileID: 2124414647}
-  player: {fileID: 1632112548}
+  player: {fileID: 39519727}
   gameOverPanel: {fileID: 338612033}
   EndScore: {fileID: 1119481738}
   BestScore: {fileID: 1254085336}
@@ -635,7 +10284,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &743834843
 GameObject:
@@ -877,6 +10526,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!84 &954469683
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 4096
+  m_Height: 2048
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,13 +10638,93 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.08285402, y: -0, z: -0, w: 0.99656177}
+  m_LocalPosition: {x: 0, y: 1.61, z: -10.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 9.505, y: 0, z: 0}
+--- !u!84 &1068992300
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 4096
+  m_Height: 2048
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!1 &1097087545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097087546}
+  - component: {fileID: 1097087547}
+  m_Layer: 0
+  m_Name: AttackArea
+  m_TagString: PlayerAttack
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097087546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097087545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.79, z: 2.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 39519728}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1097087547
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097087545}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1119481736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,75 +11276,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1632112545 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-  m_PrefabInstance: {fileID: 2067411599}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1632112546
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632112545}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!95 &1632112547
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632112545}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c45bfc57008ee431cbf4e9b7e69f3189, type: 3}
-  m_Controller: {fileID: 9100000, guid: ae4fdf3826f444bce9e598307681853a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1632112548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632112545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 073bd5cc013504f43bf3e53119df3a26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Floor: {fileID: 880177739}
-  playerRig: {fileID: 1632112546}
-  anim: {fileID: 1632112547}
---- !u!136 &1632112550
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632112545}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.2
-  m_Height: 1.87
-  m_Direction: 1
-  m_Center: {x: -0.04, y: 0.87, z: 0}
 --- !u!1 &1754467606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,6 +11362,7 @@ GameObject:
   - component: {fileID: 1787102213}
   - component: {fileID: 1787102215}
   - component: {fileID: 1787102214}
+  - component: {fileID: 1787102216}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1705,7 +11402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.33865333, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1713,12 +11410,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: 9898ca5b94b8e4e18911376603496f91, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1734,6 +11431,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787102212}
   m_CullTransparentMesh: 1
+--- !u!114 &1787102216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787102212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0.5}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1946002137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,7 +11504,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 9898ca5b94b8e4e18911376603496f91, type: 3}
     m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
@@ -1813,79 +11525,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946002137}
   m_CullTransparentMesh: 1
---- !u!1001 &2067411599
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.2829097
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.596
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8.525
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_Name
-      value: Standing Idle
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3a382606f0f6046c3bc256085748675f, type: 3}
 --- !u!1 &2107297433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,7 +11608,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1632112548}
+      - m_Target: {fileID: 39519727}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: WalkBtn
         m_Mode: 1
@@ -1994,15 +11633,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.94259137, b: 0, a: 0.64705884}
+  m_Color: {r: 1, g: 0.8948293, b: 0, a: 0.64705884}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 11b712ae2716487429cfdeb03f86a3ad, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2030,6 +11669,7 @@ GameObject:
   - component: {fileID: 2115415985}
   - component: {fileID: 2115415987}
   - component: {fileID: 2115415986}
+  - component: {fileID: 2115415988}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2069,7 +11709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.96811295, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2077,19 +11717,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: 9898ca5b94b8e4e18911376603496f91, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Move
+  m_Text: Attack
 --- !u!222 &2115415987
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2098,6 +11738,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115415984}
   m_CullTransparentMesh: 1
+--- !u!114 &2115415988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115415984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0.5}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2124414647
 GameObject:
   m_ObjectHideFlags: 0
