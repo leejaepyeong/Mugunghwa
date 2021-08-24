@@ -6,21 +6,27 @@ public class Enenmy : MonoBehaviour
 {
     public GameObject DestroyEffect;
 
+    bool isDestroy = false;
 
     private void Update()
     {
-        transform.Rotate(0, 0, -10f);
+        transform.Rotate(-10f, 0, 0);
     }
 
 
     void DestroyStone()
     {
-
+        GameObject stoneEffect = Instantiate(DestroyEffect, transform.position, Quaternion.identity);
+        Destroy(stoneEffect, 0.6f);
+        StartCoroutine(TryDestroy());
     }
 
     IEnumerator TryDestroy()
     {
-        yield return new WaitForSeconds(1f);
+        isDestroy = true;
+        GameManager.instance.ScoreUp(50);
+
+        yield return new WaitForSeconds(0.2f);
 
         Destroy(gameObject);
     }
@@ -29,6 +35,8 @@ public class Enenmy : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            if (isDestroy) return;
+
             PlayerController player = other.GetComponent<PlayerController>();
 
 

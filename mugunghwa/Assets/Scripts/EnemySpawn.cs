@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour
 {
-    public GameObject enemyPrefabs;
-    public GameObject[] enemySpawnPlaces;
+    public GameObject[] enemyPrefabs;
+    public GameObject enemySpawnPlaces;
 
     float SpawnTime = 5f;
     float currentTime;
@@ -35,7 +35,7 @@ public class EnemySpawn : MonoBehaviour
 
         yield return null;
 
-        GameObject enemy = Instantiate(enemyPrefabs, enemySpawnPlaces[random].transform.position, Quaternion.identity);
+        GameObject enemy = Instantiate(enemyPrefabs[Random.Range(0,4)], enemySpawnPlaces.transform.position, Quaternion.identity);
 
         Rigidbody enemyRig = enemy.GetComponent<Rigidbody>();
 

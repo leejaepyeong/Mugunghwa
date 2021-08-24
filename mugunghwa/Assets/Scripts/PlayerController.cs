@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public GameObject Floor;
 
 
     bool isAttack = false;
@@ -14,7 +13,9 @@ public class PlayerController : MonoBehaviour
     public Rigidbody playerRig;
     public Animator anim;
 
+    public bool attackPos;
 
+    public MapSpawn mapSpawn;
 
     public void AttackBtn()
     {
@@ -32,7 +33,18 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator TryAttack()
     {
-        anim.SetTrigger("doAttack");
+        attackPos = !attackPos;
+
+        if(attackPos)
+        {
+            anim.SetTrigger("doAttackLeft");
+        }
+        else
+        {
+            anim.SetTrigger("doAttackRight");
+        }
+
+        
         AttackArea.enabled = true;
         yield return new WaitForSeconds(0.2f);
         AttackArea.enabled = false;
@@ -50,15 +62,16 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(Walking());
 
         
-
+        
         if(PlayerMove())
         {
             GameManager.instance.PlayerDeath();
 
             return;
         }
+        
 
-        Floor.transform.Rotate(0,0,-10f);
+        mapSpawn.MapMove();
 
         GameManager.instance.ScoreUp(10);
 

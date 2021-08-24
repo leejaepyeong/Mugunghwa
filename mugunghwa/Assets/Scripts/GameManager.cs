@@ -8,6 +8,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    
+    [Header("GamePanel")]
+    public GameObject gamePanel;
+    public GameObject GoImg;
+    public GameObject StopImg;
     public int score = 0;
     public int bestScore = 0;
     public Text scoreTxt;
@@ -23,12 +28,9 @@ public class GameManager : MonoBehaviour
     int maxLevel = 10;
     public Text levelTxt;
 
-    string EnemtTxt = "무궁화 꽃이 피었습니다";
-    string SpeakTxt;
-    public Text SpeakEnemyTxt;
+    string EnemtTxt = "무궁화꽃이피었습니다";
+    public GameObject[] animTxt;
 
-    public GameObject GoImg;
-    public GameObject StopImg;
 
 
     public PlayerController player;
@@ -37,6 +39,8 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
     public Text EndScore;
     public Text BestScore;
+    public Text EndTxt;
+    string[] endTxts = {"이걸 잡혀? 이걸?", "푸훗....푸푸훗..", "답이 없다..너는 답이" };
 
 
     [Header("TimeChange")]
@@ -101,7 +105,6 @@ public class GameManager : MonoBehaviour
 
     IEnumerator TextRead()
     {
-        SpeakTxt = "";
 
         float[] random = new float[13];
 
@@ -112,9 +115,11 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < EnemtTxt.Length; i++)
         {
-            SpeakTxt += EnemtTxt[i];
 
-            SpeakEnemyTxt.text = SpeakTxt;
+            //animTxt[i].GetComponent<Text>().text = EnemtTxt[i].ToString();
+
+            animTxt[i].SetActive(true);
+
             yield return new WaitForSeconds(random[i]);
         }
 
@@ -130,7 +135,11 @@ public class GameManager : MonoBehaviour
         GoImg.SetActive(true);
         StopImg.SetActive(false);
 
+        for (int i = 0; i < EnemtTxt.Length; i++)
+        {
+            animTxt[i].SetActive(false);
 
+        }
 
         isDone = false;
         isRead = false;
@@ -150,12 +159,13 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         gameOverPanel.SetActive(false);
+        gamePanel.SetActive(true);
         isDead = false;
         GameTime = 0f;
         level = 0;
 
-        player.anim.SetTrigger("Reset");
-
+        player.anim.SetTrigger("doDamage");
+        
         GoImg.SetActive(true);
         StopImg.SetActive(false);
 
@@ -164,14 +174,17 @@ public class GameManager : MonoBehaviour
 
     public void PlayerDeath()
     {
+        if (isDead) return;
+
         isDead = true;
 
-        player.anim.SetTrigger("Death");
+        player.anim.SetTrigger("doDeath");
 
+        gamePanel.SetActive(false);
         gameOverPanel.SetActive(true);
         EndScore.text = "Score " + score.ToString() + " 점";
         BestScore.text = "Best " + bestScore.ToString() + " 점";
-
+        EndTxt.text = endTxts[Random.Range(0, 3)];
 
     }
 

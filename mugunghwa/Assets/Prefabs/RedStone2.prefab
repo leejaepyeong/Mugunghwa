@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 6647807227321858955}
   - component: {fileID: 4614872391137171536}
   - component: {fileID: 7450376369746507217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RedStone2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,3 +145,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a451dfff6082a449a838c1ba96ad8698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 5379646098393096306, guid: da3e048ac5d3c4491a05491893e8b844, type: 3}

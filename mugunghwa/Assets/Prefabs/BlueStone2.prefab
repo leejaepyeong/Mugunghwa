@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 1309903319636036576}
   - component: {fileID: 663904068604130858}
   - component: {fileID: 7059048784138095970}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BlueStone2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,3 +145,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a451dfff6082a449a838c1ba96ad8698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 1074821888800915276, guid: 2c9ec2031652940098cd81ca7fa4c1c6, type: 3}
