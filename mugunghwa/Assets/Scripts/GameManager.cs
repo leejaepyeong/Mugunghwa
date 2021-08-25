@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public int bestScore = 0;
     public Text scoreTxt;
+    public int Life = 2;
+    public GameObject LifeGroup;
+    public GameObject[] Lifes;
 
     public float GameTime = 0f;
 
@@ -30,6 +33,7 @@ public class GameManager : MonoBehaviour
 
     string EnemtTxt = "무궁화꽃이피었습니다";
     public GameObject[] animTxt;
+
 
 
 
@@ -54,13 +58,13 @@ public class GameManager : MonoBehaviour
         if (instance == null)
             instance = this;
 
-
+        Lifes = new GameObject[2] { LifeGroup.transform.GetChild(0).gameObject, LifeGroup.transform.GetChild(1).gameObject };
     }
 
     private void Update()
     {
-        if(!isRead)
-        TryTextRead();
+        if(!isRead && !isDead)
+            TryTextRead();
 
         Timer();
         RotateSky();
@@ -91,9 +95,11 @@ public class GameManager : MonoBehaviour
 
         if(GameTime >= 20 * (level + 1) && level < maxLevel)
         {
+            if (level >= 10) return;
             level++;
-            
         }
+
+        
     }
 
     void TryTextRead()
@@ -110,13 +116,11 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < random.Length; i++)
         {
-            random[i] = Random.Range(0.1f, 0.8f);
+            random[i] = Random.Range(0.28f, 0.82f);
         }
 
         for (int i = 0; i < EnemtTxt.Length; i++)
-        {
-
-            //animTxt[i].GetComponent<Text>().text = EnemtTxt[i].ToString();
+        { 
 
             animTxt[i].SetActive(true);
 
@@ -155,14 +159,29 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void LifeOut()
+    {
+        Life--;
+
+        Lifes[Life].SetActive(false);
+    }
+
     public void ResetBtn()
     {
         score = 0;
+        scoreTxt.text = "Score " + score;
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(true);
         isDead = false;
         GameTime = 0f;
         level = 0;
+        levelTxt.text = "Level " + level.ToString();
+
+        Life = 2;
+        for (int i  = 0; i < 2; i++)
+        {
+            Lifes[i].SetActive(true);
+        }
 
         player.anim.SetTrigger("doDamage");
         

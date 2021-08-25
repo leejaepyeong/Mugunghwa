@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public bool attackPos;
 
     public MapSpawn mapSpawn;
+    public GameObject[] AttackEffect;
 
     public void AttackBtn()
     {
@@ -44,11 +45,13 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("doAttackRight");
         }
 
+        yield return new WaitForSeconds(0.15f);
         
         AttackArea.enabled = true;
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.27f);
         AttackArea.enabled = false;
         isAttack = false;
+
     }
 
     public void WalkBtn()

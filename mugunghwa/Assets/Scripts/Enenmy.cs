@@ -7,6 +7,8 @@ public class Enenmy : MonoBehaviour
     public GameObject DestroyEffect;
 
     bool isDestroy = false;
+    bool isCrush = false;
+
 
     private void Update()
     {
@@ -26,21 +28,25 @@ public class Enenmy : MonoBehaviour
         isDestroy = true;
         GameManager.instance.ScoreUp(50);
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.22f);
 
         Destroy(gameObject);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if(other.tag == "Player" && !isCrush)
         {
             if (isDestroy) return;
 
+            isCrush = true;
+
             PlayerController player = other.GetComponent<PlayerController>();
 
+            GameManager.instance.LifeOut();
 
-            GameManager.instance.PlayerDeath();
+            if(GameManager.instance.Life <= 0)
+                GameManager.instance.PlayerDeath();
         }
         else if(other.tag == "PlayerAttack")
         {
