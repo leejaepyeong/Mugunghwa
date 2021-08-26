@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public int bestScore = 0;
     public Text scoreTxt;
-    public int Life = 2;
+    public int Life = 3;
     public GameObject LifeGroup;
     public GameObject[] Lifes;
 
@@ -34,10 +34,12 @@ public class GameManager : MonoBehaviour
     string EnemtTxt = "무궁화꽃이피었습니다";
     public GameObject[] animTxt;
 
-
+    [Header("OptionPanel")]
+    public GameObject optionPanel;
 
 
     public PlayerController player;
+    public GameObject HitEffect;
 
     [Header("GameOverPanel")]
     public GameObject gameOverPanel;
@@ -161,9 +163,25 @@ public class GameManager : MonoBehaviour
 
     public void LifeOut()
     {
+        StartCoroutine(PlayerHitEffect());
+
         Life--;
 
-        Lifes[Life].SetActive(false);
+        if (Life <= 0)
+        {
+            PlayerDeath();
+            return;
+        }
+            
+        Lifes[Life - 1].SetActive(false);
+    }
+
+    IEnumerator PlayerHitEffect()
+    {
+        HitEffect.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        HitEffect.SetActive(false);
+
     }
 
     public void ResetBtn()
@@ -177,7 +195,7 @@ public class GameManager : MonoBehaviour
         level = 0;
         levelTxt.text = "Level " + level.ToString();
 
-        Life = 2;
+        Life = 3;
         for (int i  = 0; i < 2; i++)
         {
             Lifes[i].SetActive(true);
@@ -207,5 +225,21 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void OptionBtn()
+    {
+        Time.timeScale = 0;
+        optionPanel.SetActive(true);
+    }
 
+    public void PlayGameBtn()
+    {
+        Time.timeScale = 1;
+        optionPanel.SetActive(false);
+    }
+
+    public void TitleBtn()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
+    }
 }

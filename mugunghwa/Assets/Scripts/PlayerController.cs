@@ -28,6 +28,12 @@ public class PlayerController : MonoBehaviour
 
         StartCoroutine(TryAttack());
 
+        if (PlayerMove())
+        {
+            GameManager.instance.PlayerDeath();
+
+            return;
+        }
 
         GameManager.instance.isMove = false;
     }

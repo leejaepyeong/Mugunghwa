@@ -9,10 +9,27 @@ public class Enenmy : MonoBehaviour
     bool isDestroy = false;
     bool isCrush = false;
 
+    float speed = 2f;
+
+    Rigidbody rig;
+
+    private void Start()
+    {
+        rig = GetComponent<Rigidbody>();
+    }
 
     private void Update()
     {
-        transform.Rotate(-10f, 0, 0);
+        if(!GameManager.instance.isDone)
+        {
+            transform.Rotate(-10f, 0, 0);
+            rig.velocity = new Vector3(0, 0, -1f) * speed;
+        }
+        else
+        {
+            rig.velocity = Vector3.zero;
+        }
+            
     }
 
 
@@ -42,11 +59,14 @@ public class Enenmy : MonoBehaviour
             isCrush = true;
 
             PlayerController player = other.GetComponent<PlayerController>();
+            if(GameManager.instance.Life > 1)
+                player.anim.SetTrigger("doDamage");
+
+            Destroy(gameObject);
 
             GameManager.instance.LifeOut();
 
-            if(GameManager.instance.Life <= 0)
-                GameManager.instance.PlayerDeath();
+            
         }
         else if(other.tag == "PlayerAttack")
         {
