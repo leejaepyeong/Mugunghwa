@@ -833,4 +833,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Title.unity
   - Assets/Scenes/InGame.unity
   - Assets/Scenes/Help.unity
-  playerPath: /Users/mr13/Desktop/LJP_UNITY/APK/mugunghwaflower_ver2.aab
+  playerPath: /Users/mr13/Desktop/LJP_UNITY/APK/mugunghwaflower_ver3.aab
