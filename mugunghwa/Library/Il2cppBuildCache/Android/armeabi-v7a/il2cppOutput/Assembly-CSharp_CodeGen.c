@@ -130,173 +130,179 @@ extern void GameManager_PlayGameBtn_m075222887CD22C9A04215D8575AF6304E2BF6DB3 (v
 extern void GameManager_TitleBtn_mEA4B166D2EC063F7894DCCBF3C3DAB9993BA6EF7 (void);
 // 0x0000003B System.Void GameManager::.ctor()
 extern void GameManager__ctor_mE8666F6D0CA9C31E16B719F79780DC4B0245B64D (void);
-// 0x0000003C System.Void GameManager/<TextRead>d__36::.ctor(System.Int32)
-extern void U3CTextReadU3Ed__36__ctor_mE35E507B2F6FA009D0332D13E20B708121E8703A (void);
-// 0x0000003D System.Void GameManager/<TextRead>d__36::System.IDisposable.Dispose()
-extern void U3CTextReadU3Ed__36_System_IDisposable_Dispose_m733D0F066B89FA20689A483DEF60E54B96AB4D70 (void);
-// 0x0000003E System.Boolean GameManager/<TextRead>d__36::MoveNext()
-extern void U3CTextReadU3Ed__36_MoveNext_mB29E625FA7C60608A672C920FB517A45E1D299E4 (void);
-// 0x0000003F System.Object GameManager/<TextRead>d__36::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CTextReadU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCC9FCFC00038D59D31B35A99487DFE22025D851B (void);
-// 0x00000040 System.Void GameManager/<TextRead>d__36::System.Collections.IEnumerator.Reset()
-extern void U3CTextReadU3Ed__36_System_Collections_IEnumerator_Reset_m3D79463A01C468055287E470E811B173E2EEE736 (void);
-// 0x00000041 System.Object GameManager/<TextRead>d__36::System.Collections.IEnumerator.get_Current()
-extern void U3CTextReadU3Ed__36_System_Collections_IEnumerator_get_Current_m9FB81DB909B238430C0BAD254C1513697DA1D588 (void);
-// 0x00000042 System.Void GameManager/<PlayerHitEffect>d__39::.ctor(System.Int32)
-extern void U3CPlayerHitEffectU3Ed__39__ctor_mC4EE04F18D2C2708F0D60C1A8AF579FBA2A304B5 (void);
-// 0x00000043 System.Void GameManager/<PlayerHitEffect>d__39::System.IDisposable.Dispose()
-extern void U3CPlayerHitEffectU3Ed__39_System_IDisposable_Dispose_m9C9CC636C493BF7C2250B55B653A7CC4E939D5C1 (void);
-// 0x00000044 System.Boolean GameManager/<PlayerHitEffect>d__39::MoveNext()
-extern void U3CPlayerHitEffectU3Ed__39_MoveNext_mF4B859614352AA824B24BC45B9FA6D952D9D53AB (void);
-// 0x00000045 System.Object GameManager/<PlayerHitEffect>d__39::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CPlayerHitEffectU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m82D656ECFA5ED4A8489919DBB26AA590BF8FB59F (void);
-// 0x00000046 System.Void GameManager/<PlayerHitEffect>d__39::System.Collections.IEnumerator.Reset()
-extern void U3CPlayerHitEffectU3Ed__39_System_Collections_IEnumerator_Reset_m4752710BBC043917F3C7EFD53C941D3FD3A1A147 (void);
-// 0x00000047 System.Object GameManager/<PlayerHitEffect>d__39::System.Collections.IEnumerator.get_Current()
-extern void U3CPlayerHitEffectU3Ed__39_System_Collections_IEnumerator_get_Current_mC25C1960DB38C24C7A3484509B20047405F3BD94 (void);
-// 0x00000048 System.Void MapSpawn::MapMove()
+// 0x0000003C System.Void GameManager/<TextRead>d__37::.ctor(System.Int32)
+extern void U3CTextReadU3Ed__37__ctor_m57D2E5C08E0819D5FCBEE8B09456948779E9965C (void);
+// 0x0000003D System.Void GameManager/<TextRead>d__37::System.IDisposable.Dispose()
+extern void U3CTextReadU3Ed__37_System_IDisposable_Dispose_m5C20A18EE285C5C3280730A6F20D51ED84D79A6A (void);
+// 0x0000003E System.Boolean GameManager/<TextRead>d__37::MoveNext()
+extern void U3CTextReadU3Ed__37_MoveNext_mC389E1B4A1010C67D2E72E54CC32F5F03B02DC9D (void);
+// 0x0000003F System.Object GameManager/<TextRead>d__37::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CTextReadU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC26BABE417FE7F219846AF7F899D6C01351171B0 (void);
+// 0x00000040 System.Void GameManager/<TextRead>d__37::System.Collections.IEnumerator.Reset()
+extern void U3CTextReadU3Ed__37_System_Collections_IEnumerator_Reset_m95A4876C12477C532CA810B7B1E95ABD28E60B69 (void);
+// 0x00000041 System.Object GameManager/<TextRead>d__37::System.Collections.IEnumerator.get_Current()
+extern void U3CTextReadU3Ed__37_System_Collections_IEnumerator_get_Current_mF2EB6D677E8F2281AFA3254D8B88071A80D502E5 (void);
+// 0x00000042 System.Void GameManager/<PlayerHitEffect>d__40::.ctor(System.Int32)
+extern void U3CPlayerHitEffectU3Ed__40__ctor_m90DCC8BFBFC95B0848E0CB39A7101E4AD3235361 (void);
+// 0x00000043 System.Void GameManager/<PlayerHitEffect>d__40::System.IDisposable.Dispose()
+extern void U3CPlayerHitEffectU3Ed__40_System_IDisposable_Dispose_m99B8E33EC175E0145984C085AB8139664B67517F (void);
+// 0x00000044 System.Boolean GameManager/<PlayerHitEffect>d__40::MoveNext()
+extern void U3CPlayerHitEffectU3Ed__40_MoveNext_m06D691E266892E5C01544D716D70DF521FC2F126 (void);
+// 0x00000045 System.Object GameManager/<PlayerHitEffect>d__40::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CPlayerHitEffectU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1E91F5C84ED9A3D69E26F88D3F4C8C2E28190762 (void);
+// 0x00000046 System.Void GameManager/<PlayerHitEffect>d__40::System.Collections.IEnumerator.Reset()
+extern void U3CPlayerHitEffectU3Ed__40_System_Collections_IEnumerator_Reset_m1C1703A8AEB809AD3D23F874B417E5109C6B82D6 (void);
+// 0x00000047 System.Object GameManager/<PlayerHitEffect>d__40::System.Collections.IEnumerator.get_Current()
+extern void U3CPlayerHitEffectU3Ed__40_System_Collections_IEnumerator_get_Current_m1DA02D6E39F3A5C94E957346F91ED012EBF4C261 (void);
+// 0x00000048 System.Void MapBestScore::.ctor()
+extern void MapBestScore__ctor_m8EFDD0C34F357496A0FECC3B464D33439DDF96C6 (void);
+// 0x00000049 System.Void MapSpawn::MapMove()
 extern void MapSpawn_MapMove_mA077CFAD9C459521E3F7016DD228FDB0AC6F6535 (void);
-// 0x00000049 System.Void MapSpawn::.ctor()
+// 0x0000004A System.Void MapSpawn::.ctor()
 extern void MapSpawn__ctor_m7F234A84CDCDF411A27C25712147594AF14C18F7 (void);
-// 0x0000004A System.Void OptionManager::Start()
+// 0x0000004B System.Void OptionManager::Start()
 extern void OptionManager_Start_m2BC10D71934C6473BB09D06C2E50C89AE8685415 (void);
-// 0x0000004B System.Void OptionManager::WriteText()
+// 0x0000004C System.Void OptionManager::WriteText()
 extern void OptionManager_WriteText_m0719FBB4FE51C9C118AC570E3B2EE839416EF6C8 (void);
-// 0x0000004C System.Void OptionManager::Update()
+// 0x0000004D System.Void OptionManager::Update()
 extern void OptionManager_Update_mEF3BDF0C890BB50D8032B5FAD3F51116CE433477 (void);
-// 0x0000004D System.Void OptionManager::RotateSkyBox()
+// 0x0000004E System.Void OptionManager::RotateSkyBox()
 extern void OptionManager_RotateSkyBox_m1DFA93BBEDD400D775B9B320B00ACD319C8E45C5 (void);
-// 0x0000004E System.Void OptionManager::ReadBtn(System.Int32)
+// 0x0000004F System.Void OptionManager::ReadBtn(System.Int32)
 extern void OptionManager_ReadBtn_m1B44D6B996596D80CAEADC47DD4B67D77D753395 (void);
-// 0x0000004F System.Void OptionManager::OpenPage(System.Int32,System.Int32)
+// 0x00000050 System.Void OptionManager::OpenPage(System.Int32,System.Int32)
 extern void OptionManager_OpenPage_m5DCBC3381F6E58B63BC8A0E227D68FF5A19DF4C3 (void);
-// 0x00000050 System.Void OptionManager::TitleBtn()
+// 0x00000051 System.Void OptionManager::TitleBtn()
 extern void OptionManager_TitleBtn_m5AF11FA73F2B5590108400AE0557001BA9E66E3F (void);
-// 0x00000051 System.Void OptionManager::.ctor()
+// 0x00000052 System.Void OptionManager::.ctor()
 extern void OptionManager__ctor_mF7C9174F7B8B37033587879F174391A3A306E996 (void);
-// 0x00000052 System.Void PlayerController::AttackBtn()
+// 0x00000053 System.Void PlayerController::AttackBtn()
 extern void PlayerController_AttackBtn_mDEE11544EBAB8020308BE1CC2CB49DA03874A757 (void);
-// 0x00000053 System.Collections.IEnumerator PlayerController::TryAttack()
+// 0x00000054 System.Collections.IEnumerator PlayerController::TryAttack()
 extern void PlayerController_TryAttack_mAA296085628E3D297A39772E953C039CF3633584 (void);
-// 0x00000054 System.Void PlayerController::WalkBtn()
+// 0x00000055 System.Void PlayerController::WalkBtn()
 extern void PlayerController_WalkBtn_m890F3F0034E565AC8FF2471B87C313FBF96CE4FC (void);
-// 0x00000055 System.Collections.IEnumerator PlayerController::Walking()
+// 0x00000056 System.Collections.IEnumerator PlayerController::Walking()
 extern void PlayerController_Walking_m9A21B13C1A1FE2050AB7279F70281179D8BE8A79 (void);
-// 0x00000056 System.Boolean PlayerController::PlayerMove()
+// 0x00000057 System.Boolean PlayerController::PlayerMove()
 extern void PlayerController_PlayerMove_m243431279422602CA7879E26F9D3279F578A5AC4 (void);
-// 0x00000057 System.Void PlayerController::.ctor()
+// 0x00000058 System.Void PlayerController::.ctor()
 extern void PlayerController__ctor_mF30385729DAFDFCB895C4939F6051DCE6C0327FB (void);
-// 0x00000058 System.Void PlayerController/<TryAttack>d__8::.ctor(System.Int32)
+// 0x00000059 System.Void PlayerController/<TryAttack>d__8::.ctor(System.Int32)
 extern void U3CTryAttackU3Ed__8__ctor_m90C0A4CED3B762BDEE3658A89A4A70F8112F9C06 (void);
-// 0x00000059 System.Void PlayerController/<TryAttack>d__8::System.IDisposable.Dispose()
+// 0x0000005A System.Void PlayerController/<TryAttack>d__8::System.IDisposable.Dispose()
 extern void U3CTryAttackU3Ed__8_System_IDisposable_Dispose_m703BD23D2BECB1E6FC18306CDC881DF9516B5147 (void);
-// 0x0000005A System.Boolean PlayerController/<TryAttack>d__8::MoveNext()
+// 0x0000005B System.Boolean PlayerController/<TryAttack>d__8::MoveNext()
 extern void U3CTryAttackU3Ed__8_MoveNext_mB2869E3E7C5C481C24AC1172709DB7A317A5C61E (void);
-// 0x0000005B System.Object PlayerController/<TryAttack>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000005C System.Object PlayerController/<TryAttack>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CTryAttackU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB1E45356AB414F71F5489EAA0AE28E0B209D5B19 (void);
-// 0x0000005C System.Void PlayerController/<TryAttack>d__8::System.Collections.IEnumerator.Reset()
+// 0x0000005D System.Void PlayerController/<TryAttack>d__8::System.Collections.IEnumerator.Reset()
 extern void U3CTryAttackU3Ed__8_System_Collections_IEnumerator_Reset_m759689F4BD68AF510E0027257F8FEF889182F519 (void);
-// 0x0000005D System.Object PlayerController/<TryAttack>d__8::System.Collections.IEnumerator.get_Current()
+// 0x0000005E System.Object PlayerController/<TryAttack>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CTryAttackU3Ed__8_System_Collections_IEnumerator_get_Current_mD9DCB5A2B7855DA70D09CC5E3BFD223BA64B3FFE (void);
-// 0x0000005E System.Void PlayerController/<Walking>d__10::.ctor(System.Int32)
+// 0x0000005F System.Void PlayerController/<Walking>d__10::.ctor(System.Int32)
 extern void U3CWalkingU3Ed__10__ctor_mD2C081C0A08CB378C7424B9DA07721E6F3166C87 (void);
-// 0x0000005F System.Void PlayerController/<Walking>d__10::System.IDisposable.Dispose()
+// 0x00000060 System.Void PlayerController/<Walking>d__10::System.IDisposable.Dispose()
 extern void U3CWalkingU3Ed__10_System_IDisposable_Dispose_m4C091BD1871B9E5CF98B835287906221A02D8075 (void);
-// 0x00000060 System.Boolean PlayerController/<Walking>d__10::MoveNext()
+// 0x00000061 System.Boolean PlayerController/<Walking>d__10::MoveNext()
 extern void U3CWalkingU3Ed__10_MoveNext_mFE8C5950A96FC330C573B6A2D9A8EF4622F6EC50 (void);
-// 0x00000061 System.Object PlayerController/<Walking>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000062 System.Object PlayerController/<Walking>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CWalkingU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6306806DAC35A862CD7CF4D7FBB0CFE7601D6E80 (void);
-// 0x00000062 System.Void PlayerController/<Walking>d__10::System.Collections.IEnumerator.Reset()
+// 0x00000063 System.Void PlayerController/<Walking>d__10::System.Collections.IEnumerator.Reset()
 extern void U3CWalkingU3Ed__10_System_Collections_IEnumerator_Reset_m9888FD12D779DC732ADBF759854CC327A3C4517C (void);
-// 0x00000063 System.Object PlayerController/<Walking>d__10::System.Collections.IEnumerator.get_Current()
+// 0x00000064 System.Object PlayerController/<Walking>d__10::System.Collections.IEnumerator.get_Current()
 extern void U3CWalkingU3Ed__10_System_Collections_IEnumerator_get_Current_mCB054AFE165A5BCF0684DC7E0762C3FBD5EF157A (void);
-// 0x00000064 System.Void TitleManager::Update()
+// 0x00000065 System.Void TitleManager::Start()
+extern void TitleManager_Start_mB1BDED26067331336418D8C8F760161E62F96224 (void);
+// 0x00000066 System.Void TitleManager::Update()
 extern void TitleManager_Update_m3D4B2483A33278FCFEB981AA66D621FDF1A652C7 (void);
-// 0x00000065 System.Void TitleManager::RotateSkyBox()
+// 0x00000067 System.Void TitleManager::RotateSkyBox()
 extern void TitleManager_RotateSkyBox_m7FCA6D39CB5CB554A9C5ABCF706978E3900FE51E (void);
-// 0x00000066 System.Void TitleManager::Btn(System.Int32)
+// 0x00000068 System.Void TitleManager::Btn(System.Int32)
 extern void TitleManager_Btn_m4989692D1202F26EA087776620C0274A07CE2CDE (void);
-// 0x00000067 System.Void TitleManager::.ctor()
+// 0x00000069 System.Void TitleManager::SelecMapBtn(System.Int32)
+extern void TitleManager_SelecMapBtn_m87B6EE1F9D2728CA2E39B6E178100211EF3D1970 (void);
+// 0x0000006A System.Void TitleManager::.ctor()
 extern void TitleManager__ctor_m0D14731249E3B6D0846A587A421CAE4FAD2056D0 (void);
-// 0x00000068 System.Void Mkey.GPUWorker::.ctor()
+// 0x0000006B System.Void Mkey.GPUWorker::.ctor()
 extern void GPUWorker__ctor_m9199561A628BFADFF8922DAE40034E08C09FAE23 (void);
-// 0x00000069 System.Void Mkey.TextSize::SetSize(System.Int32,System.Int32)
+// 0x0000006C System.Void Mkey.TextSize::SetSize(System.Int32,System.Int32)
 extern void TextSize_SetSize_m796284DC062C4DFA0B83FAAA8083AEC7163DD36E (void);
-// 0x0000006A System.Void Mkey.int2::.ctor(System.Int32,System.Int32)
+// 0x0000006D System.Void Mkey.int2::.ctor(System.Int32,System.Int32)
 extern void int2__ctor_m2A64AFB1F7C34920FD24A8AD1300D83A89CAB22B (void);
-// 0x0000006B System.String Mkey.int2::ToString()
+// 0x0000006E System.String Mkey.int2::ToString()
 extern void int2_ToString_mD1826E39DF0E0DB1E98AD64275AA2AA5A1942150 (void);
-// 0x0000006C Mkey.int2 Mkey.int2::op_Addition(Mkey.int2,Mkey.int2)
+// 0x0000006F Mkey.int2 Mkey.int2::op_Addition(Mkey.int2,Mkey.int2)
 extern void int2_op_Addition_m75D471EE801EDB0BC8886E648B7D2FBA80DC464F (void);
-// 0x0000006D Mkey.int2 Mkey.int2::op_Subtraction(Mkey.int2,Mkey.int2)
+// 0x00000070 Mkey.int2 Mkey.int2::op_Subtraction(Mkey.int2,Mkey.int2)
 extern void int2_op_Subtraction_mEA7151D24B9195ED221311005D2C550B629DB69F (void);
-// 0x0000006E Mkey.int2 Mkey.int2::op_Division(Mkey.int2,System.Int32)
+// 0x00000071 Mkey.int2 Mkey.int2::op_Division(Mkey.int2,System.Int32)
 extern void int2_op_Division_m0DE1782FA7A5029C244C91696B5F10C9A2D75165 (void);
-// 0x0000006F Mkey.int2 Mkey.int2::op_Multiply(Mkey.int2,System.Int32)
+// 0x00000072 Mkey.int2 Mkey.int2::op_Multiply(Mkey.int2,System.Int32)
 extern void int2_op_Multiply_mFA0C2BFE31F6BB76AC83983C406FA9CF1BBD2845 (void);
-// 0x00000070 System.Boolean Mkey.int2::op_Equality(Mkey.int2,Mkey.int2)
+// 0x00000073 System.Boolean Mkey.int2::op_Equality(Mkey.int2,Mkey.int2)
 extern void int2_op_Equality_m704F083094BD4DF2542D9D76972CB3FDCDF87C70 (void);
-// 0x00000071 System.Boolean Mkey.int2::op_Inequality(Mkey.int2,Mkey.int2)
+// 0x00000074 System.Boolean Mkey.int2::op_Inequality(Mkey.int2,Mkey.int2)
 extern void int2_op_Inequality_m046F7A3F851B7BD2B5FCE253A7AF7848CC49A144 (void);
-// 0x00000072 System.Int32 Mkey.int2::get_ChessLength()
+// 0x00000075 System.Int32 Mkey.int2::get_ChessLength()
 extern void int2_get_ChessLength_mB487D5C6BC87D01F881E036433E1953C6AE068AC (void);
-// 0x00000073 System.Void Mkey.PrintData::BufTostring(UnityEngine.ComputeBuffer,System.Int32,System.Int32)
+// 0x00000076 System.Void Mkey.PrintData::BufTostring(UnityEngine.ComputeBuffer,System.Int32,System.Int32)
 extern void PrintData_BufTostring_m9BAB7C9DE9CB0DC51A1F4E9A19F20296B14ADD62 (void);
-// 0x00000074 System.Void Mkey.PrintData::BufTostring(UnityEngine.ComputeBuffer,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000077 System.Void Mkey.PrintData::BufTostring(UnityEngine.ComputeBuffer,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void PrintData_BufTostring_mCA7C0BC02DB7DE3F9C80AD637160A37E7D07219A (void);
-// 0x00000075 System.Void Mkey.PrintData::BufTostring(UnityEngine.ComputeBuffer,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x00000078 System.Void Mkey.PrintData::BufTostring(UnityEngine.ComputeBuffer,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void PrintData_BufTostring_mB36E696656CBE2035FE0BF2FD584F8A4745A1665 (void);
-// 0x00000076 System.Void Mkey.PrintData::BufTostring(System.Double[],System.Int32,System.Int32)
+// 0x00000079 System.Void Mkey.PrintData::BufTostring(System.Double[],System.Int32,System.Int32)
 extern void PrintData_BufTostring_m3279EBEB749D18E3E7F0C3E4B72F91EDBAEAC86D (void);
-// 0x00000077 System.Void Mkey.PrintData::BufTostring(System.Int32[0...,0...],System.Int32,System.Int32)
+// 0x0000007A System.Void Mkey.PrintData::BufTostring(System.Int32[0...,0...],System.Int32,System.Int32)
 extern void PrintData_BufTostring_m971F5A32726D2C5293ED5479D664CC00568148A6 (void);
-// 0x00000078 System.Void Mkey.PrintData::BufTostring(System.Int32[],System.Int32,System.Int32)
+// 0x0000007B System.Void Mkey.PrintData::BufTostring(System.Int32[],System.Int32,System.Int32)
 extern void PrintData_BufTostring_m083FF960A6A77653747E264587FD642CCE99AF47 (void);
-// 0x00000079 System.Void Mkey.PrintData::BufTostring(System.Byte[0...,0...],System.Int32,System.Int32)
+// 0x0000007C System.Void Mkey.PrintData::BufTostring(System.Byte[0...,0...],System.Int32,System.Int32)
 extern void PrintData_BufTostring_m2C1EF8F89BB70C26B7824747D8037E2BD6340AA4 (void);
-// 0x0000007A System.Void Mkey.PrintData::BufTostring(System.Single[],System.Int32,System.Int32)
+// 0x0000007D System.Void Mkey.PrintData::BufTostring(System.Single[],System.Int32,System.Int32)
 extern void PrintData_BufTostring_mE5163EA86BF63BD633865E379DC45E7198FF0624 (void);
-// 0x0000007B System.Void Mkey.PrintData::BufTostring(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000007E System.Void Mkey.PrintData::BufTostring(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32)
 extern void PrintData_BufTostring_m33A5DAF6CABA96819994E14D415AD013B4814296 (void);
-// 0x0000007C System.Void Mkey.PrintData::BufTostring(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x0000007F System.Void Mkey.PrintData::BufTostring(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void PrintData_BufTostring_m416E01AEFB2BCF9A7FBFF6F7C124DC8CC376B370 (void);
-// 0x0000007D System.Void Mkey.PrintData::BufTostring(System.Single[0...,0...],System.Int32,System.Int32)
+// 0x00000080 System.Void Mkey.PrintData::BufTostring(System.Single[0...,0...],System.Int32,System.Int32)
 extern void PrintData_BufTostring_m28364753042D992200BAFB175345D04B52192BA1 (void);
-// 0x0000007E System.Void Mkey.PrintData::BufTostring(System.Single[0...,0...],System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000081 System.Void Mkey.PrintData::BufTostring(System.Single[0...,0...],System.Int32,System.Int32,System.Int32,System.Int32)
 extern void PrintData_BufTostring_mABFC968734251CBB935A6B1C5900FB658344A621 (void);
-// 0x0000007F System.Void Mkey.PrintData::BufTostring(UnityEngine.Vector2[],System.Int32,System.Int32)
+// 0x00000082 System.Void Mkey.PrintData::BufTostring(UnityEngine.Vector2[],System.Int32,System.Int32)
 extern void PrintData_BufTostring_m5FD564FFCFB2061D3F5DD049E13134802B8FA96C (void);
-// 0x00000080 System.Void Mkey.PrintData::BufTostring(UnityEngine.Vector2[],System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000083 System.Void Mkey.PrintData::BufTostring(UnityEngine.Vector2[],System.Int32,System.Int32,System.Int32,System.Int32)
 extern void PrintData_BufTostring_m7594681352543456106021E7C3A1309E79A90222 (void);
-// 0x00000081 System.Void Mkey.PrintData::BufTostring(System.Int64[],System.Int32,System.Int32)
+// 0x00000084 System.Void Mkey.PrintData::BufTostring(System.Int64[],System.Int32,System.Int32)
 extern void PrintData_BufTostring_m91B260855A8864DB3C4B905D8441EA3537A095DC (void);
-// 0x00000082 System.Void Mkey.PrintData::BufTostring(System.Int64[],System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000085 System.Void Mkey.PrintData::BufTostring(System.Int64[],System.Int32,System.Int32,System.Int32,System.Int32)
 extern void PrintData_BufTostring_mC514055E3B46D81E00FFDED14821D0588C060E80 (void);
-// 0x00000083 System.Void Mkey.PrintData::BufTostring(System.Int64[0...,0...],System.Int32,System.Int32)
+// 0x00000086 System.Void Mkey.PrintData::BufTostring(System.Int64[0...,0...],System.Int32,System.Int32)
 extern void PrintData_BufTostring_mE15EC7BF975271EC6A8F17A20AE292AACF91A9E4 (void);
-// 0x00000084 System.Void Mkey.PrintData::BufTostring(System.Int64[0...,0...],System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000087 System.Void Mkey.PrintData::BufTostring(System.Int64[0...,0...],System.Int32,System.Int32,System.Int32,System.Int32)
 extern void PrintData_BufTostring_m08DFC655ADAF240E0F0EF046C6F67FFEB2081D4C (void);
-// 0x00000085 System.Void Mkey.PrintData::Texture2DToString(UnityEngine.Texture2D,System.Int32)
+// 0x00000088 System.Void Mkey.PrintData::Texture2DToString(UnityEngine.Texture2D,System.Int32)
 extern void PrintData_Texture2DToString_m2E0CEA2EBAC14321C13D15280C10CD57C5C226D4 (void);
-// 0x00000086 System.Void Mkey.PrintData::Texture2DToString(UnityEngine.Texture2D)
+// 0x00000089 System.Void Mkey.PrintData::Texture2DToString(UnityEngine.Texture2D)
 extern void PrintData_Texture2DToString_m1020CFCCE9B2223E46E72C9D72ED5DED1798E34B (void);
-// 0x00000087 System.Void Mkey.PrintData::Texture2DToString(UnityEngine.Texture2D,System.Int32,System.Int32,System.Int32)
+// 0x0000008A System.Void Mkey.PrintData::Texture2DToString(UnityEngine.Texture2D,System.Int32,System.Int32,System.Int32)
 extern void PrintData_Texture2DToString_m0FC1A019A918620A37D1F2EAB03956024D5A8337 (void);
-// 0x00000088 System.Void Mkey.PrintData::Texture2DToString(UnityEngine.Texture2D,System.Int32,System.Int32)
+// 0x0000008B System.Void Mkey.PrintData::Texture2DToString(UnityEngine.Texture2D,System.Int32,System.Int32)
 extern void PrintData_Texture2DToString_m5BD9C91270A8A1DB56E453153AA73DFC9863F036 (void);
-// 0x00000089 System.String Mkey.PrintData::CharsToString(System.Char[],System.Char[],System.Char)
+// 0x0000008C System.String Mkey.PrintData::CharsToString(System.Char[],System.Char[],System.Char)
 extern void PrintData_CharsToString_m789227F2BFD794896B87B590CDF1513703EA8CB8 (void);
-// 0x0000008A System.String Mkey.PrintData::FloatsToString(System.Single[],System.Char[],System.Char)
+// 0x0000008D System.String Mkey.PrintData::FloatsToString(System.Single[],System.Char[],System.Char)
 extern void PrintData_FloatsToString_mA06A934E611E7F0D08C2EC525E16DA78C5CFEA59 (void);
-// 0x0000008B System.Void Mkey.PrintData::.ctor()
+// 0x0000008E System.Void Mkey.PrintData::.ctor()
 extern void PrintData__ctor_m0E6603C18D8345CB5B7ADA1A6E7997E848E56D52 (void);
-// 0x0000008C System.Void Mkey.SoftEffects::.ctor()
+// 0x0000008F System.Void Mkey.SoftEffects::.ctor()
 extern void SoftEffects__ctor_mE5C504A57A234CDEC7D1D98F4BDBE39BEA03FB73 (void);
-// 0x0000008D System.Void Mkey.SoftEffects::.cctor()
+// 0x00000090 System.Void Mkey.SoftEffects::.cctor()
 extern void SoftEffects__cctor_m87A9C344D2365422AB034E3B63182D96A76B1B47 (void);
-// 0x0000008E System.Void Mkey.SoftEffectsFont::.ctor()
+// 0x00000091 System.Void Mkey.SoftEffectsFont::.ctor()
 extern void SoftEffectsFont__ctor_mA726EF76A534A9578E2240806D92BCB8A5AF9DFB (void);
-static Il2CppMethodPointer s_methodPointers[142] = 
+static Il2CppMethodPointer s_methodPointers[145] = 
 {
 	csAnimationSpin_Update_m09C229D65C7F9FF928B91E90454D7C40BC99B800,
 	csAnimationSpin__ctor_m2E34EF0EFF2B3920E7A269F6E23E599D4CBC474B,
@@ -357,18 +363,19 @@ static Il2CppMethodPointer s_methodPointers[142] =
 	GameManager_PlayGameBtn_m075222887CD22C9A04215D8575AF6304E2BF6DB3,
 	GameManager_TitleBtn_mEA4B166D2EC063F7894DCCBF3C3DAB9993BA6EF7,
 	GameManager__ctor_mE8666F6D0CA9C31E16B719F79780DC4B0245B64D,
-	U3CTextReadU3Ed__36__ctor_mE35E507B2F6FA009D0332D13E20B708121E8703A,
-	U3CTextReadU3Ed__36_System_IDisposable_Dispose_m733D0F066B89FA20689A483DEF60E54B96AB4D70,
-	U3CTextReadU3Ed__36_MoveNext_mB29E625FA7C60608A672C920FB517A45E1D299E4,
-	U3CTextReadU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCC9FCFC00038D59D31B35A99487DFE22025D851B,
-	U3CTextReadU3Ed__36_System_Collections_IEnumerator_Reset_m3D79463A01C468055287E470E811B173E2EEE736,
-	U3CTextReadU3Ed__36_System_Collections_IEnumerator_get_Current_m9FB81DB909B238430C0BAD254C1513697DA1D588,
-	U3CPlayerHitEffectU3Ed__39__ctor_mC4EE04F18D2C2708F0D60C1A8AF579FBA2A304B5,
-	U3CPlayerHitEffectU3Ed__39_System_IDisposable_Dispose_m9C9CC636C493BF7C2250B55B653A7CC4E939D5C1,
-	U3CPlayerHitEffectU3Ed__39_MoveNext_mF4B859614352AA824B24BC45B9FA6D952D9D53AB,
-	U3CPlayerHitEffectU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m82D656ECFA5ED4A8489919DBB26AA590BF8FB59F,
-	U3CPlayerHitEffectU3Ed__39_System_Collections_IEnumerator_Reset_m4752710BBC043917F3C7EFD53C941D3FD3A1A147,
-	U3CPlayerHitEffectU3Ed__39_System_Collections_IEnumerator_get_Current_mC25C1960DB38C24C7A3484509B20047405F3BD94,
+	U3CTextReadU3Ed__37__ctor_m57D2E5C08E0819D5FCBEE8B09456948779E9965C,
+	U3CTextReadU3Ed__37_System_IDisposable_Dispose_m5C20A18EE285C5C3280730A6F20D51ED84D79A6A,
+	U3CTextReadU3Ed__37_MoveNext_mC389E1B4A1010C67D2E72E54CC32F5F03B02DC9D,
+	U3CTextReadU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC26BABE417FE7F219846AF7F899D6C01351171B0,
+	U3CTextReadU3Ed__37_System_Collections_IEnumerator_Reset_m95A4876C12477C532CA810B7B1E95ABD28E60B69,
+	U3CTextReadU3Ed__37_System_Collections_IEnumerator_get_Current_mF2EB6D677E8F2281AFA3254D8B88071A80D502E5,
+	U3CPlayerHitEffectU3Ed__40__ctor_m90DCC8BFBFC95B0848E0CB39A7101E4AD3235361,
+	U3CPlayerHitEffectU3Ed__40_System_IDisposable_Dispose_m99B8E33EC175E0145984C085AB8139664B67517F,
+	U3CPlayerHitEffectU3Ed__40_MoveNext_m06D691E266892E5C01544D716D70DF521FC2F126,
+	U3CPlayerHitEffectU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1E91F5C84ED9A3D69E26F88D3F4C8C2E28190762,
+	U3CPlayerHitEffectU3Ed__40_System_Collections_IEnumerator_Reset_m1C1703A8AEB809AD3D23F874B417E5109C6B82D6,
+	U3CPlayerHitEffectU3Ed__40_System_Collections_IEnumerator_get_Current_m1DA02D6E39F3A5C94E957346F91ED012EBF4C261,
+	MapBestScore__ctor_m8EFDD0C34F357496A0FECC3B464D33439DDF96C6,
 	MapSpawn_MapMove_mA077CFAD9C459521E3F7016DD228FDB0AC6F6535,
 	MapSpawn__ctor_m7F234A84CDCDF411A27C25712147594AF14C18F7,
 	OptionManager_Start_m2BC10D71934C6473BB09D06C2E50C89AE8685415,
@@ -397,9 +404,11 @@ static Il2CppMethodPointer s_methodPointers[142] =
 	U3CWalkingU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6306806DAC35A862CD7CF4D7FBB0CFE7601D6E80,
 	U3CWalkingU3Ed__10_System_Collections_IEnumerator_Reset_m9888FD12D779DC732ADBF759854CC327A3C4517C,
 	U3CWalkingU3Ed__10_System_Collections_IEnumerator_get_Current_mCB054AFE165A5BCF0684DC7E0762C3FBD5EF157A,
+	TitleManager_Start_mB1BDED26067331336418D8C8F760161E62F96224,
 	TitleManager_Update_m3D4B2483A33278FCFEB981AA66D621FDF1A652C7,
 	TitleManager_RotateSkyBox_m7FCA6D39CB5CB554A9C5ABCF706978E3900FE51E,
 	TitleManager_Btn_m4989692D1202F26EA087776620C0274A07CE2CDE,
+	TitleManager_SelecMapBtn_m87B6EE1F9D2728CA2E39B6E178100211EF3D1970,
 	TitleManager__ctor_m0D14731249E3B6D0846A587A421CAE4FAD2056D0,
 	GPUWorker__ctor_m9199561A628BFADFF8922DAE40034E08C09FAE23,
 	TextSize_SetSize_m796284DC062C4DFA0B83FAAA8083AEC7163DD36E,
@@ -446,11 +455,11 @@ extern void int2_ToString_mD1826E39DF0E0DB1E98AD64275AA2AA5A1942150_AdjustorThun
 extern void int2_get_ChessLength_mB487D5C6BC87D01F881E036433E1953C6AE068AC_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] = 
 {
-	{ 0x0600006A, int2__ctor_m2A64AFB1F7C34920FD24A8AD1300D83A89CAB22B_AdjustorThunk },
-	{ 0x0600006B, int2_ToString_mD1826E39DF0E0DB1E98AD64275AA2AA5A1942150_AdjustorThunk },
-	{ 0x06000072, int2_get_ChessLength_mB487D5C6BC87D01F881E036433E1953C6AE068AC_AdjustorThunk },
+	{ 0x0600006D, int2__ctor_m2A64AFB1F7C34920FD24A8AD1300D83A89CAB22B_AdjustorThunk },
+	{ 0x0600006E, int2_ToString_mD1826E39DF0E0DB1E98AD64275AA2AA5A1942150_AdjustorThunk },
+	{ 0x06000075, int2_get_ChessLength_mB487D5C6BC87D01F881E036433E1953C6AE068AC_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[142] = 
+static const int32_t s_InvokerIndices[145] = 
 {
 	1365,
 	1365,
@@ -529,6 +538,7 @@ static const int32_t s_InvokerIndices[142] =
 	1365,
 	1365,
 	1365,
+	1365,
 	1118,
 	608,
 	1365,
@@ -553,16 +563,18 @@ static const int32_t s_InvokerIndices[142] =
 	1321,
 	1365,
 	1365,
+	1365,
+	1118,
 	1118,
 	1365,
 	1365,
-	2079,
+	2080,
 	608,
 	1321,
+	2105,
+	2105,
 	2104,
 	2104,
-	2103,
-	2103,
 	2031,
 	2031,
 	1310,
@@ -584,15 +596,15 @@ static const int32_t s_InvokerIndices[142] =
 	1538,
 	1863,
 	1538,
-	2089,
-	2257,
+	2090,
+	2258,
 	1677,
 	1863,
 	1769,
 	1769,
 	1365,
 	1365,
-	2294,
+	2295,
 	1365,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
@@ -600,7 +612,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	142,
+	145,
 	s_methodPointers,
 	3,
 	s_adjustorThunks,

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class TitleManager : MonoBehaviour
 {
@@ -9,6 +10,20 @@ public class TitleManager : MonoBehaviour
 
     float degree;
     int skynum = 0;
+
+    public Text[] BestScoreTxt;
+
+    public GameObject SelectMapPanel;
+
+    public MapBestScore mapBestScore;
+
+    private void Start()
+    {
+        for (int i = 0; i < BestScoreTxt.Length; i++)
+        {
+            BestScoreTxt[i].text = "Best\n" + mapBestScore.BestScore[i].ToString();
+        }
+    }
 
     private void Update()
     {
@@ -38,7 +53,7 @@ public class TitleManager : MonoBehaviour
         switch(num)
         {
             case 1:
-                SceneManager.LoadScene(num);
+                SelectMapPanel.SetActive(true);
                 break;
             case 2:
                 SceneManager.LoadScene(num);
@@ -47,6 +62,23 @@ public class TitleManager : MonoBehaviour
                 Application.Quit();
                 break;
         }
+    }
+
+    public void SelecMapBtn(int _num)
+    {
+        switch(_num)
+        {
+            case 1:
+                SceneManager.LoadScene("WoodMap");
+                
+                break;
+            case 2:
+                SceneManager.LoadScene("DesertMap");
+                break;
+
+        }
+
+        mapBestScore.CurrentMapNum = _num - 1;
     }
 
 }

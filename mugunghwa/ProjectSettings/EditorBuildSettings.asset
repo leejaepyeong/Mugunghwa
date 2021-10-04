@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: a68aac16ca10c44309224dbc8df54d03
   - enabled: 1
-    path: Assets/Scenes/InGame.unity
+    path: Assets/Scenes/WoodMap.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Help.unity
     guid: 61ccb59ad40004571a2800a3565b824b
+  - enabled: 1
+    path: Assets/Scenes/DesertMap.unity
+    guid: 7c80fc39c9e834c7c9cd28dd2fd05c18
   m_configObjects: {}

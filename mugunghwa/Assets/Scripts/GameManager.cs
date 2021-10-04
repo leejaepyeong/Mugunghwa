@@ -46,8 +46,8 @@ public class GameManager : MonoBehaviour
     public Text EndScore;
     public Text BestScore;
     public Text EndTxt;
-    string[] endTxts = {"이걸 잡혀? 이걸?", "푸훗....푸푸훗..", "답이 없다..너는 답이" };
-
+    string[] endTxts = {"이걸 잡혀? 이걸?", "푸훗....푸푸훗..", "답이 없다..너는 답이", "발로해도 이거보단..훗" };
+    public MapBestScore mapBestScore;
 
     [Header("TimeChange")]
     public Material[] skyMaterials; // 하늘 매터리얼
@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
             instance = this;
 
         Lifes = new GameObject[2] { LifeGroup.transform.GetChild(0).gameObject, LifeGroup.transform.GetChild(1).gameObject };
+        bestScore = mapBestScore.BestScore[mapBestScore.CurrentMapNum];
     }
 
     private void Update()
@@ -153,6 +154,8 @@ public class GameManager : MonoBehaviour
 
     public void ScoreUp(int _score)
     {
+        
+
         score += _score;
         if (score > bestScore)
             bestScore = score;
@@ -221,7 +224,8 @@ public class GameManager : MonoBehaviour
         gameOverPanel.SetActive(true);
         EndScore.text = "Score " + score.ToString() + " 점";
         BestScore.text = "Best " + bestScore.ToString() + " 점";
-        EndTxt.text = endTxts[Random.Range(0, 3)];
+        mapBestScore.BestScore[mapBestScore.CurrentMapNum] = bestScore ;
+        EndTxt.text = endTxts[Random.Range(0, endTxts.Length)];
 
     }
 
